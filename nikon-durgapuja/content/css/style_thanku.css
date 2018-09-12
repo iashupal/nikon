@@ -1,0 +1,810 @@
+
+/* ThankuTheme_page start*/
+
+#thanksdiv .tab_content,
+#thanksdiv .tab_content_inner {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+}
+
+.selectThemeDiv,
+.selectThemeDiv_inner {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+#Ngc_themes .absoluteHomeContentDiv {
+/*  position: fixed;
+  top: 0px;
+  left: 0px;*/
+  position: relative;
+  float: left;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+
+/*custom_select for contestTheme_page start */
+
+/*the container must be positioned relative:*/
+
+.selectThemeDiv_inner .customselect_contestDiv,
+.selectThemeDiv_inner .nxt_Btn_contestDiv {
+  position: relative;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  padding-right: 15px;
+}
+
+.selectThemeDiv_inner .nxt_Btn_contestDiv {
+  padding-left: 15px;
+}
+
+.custom_select {
+  position: relative;
+  width: 60%;
+  max-width: 200px;
+  font-family: 'titilliumweb_regular';
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 600;
+  display: inline-block;
+  float: right;
+  text-align: left;
+}
+
+.custom_select select {
+  display: none;
+  /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: #f3ce39;
+  border: none;
+  border-radius: 4px;
+  /*box-shadow: 0px -3px 2px -2px rgba(194, 194, 194, .8);*/
+}
+
+
+/*style the arrow inside the select element:*/
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #2a2a2a transparent transparent transparent;
+}
+
+
+/*point the arrow upwards when the select box is open (active):*/
+
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #2a2a2a transparent;
+  top: 7px;
+}
+
+
+/*style the items (options), including the selected item:*/
+
+.select-items div,
+.select-selected {
+  font-family: 'titilliumweb_regular';
+  /*font-family: 'titilliumweb_bold';*/
+  font-size: 13px;
+  font-weight: 600;
+  color: #161616;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 36px;
+  height: 36px;
+  padding: 0px 14px;
+  /*border: 1px solid transparent;*/
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+  transition: .6s all ease;
+}
+
+.select-items div {
+  background-color: #ededed;
+  background-color: rgba(243, 207, 59, .7);
+  border-bottom: 1px solid rgba(62, 58, 42, 1);
+  /*background-color: #b5b3b3*/
+}
+
+/*style items (options):*/
+
+.select-items {
+  position: absolute;
+  background-color: transparent;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover {
+  /*background-color: rgba(0, 0, 0, 0.1);*/
+  background-color: rgba(62, 58, 42, 1);
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+/* custom_select for contestTheme_page close */
+
+.banner_contest {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: url(../images/contest/taj_banner.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#thanksdiv .homeContent_Inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+  display: block;
+}
+
+#thanksdiv .homeContentMidDiv {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+#thanksdiv .homeContentMidDiv .container {
+  position: relative;
+  float: none;
+  width: 80%;
+  margin: 0 auto 0;
+  padding: 150px 0 0;
+  display: block;
+  height: auto;
+}
+
+#thanksdiv .homeContentMidDiv .container .nav {
+  position: relative;
+  float: none;
+  width: 100%;
+  margin: 0 auto 30px;
+  display: block;
+  max-width: 92%;
+  text-align: center;
+}
+
+.nxt_Btn_contestDiv button,
+button.nxt_Btn_contest {
+  position: relative;
+  font-family: 'titilliumweb_regular';
+  /*font-family: 'titilliumweb_bold';*/
+  width: 60%;
+  font-weight: 600;
+  max-width: 200px;
+  display: inline-block;
+  float: none;
+  color: #f5d240;
+  background-color: rgba(0,0,0,1);
+  padding: 0px 12px;
+  height: 36px;
+  line-height: 36px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+
+.nxt_Btn_contestDiv button.btn.active.focus, 
+.nxt_Btn_contestDiv button.btn.active:focus, 
+.nxt_Btn_contestDiv button.btn.focus, 
+.nxt_Btn_contestDiv button.btn:active.focus, 
+.nxt_Btn_contestDiv button.btn:active:focus, 
+.nxt_Btn_contestDiv button.btn:focus {
+  outline: none;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+  background-color: rgba(243, 207, 59, 1);
+  color: #000000;
+
+}
+.nxt_Btn_contestDiv button.btn.active, 
+.nxt_Btn_contestDiv button.btn:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: rgba(243, 207, 59, 1);
+  color: #000000;
+}
+.nxt_Btn_contestDiv button.btn.focus, 
+.nxt_Btn_contestDiv button.btn:focus, 
+.nxt_Btn_contestDiv button.btn:hover {
+  color: #f5d240;
+  text-decoration: none;
+  background-color: rgba(243, 207, 59, 1);
+  color: #000000;
+}
+
+.contestTextDiv {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  height: auto;
+  text-align: center;
+}
+
+.contestTextDiv_inner {
+  position: relative;
+  float: none;
+  width: 100%;
+  max-width: 68%;
+  margin: 0 auto;
+  display: block;
+  height: auto;
+  text-align: center;
+}
+
+.contestTextDiv span {
+  position: relative;
+  font-family: 'titilliumweb_bold';
+  display: inline-block;
+  float: none;
+  color: #ffffff;
+  padding: 0px;
+  text-align: center;
+  font-size: 21px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin: 30px auto 15px;
+}
+
+.contestTextDiv p {
+  position: relative;
+  font-family: 'titilliumweb_regular';
+  display: inline-block;
+  float: none;
+  color: #ffffff;
+  padding: 0px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.6;
+  text-transform: initial;
+  margin: 0px auto 30px;
+}
+
+
+.contestSlideDiv,
+.contestSlideDiv_inner {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  height: auto;
+  text-align: center;
+}
+
+.theme_contentDiv {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  text-align: center;
+  border: 6px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.contestSlideDiv_inner span,
+span.themeTitle {
+  position: relative;
+  font-family: 'titilliumweb_bold';
+  width: 100%;
+  display: block;
+  float: left;
+  color: #282828;
+  padding: 6px 12px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  margin: 0px 0 10px;
+}
+
+.theme_sliderDiv,
+.theme_sliderDiv_inner {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  height: auto;
+  text-align: center;
+}
+
+.theme_contentDiv_Lt {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  min-height: 380px;
+}
+
+.theme_contentDiv_Rt {
+  position: relative;
+  height: 100%;
+  float: left;
+  width: 45%;
+  display: inline-block;
+  text-align: left;
+  background-color: #ffffff;
+  min-height: 380px;
+}
+
+.theme_contentDiv_Rt_inner {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 72px 7% 0 30px;
+  height: 100%;
+}
+
+.theme_sliderDiv_inner img,
+img.themeslider_image {
+  position: relative;
+  float: left;
+  width: 55%;
+  display: inline-block;
+}
+
+#ngc_thankuslider1.slick-slider{
+  margin-bottom: 0px;
+}
+
+.theme_contentDiv_Rt_inner span {
+  position: relative;
+  font-family: 'titilliumweb_bold';
+  display: inline-block;
+  float: left;
+  color: #282828;
+  padding: 0px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin: 30px auto 15px;
+}
+
+.theme_contentDiv_Rt_inner p {
+  position: relative;
+  font-family: 'titilliumweb_regular';
+  display: inline-block;
+  float: left;
+  color: #282828;
+  padding: 0px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.6;
+  text-transform: initial;
+  margin: 0px auto 30px;
+}
+
+
+.theme_contentDiv_Rt_inner button,
+button.uploadnow_Btn {
+  position: relative;
+  font-family: 'titilliumweb_regular';
+  font-size: 14px;
+  font-weight: 600;
+  max-width: 200px;
+  display: inline-block;
+  float: none;
+  color: #202020;
+  background-color: rgba(255,255,255,1);
+  padding: 0px 20px;
+  height: 36px;
+  line-height: 36px;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 4px;
+  border: 1px solid #202020;
+  box-shadow: none;
+}
+
+
+.theme_contentDiv_Rt_inner button.btn.active,
+.theme_contentDiv_Rt_inner button.btn:active,
+.theme_contentDiv_Rt_inner button.btn:focus,
+.theme_contentDiv_Rt_inner button.btn:hover{
+  box-shadow: none;
+  opacity: .8;
+}
+
+
+#ngc_thankuslider1 .slick-prev,
+#ngc_thankuslider1 .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-top: 0px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#ngc_thankuslider1 .slick-prev {
+  left: 10px;
+  position: absolute;
+  background: url(../images/spirit.png) no-repeat -8px -1024px;
+  background-size: 230px;
+}
+/*#ngc_thankuslider1 .slick-next {
+  right: 10px;
+  position: absolute;
+  background: url(../images/spirit.png) no-repeat -8px -932px;
+  background-size: 230px;
+}*/
+#ngc_thankuslider1 .slick-next {
+    position: absolute;
+    background: url(../images/spirit.png) no-repeat -8px -932px;
+    background-size: 230px;
+    left: 50%;
+}
+
+#ngc_thankuslider1 .slick-prev:hover:before, 
+#ngc_thankuslider1 .slick-prev:focus:before, 
+#ngc_thankuslider1 .slick-next:hover:before, 
+#ngc_thankuslider1 .slick-next:focus:before {
+  opacity: 1;
+}
+#ngc_thankuslider1 .slick-prev:before {
+  /*content: '←';*/
+  content: '';
+
+}
+#ngc_thankuslider1 .slick-prev:before, 
+#ngc_thankuslider1 .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: white;
+}
+
+
+#ngc_thankuslider1 .slick-next::before {
+  /*content: "→";*/
+  content: "";
+}
+
+#ngc_thankuslider1 .slick-prev:before,
+#ngc_thankuslider1 .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: white;
+}
+
+#thanksdiv .tab_content_inner {
+  margin-bottom: 60px;
+}
+
+#thanksdiv .theme_contentDiv_Rt_inner {
+  padding: 45px 7% 0 20px;
+  position: absolute;
+  top: 0;
+  left: 55%;
+  right: 0;
+  width: 45%;
+}
+
+#thanksdiv .theme_contentDiv_Rt_inner p {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0px auto 20px;
+}
+
+/* ThankuTheme_page close*/
+
+
+
+
+
+
+
+/*thanksdiv*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================
+=      Bootstrap 3 Media Queries START      =
+====================================================*/
+
+
+/* #######  1111  Large Devices, .visible-lg- ####### */
+
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1947px) {}
+
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1600px) {}
+
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1340px) {
+}
+
+@media screen and (max-width: 1240px) {
+
+#thanksdiv .theme_contentDiv_Rt_inner {
+  padding: 45px 5% 0 20px;
+}
+
+#thanksdiv .theme_contentDiv_Rt_inner span {
+  margin: 15px auto 10px;
+}
+
+#thanksdiv .theme_contentDiv_Lt {
+  min-height: initial;
+}
+
+#thanksdiv .theme_contentDiv_Rt {
+  min-height: initial;
+}
+#thanksdiv .contestTextDiv_inner {
+  max-width: 90%;
+}
+
+/* ThankuTheme_page close*/
+}
+
+
+/*####### 2222 Medium Devices, .visible-md-#######*/
+
+
+/*Medium desktops and laptops*/
+
+@media only screen and (max-width:1199px) {}
+
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* Landscape tablets and medium desktops */
+
+@media only screen and (max-width:1067px) {
+
+/* ThankuTheme_page start*/
+#thanksdiv .theme_contentDiv_Rt_inner {
+  padding: 30px 4% 0 20px;
+}
+
+#thanksdiv .theme_contentDiv_Rt_inner p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0px auto 20px;
+}
+
+#thanksdiv .homeContentMidDiv .container {
+  width: 90%;
+}
+
+/* ThankuTheme_page close*/
+
+
+
+
+}
+
+
+/* ####### 3333 small,Medium Devices, .visible-sm- ####### */
+
+
+/* Portrait tablets and small desktops .visible-sm- ONLY WORK IN BETWEEN QUERY */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/* Landscape tablets and medium desktops .visible-sm- */
+
+@media only screen and (max-width:991px) {
+
+
+/* ThankuTheme_page start */
+
+
+#thanksdiv .theme_contentDiv_Rt_inner {
+  padding: 28px 5% 0 16px;
+}
+
+#thanksdiv .theme_contentDiv_Rt_inner span {
+  margin: 0px auto 5px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+#thanksdiv .theme_contentDiv_Rt_inner p {
+  font-size: 11px;
+  margin: 0px auto 10px;
+}
+
+#thanksdiv .theme_contentDiv_Rt_inner button, button.uploadnow_Btn {
+  font-size: 11px;
+  padding: 0px 15px;
+  height: 34px;
+  line-height: 34px;
+}
+
+.theme_sliderDiv_inner img,
+img.themeslider_image {
+  width: 100%;
+}
+
+#thanksdiv .theme_contentDiv_Rt_inner {
+  padding: 30px 10px 20px;
+  position: relative;
+  top: initial;
+  left: initial;
+  right: initial;
+  width: 100%;
+}
+#ngc_thankuslider1 .slick-next {
+  right: 10px;
+  left: initial;
+}
+
+
+/* ThankuTheme_page close*/
+
+}
+
+
+/* ####### 4444 small Devices, .visible-xs- #######  */
+
+
+/* Landscape phones and portrait tablets .visible-xs */
+
+@media only screen and (max-width:767px) {
+
+#thanksdiv .theme_contentDiv_Lt {
+  width: 100%;
+}
+#thanksdiv .theme_contentDiv_Rt {
+  width: 100%;
+}
+#thanksdiv .theme_contentDiv_Rt_inner {
+  padding: 30px 5px 0px;
+}
+#thanksdiv .theme_contentDiv_Rt_inner p {
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0px auto 10px;
+}
+#thanksdiv .theme_contentDiv_Rt_inner span {
+  margin: 0px auto 10px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+#thanksdiv .homeContentMidDiv .container {
+  position: relative;
+  float: none;
+  width: 90%;
+  margin: 0 auto 0;
+  padding: 120px 0 0;
+  display: block;
+  height: 100%;
+}
+
+#thanksdiv .contestTextDiv_inner {
+  max-width: 100%;
+}
+
+.contestTextDiv span {
+  margin: 15px auto 15px;
+}
+
+#ngc_thankuslider1 .slick-prev,
+#ngc_thankuslider1 .slick-next {
+  top: 30%;
+}
+
+
+/* ThankuTheme_page close*/
+
+
+
+}
+
+
+/* Portrait phones and smaller .visible-xs- */
+
+@media only screen and (max-width: 480px) {
+}
+
+
+/* Portrait phones and smaller .visible-xs-*/
+
+@media only screen and (max-width:320px) {
+
+
+}
+
+
+/*==================================================
+=      Bootstrap 3 Media Queries END      =
+====================================================*/

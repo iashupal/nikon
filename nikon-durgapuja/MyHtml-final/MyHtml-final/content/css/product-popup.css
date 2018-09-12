@@ -1,0 +1,116 @@
+﻿#myModalProductOffer750 {
+    z-index: 99999999;
+}
+
+    #myModalProductOffer750 .modal-dialog {
+        width: 100%;
+        height: 100%;
+    }
+
+        #myModalProductOffer750 .modal-dialog .modal-content {
+            height: 100%;
+            width: 100%;
+        }
+
+            #myModalProductOffer750 .modal-dialog .modal-content .modal-body {
+                height: 100%;
+                width: 100%;
+            }
+
+                #myModalProductOffer750 .modal-dialog .modal-content .modal-body iframe {
+                    height: 100%;
+                    width: 100%;
+                    border: none;
+                }
+
+                #myModalProductOffer750 .modal-dialog .modal-content .modal-body button.close {
+                    margin-top: 2.5%;
+                    margin-right: 20px;
+                    border-radius: 20px;
+                    position: absolute;
+                    right: 0;
+                    color: #ffde00;
+                    background-color: transparent !important;
+                    border: 1px solid #ffde00;
+                    padding-right: 6px;
+                    padding-top: 0px;
+                }
+
+/*for 3300*/
+#myModalProductOffer3300 {
+    z-index: 99999999;
+}
+
+    #myModalProductOffer3300 .modal-dialog {
+        width: 100%;
+        height: 100%;
+    }
+
+        #myModalProductOffer3300 .modal-dialog .modal-content {
+            height: 100%;
+            width: 100%;
+        }
+
+            #myModalProductOffer3300 .modal-dialog .modal-content .modal-body {
+                height: 100%;
+                width: 100%;
+            }
+
+                #myModalProductOffer3300 .modal-dialog .modal-content .modal-body iframe {
+                    height: 100%;
+                    width: 100%;
+                    border: none;
+                }
+
+                #myModalProductOffer3300 .modal-dialog .modal-content .modal-body button.close {
+                    margin-top: 2.5%;
+                    margin-right: 20px;
+                    border-radius: 20px;
+                    position: absolute;
+                    right: 0;
+                    color: #ffde00;
+                    background-color: transparent !important;
+                    border: 1px solid #ffde00;
+                    padding-right: 6px;
+                    padding-top: 0px;
+                }
+
+
+/*for 5300*/
+#myModalProductOffer5300 {
+    z-index: 99999999;
+}
+
+    #myModalProductOffer5300 .modal-dialog {
+        width: 100%;
+        height: 100%;
+    }
+
+        #myModalProductOffer5300 .modal-dialog .modal-content {
+            height: 100%;
+            width: 100%;
+        }
+
+            #myModalProductOffer5300 .modal-dialog .modal-content .modal-body {
+                height: 100%;
+                width: 100%;
+            }
+
+                #myModalProductOffer5300 .modal-dialog .modal-content .modal-body iframe {
+                    height: 100%;
+                    width: 100%;
+                    border: none;
+                }
+
+                #myModalProductOffer5300 .modal-dialog .modal-content .modal-body button.close {
+                    margin-top: 2.5%;
+                    margin-right: 20px;
+                    border-radius: 20px;
+                    position: absolute;
+                    right: 0;
+                    color: #ffde00;
+                    background-color: transparent !important;
+                    border: 1px solid #ffde00;
+                    padding-right: 6px;
+                    padding-top: 0px;
+                }

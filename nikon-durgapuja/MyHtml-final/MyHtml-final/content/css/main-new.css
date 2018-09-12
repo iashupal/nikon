@@ -1,0 +1,384 @@
+﻿
+.offers-div {
+    display: none;
+}
+.left-main-div {
+    text-align: left;
+    float: left;
+    position: relative;
+    display: table;
+        padding-left: 0;
+}
+#owl-example1 span {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    display: inline-block!important;
+    margin: auto;
+    border-radius: 10px;
+    margin-left:10px
+}
+#owl-example1 .owl-dot {
+display:inline-block
+}
+#owl-example1 .owl-dot.active span{
+    background-color:#1d1a1a
+}
+
+.right-main-div {
+	float:left;
+	position:relative;
+	display:table;
+    padding-right:0
+	}
+.left-main-div-inner , .right-main-div-inner {
+	display:table-cell;
+	vertical-align:middle;
+	}
+.center-main-div {
+	float:left;
+	position:relative;
+	width:50%;
+	min-height:100px;
+	}
+.social-share-div , .nearest-dealer-icon {
+	position:absolute;
+	bottom:10px;
+	}
+.nearest-dealer-icon , .helpline-number-div{
+	right:30px;
+	}
+.nikon-logo-div , .helpline-number-div  {
+    position: absolute;
+    top: 30px;
+}
+#myCarousel {
+	position: fixed;
+    left: 0;
+    width: 100%;
+    height:100%;
+	}
+#myCarousel img {
+	width:100%;
+	}
+#myCarousel .carousel-indicators {
+    bottom: 0;
+}
+.item-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed !important;
+    background-size: cover !important;
+}
+
+.right-main-div-inner {
+vertical-align:top;
+padding-top:35%
+}
+.mfp-bg {
+        z-index: 999999999;
+}
+.mfp-wrap {
+        z-index: 9999999999999999999;
+}
+.owl-item .item a {
+    color: white !important;
+    text-transform: uppercase;
+    font-family: 'Titillium Web';
+    font-weight: 300;
+    border: 1px solid #ffde00;
+    padding: 8px 27px;
+    font-size: 16px;
+}
+.owl-dots {
+    margin-top: 15px;
+}
+.owl-item .item {
+        margin-bottom: 10px;
+}
+#owl-example1{
+width:200px
+}
+.feedback {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 10px;
+    line-height: 14px;
+    font-size: 11px;
+	}
+
+@media (max-width: 991px) {
+.festive-offer-text {
+     font-size: 14px;
+     line-height: 1.3;
+}
+.favourite-text {
+     font-size: 14px;
+     line-height: 1.3;
+}
+.create-div a img {
+    width: 135px;
+}
+.feedback {
+    line-height: 17px;
+    font-size: 13px;
+}
+.helpline-number-div {
+    width: 68%;
+    float: right;
+}
+.view-offer-text {
+    font-size: 15px;
+	}
+.view-offer-text a img {
+    width: 14px;
+    margin-left: 0px;
+}
+.nikon-logo-div img {
+    width: 90px;
+}
+.share-icons-div {
+    margin-left: 11px;
+    margin-top: -3px;
+}
+.nikon-pvt-text {
+    font-size: 11px;
+    margin-left: 36px;
+    margin-top: 0;
+}
+.share-left-icon img {
+    width: 25px;
+}
+#owl-example1 {
+    width: 125px !important;
+}
+.owl-item .item a {
+    padding: 5px 20px;
+    font-size: 13px;
+}
+.main-menu ul li {
+    font-size: 13px !important;
+}
+.main-menu ul {
+    margin-left: 15%;
+    padding: 10px 0px;
+}
+}
+@media (min-width: 767px) {
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+}
+.carousel-indicators .active {
+    width: 17px;
+    height: 17px; 
+}
+
+
+}
+@media (max-width: 767px) {
+.left-main-div.col-xs-12, .center-main-div.col-xs-12, .right-main-div.col-xs-12 {
+    width: 100% !important;
+    background-color: #2c2925;
+    background-image: none;
+    clip-path: none;
+    text-align: center;
+    -webkit-clip-path: none;
+}
+.nikon-logo-div, .helpline-number-div {
+    position: relative;
+    top: 0;
+}
+.nikon-logo-div {
+    width: 120px;
+    display: block;
+    margin: auto;
+    float:left;
+    margin-bottom:20px;
+}
+.nikon-logo-div img {
+    float:left;
+}
+.helpline-number-div {
+    width: 140px;
+    display: block;
+    margin: auto;
+    float:right;
+    right:0;
+}
+
+.favourite-text {
+    margin: 20px auto;
+    clear: both;
+    font-size: 15px;
+    margin-bottom: 4px;
+	width:80%;
+}
+.left-main-div-inner, .right-main-div-inner {
+    display: block;
+    padding:20px 0px;
+}
+.display-table {
+    position: relative;
+    height: initial;
+    left: initial;
+    display:block;
+}
+.camera-slider {
+    float: none;
+    width: 100%;
+    margin: auto;
+}
+.nearest-dealer-icon img {
+    width: 93px;
+    float: none;
+}
+.social-share-div, .nearest-dealer-icon {
+    position: relative;
+    bottom: initial;
+    float: none;
+    margin: auto;
+    right: initial !important;
+}
+.share-icons-div {
+    float: none;
+    margin-left: 0;
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+.nikon-pvt-text {
+    margin-left: 0;
+ }
+.offers-div {
+display:block !important;
+}
+.offers-div {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 80%;
+    background-color: #ffde00;
+    z-index: 999999999;
+    width: 85px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#owl-example1 {
+    width: 250px !important;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.feedback {
+    margin-top: 20px;
+}
+.center-main-div, .right-main-div {
+	padding:0px;
+	}
+}
+@media(min-width:1160px) and (max-width:1300px) {
+.favourite-text {
+    font-size: 21px;
+}
+.left-main-div-inner {
+    padding-left: 20px;
+}
+
+}
+@media (max-width:1300px) {
+.left-main-div-inner {
+    padding-left: 20px;
+}
+#owl-example1 {
+    width: 150px;
+}
+.main-menu ul li {
+    font-size: 17px;
+}
+}
+@media(min-width:991px) and (max-width:1160px) {
+.favourite-text {
+    font-size: 18px;
+}
+.festive-offer-text {
+    font-size: 20px;
+}
+.view-offer-text {
+    font-size: 15px;
+}
+.main-menu ul li {
+    font-size: 14px;
+}
+}
+@media(min-width:1500px){
+.view-offer-text a img {
+    padding-top: 9px;
+}
+#owl-example1{
+width:265px
+}
+.festive-offer-div img{
+margin-bottom:10px
+}
+.festive-offer-text{
+font-size:30px;
+line-height:30px
+}
+.favourite-text{
+margin-top:13%;
+font-size:2.1em;
+line-height:33px
+}
+.create-div a img{
+width:210px;
+margin-top:25px
+}
+.item-bg {
+    background-size: cover !important;
+    background-position:center center
+}
+}
+@media(min-width:1600px){
+#owl-example1{
+width:280px
+}
+}
+@media(min-width:1700px){
+#owl-example1{
+width:300px
+}
+}
+
+@media(min-width:1900px){
+.nikon-logo-div img{
+width:150px
+}
+.festive-offer-div {
+    margin-top: 13%;
+    width:66%
+}
+.festive-offer-div img {
+    width: 20px;
+    margin-left: 7px;
+    margin-bottom:10px
+}
+.favourite-text {
+    margin-top: 8%;
+    font-size: 29px;
+    width: 70%;
+    line-height: 1.3;
+}
+.create-div a img {
+    width: 210px;
+    margin-top: 37px;
+}
+.festive-offer-text{
+font-size:2.7em;
+line-height:34px
+}
+
+}
+

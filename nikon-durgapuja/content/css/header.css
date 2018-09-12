@@ -1,0 +1,939 @@
+﻿/*==================================================
+  =      Bootstrap 3 Media Queries START      =
+====================================================*/
+
+/*custom scrollbar start*/
+
+.contentscroll.hidden{ display: none; }
+.contentscroll.active {
+  display: block;
+  overflow: auto;
+  position: relative;
+  float: left;
+  padding: 0px;
+  /*background: #333;*/
+  margin: 0px;
+  /*max-width: 97%;*/
+  /*height: 450px;*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*custom scrollbar close*/
+
+.PageHeader,.PageHeaderMain {
+  position: relative;
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.PageHeader_inner {
+  position: relative;
+  width: 97%;
+  display: block;
+  float: none;
+  margin: 0 auto;
+  display: inline-block;
+  border-top: 0px solid #ffffff;
+  border-bottom: 0px solid #ffffff;
+  padding: 34px 0 0;
+  transition: .7s all ease;
+}
+
+header .container {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+}
+
+.headerLeft,
+.headerCenter,
+.headerRight {
+  position: relative;
+  width: 25%;
+  float: left;
+  padding:0;margin: 0;
+  display: inline-block;
+}
+
+.headerCenter {
+  width: 50%;
+}
+
+.headerLtinner,
+.headerCTinner,
+.headerRtinner {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding:0;margin: 0;
+  display: inline-block;
+}
+.FooterRtinner{
+  position: relative;
+    width: 50%;
+    float: right;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.FooterRtinner a {
+  display: inline-block;
+  float: right;
+}
+.FooterRtinner a img {
+  display: inline-block;
+  max-width: 170px;
+}
+.FooterRight.new-nik-headerRight {
+  position: absolute;
+  float: right;
+  right: 0;
+  padding-right: 15px;
+}
+
+.headerLtinner {
+  margin: 0px 0;
+}
+
+.headerCTinner {
+  margin: 0px 0;
+  text-align: center;
+}
+
+.headerRtinner {
+  margin: 0px 0;
+}
+
+.headerLeft {
+  margin: 0px 0;
+}
+
+.headerCenter{
+  margin: 35px 0;
+  margin-top:0
+}
+
+.headerRight{
+  margin: 0px 0;
+}
+
+.headerCTinner ul {
+  position: relative;
+  width: auto;
+  float: none;
+  padding:0; margin: 0 auto;
+  display: inline-block;
+  overflow: visible;
+}
+
+.headerCTinner ul li {
+  position: relative;
+  float: left;
+  padding: 0;
+  margin: 0px 0px 0 0;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  transition: 1s all ease;
+}
+
+.headerCTinner ul li a::after,
+.headerCTinner ul li a:after {
+  content: '';
+  position: absolute;
+  height: 80%;
+  width: 2px;
+  background-color: #ffffff;
+  top: 2px;
+  right: 0;
+  -o-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+.headerCTinner ul li:nth-child(7) a::after,
+.headerCTinner ul li:nth-child(7) a:after {
+  content: '';
+  display: none;
+}
+
+.headerCTinner ul li a {
+  position: relative;
+  float: left;
+  font-family: 'Open Sans';
+  text-align: center;
+  display: inline-block;
+  color: #7e7e7e;
+  font-size: 14px;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: 600;
+  padding: 0px 18px;
+  margin: 0px 0px;
+  border: 0px solid #000000;
+  text-transform: initial;
+  border: 1px solid transparent;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.headerCTinner ul li a.nik-header-contest{
+  color: #ffffff;
+}
+.headerCTinner ul li:hover,
+.headerCTinner ul li:focus,
+.headerCTinner ul li:visited,
+.headerCTinner ul li:active,
+.headerCTinner ul li.active {
+  outline: none;
+}
+
+.headerCTinner ul li a:hover,
+.headerCTinner ul li a.active {
+  /*border-bottom: 1px solid #ffffff;*/
+  color: #ffde00;
+}
+
+
+header {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+header.fixed_header {
+  position: fixed;
+  background-color: #31343a;
+  transition: .3s all ease;
+}
+
+.headerLtinner a {
+  display: inline-block; 
+  float: left;
+}
+
+.headerRtinner a {
+  display: inline-block; 
+  float: right;
+}
+
+.headerLtinner a img {
+ display: inline-block; 
+ max-width: 118px;
+}
+
+.headerRtinner a img {
+  display: inline-block; 
+  max-width: 170px;
+}
+
+.submenuDiv {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 230px;
+  float: left;
+  min-height: initial;
+  padding: 0px;
+  padding-top: 15px;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.headerCTinner ul li:hover .submenuDiv,
+.headerCTinner ul li:focus .submenuDiv {
+  opacity: 1;
+  visibility: visible;
+}
+
+.submenuDiv ul {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+    background-color: rgba(0,0,0,0.75);
+    border: 1px solid rgba(255,255,255,.7);
+      border-radius: 6px;
+}
+
+.submenuDiv ul li {
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid rgba(255,255,255,.7);
+}
+
+.submenuDiv ul li:nth-child(1) a:hover, .submenuDiv ul li:nth-child(1) a:focus {
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+
+.submenuDiv ul li:last-child {
+  border-bottom: 0px solid #ffffff;
+}
+
+.submenuDiv ul li a::after,
+.submenuDiv ul li a:after {
+  content: '';
+  position: absolute;
+  height: 80%;
+  width: initial;
+  background-color: #ffffff;
+  top: initial;
+  right: initial;
+  -o-transform: initial;
+  -moz-transform: initial;
+  -ms-transform: initial;
+  -webkit-transform: initial;
+  transform: initial;
+}
+
+.submenuDiv ul li a {
+  position: relative;
+  width: 100%;
+  float: left;
+  font-family: 'Open Sans';
+  text-align: left;
+  display: block;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: 600;
+  padding: 11px 10px 11px 20px;
+  margin: 0px;
+  border: 0px solid #000000;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+  -o-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.submenuDiv ul li a:hover,
+.submenuDiv ul li a:focus{
+  background-color: rgba(255,222,0,1);
+  color: #000000;
+  border-radius: 0px;
+}
+
+
+
+/* 2 LOGIN START */
+
+.Nikon_Login_start header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.Nikon_Login_start header .container {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+}
+
+/* 2 LOGIN CLOSE */
+
+
+
+/* 3 AFTER_LOGIN START */
+
+.Nikon_AfterLogin_start header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.Nikon_AfterLogin_start header .container {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+}
+
+/* 3 AFTER_LOGIN CLOSE */
+
+
+/* 4 uploadpage START */
+
+.Nikon_upload_start header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.Nikon_upload_start header .container {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+}
+
+
+/* 4 uploadpage CLOSE */
+
+
+
+
+
+/* #######  1111  Large Devices, .visible-lg- ####### */
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1947px) {}
+
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1600px) {}
+
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1440px) {}
+
+
+@media screen and (max-width: 1340px) {
+
+.headerCTinner ul li a {
+  font-size: 12px;
+  padding: 0px 15px;
+}
+
+.headerCTinner ul li {
+  margin: 0px 0px 0 0;
+}
+
+.submenuDiv ul li a {
+  padding: 11px 10px 11px 20px;
+}
+
+
+}
+
+@media screen and (max-width: 1240px) {
+
+.headerLeft, .headerCenter, .headerRight {
+  width: 24%;
+}
+.headerCenter {
+  width: 52%;
+}
+
+
+
+}
+
+/* ####### 2222 Medium Devices, .visible-md- #######  */
+
+
+/* Medium desktops and laptops */
+
+@media only screen and (max-width:1199px) {
+ 
+
+}
+
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.headerCenter {
+  margin: 20px 0;
+}
+.PageHeader_inner {
+  width: 98%;
+  padding: 25px 0 0;
+}
+
+
+}
+
+
+/* Landscape tablets and medium desktops */
+
+@media only screen and (max-width:1067px) {
+
+.headerLeft, .headerRight {
+  width: 23%;
+}
+.headerCenter {
+  width: 54%;
+  margin: 18px 0;
+}
+.PageHeader_inner {
+  width: 98%;
+  padding: 28px 0 0;
+}
+
+.headerCTinner ul li a {
+  font-size: 11px;
+  padding: 0px 12px;
+}
+.headerLtinner a img {
+  max-width: 95px;
+}
+.submenuDiv ul li a {
+  padding: 10px 10px 10px 20px;
+}
+
+
+
+
+}
+
+
+/* ####### 3333 small,Medium Devices, .visible-sm- ####### */
+
+
+/* Portrait tablets and small desktops .visible-sm- ONLY WORK IN BETWEEN QUERY */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/* Landscape tablets and medium desktops .visible-sm- */
+
+@media only screen and (max-width:991px) {
+
+.headerRtinner a img {
+  max-width: 90%;
+}
+
+.headerCTinner ul li a {
+  font-size: 11px;
+  padding: 0px 10px;
+}
+.headerRtinner a img {
+  max-width: 132px;
+}
+.headerLeft.new-nik-headerLogo{
+  padding-left: 25px;
+}
+.headerRight.new-nik-headerRight{
+  padding-right: 25px;
+}
+/* .headerCenter {
+  margin: 24px 0;
+} */
+.headerLtinner a img {
+  max-width: 85px;
+}
+.submenuDiv ul li a {
+  padding: 10px 10px 10px 20px;
+}
+
+
+
+}
+
+
+/* ####### 4444 small Devices, .visible-xs- #######  */
+/* Landscape phones and portrait tablets .visible-xs- */
+
+@media only screen and (max-width:767px) {
+
+.submenuDiv ul{
+    background-color: unset;
+    border: unset;
+    border-radius: unset;
+}
+.headerLeft{
+  width: 100%;
+  position: absolute;
+}
+.headerCenter,
+.headerRight {
+  width: 50%;
+}
+
+.headerRight {
+  float: right;
+}
+
+/*.headerCenter {
+  width: 0;
+  max-width: 0px;
+  top: 0;
+  left: initial;
+  right: 0;
+  position: fixed;
+  margin: 58px 0 0;
+  transition: .2s all ease;
+  -webkit-transition: width .3s; 
+  transition: width .3s;
+}*/
+
+.headerCenter {
+  width: 0;
+  max-width: 0px;
+  top: 0;
+  left: initial;
+  right: 0px;
+  /*position: fixed; ORG*/
+  position: absolute;
+  margin: 54px 0 0;
+  -webkit-animation-name: menu_mob_close; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: menu_mob_close;
+  -webkit-animation: menu_mob_close; /* Safari 4+ */
+  -moz-animation:    menu_mob_close; /* Fx 5+ */
+  -o-animation:      menu_mob_close; /* Opera 12+ */
+  animation:         menu_mob_close; /* IE 10+, Fx 29+ */
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes menu_mob_close {
+  0%   {width: 78%; opacity: 1;}
+  20%  {opacity: 0.8;}
+  40%  {opacity: 0.6;}
+  60%  {opacity: 0.4;}
+  80%  {opacity: 0.2;}
+  100% {width: 0; opacity: 0;}
+}
+
+@-moz-keyframes menu_mob_close {
+  0%   {width: 78%; opacity: 1;}
+  20%  {opacity: 0.8;}
+  40%  {opacity: 0.6;}
+  60%  {opacity: 0.4;}
+  80%  {opacity: 0.2;}
+  100% {width: 0; opacity: 0;}
+}
+
+@-o-keyframes menu_mob_close{
+  0%   {width: 78%; opacity: 1;}
+  20%  {opacity: 0.8;}
+  40%  {opacity: 0.6;}
+  60%  {opacity: 0.4;}
+  80%  {opacity: 0.2;}
+  100% {width: 0; opacity: 0;}
+}
+
+@keyframes menu_mob_close {
+  0%   {width: 78%; opacity: 1;}
+  20%  {opacity: 0.8;}
+  40%  {opacity: 0.6;}
+  60%  {opacity: 0.4;}
+  80%  {opacity: 0.2;}
+  100% {width: 0; opacity: 0;}
+}
+
+.headerCenter.active {
+  z-index: 999;
+  right: 0px;
+  width: 78%;
+  max-width: 170px;
+  z-index: 4;
+  -webkit-animation-name: menu_mob; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .6s; /* Safari 4.0 - 8.0 */
+  animation-name: menu_mob;
+  -webkit-animation: menu_mob; /* Safari 4+ */
+  -moz-animation:    menu_mob; /* Fx 5+ */
+  -o-animation:      menu_mob; /* Opera 12+ */
+  animation:         menu_mob; /* IE 10+, Fx 29+ */
+  animation-duration: .6s;
+}
+
+
+@-webkit-keyframes menu_mob {
+  0%   {width: 0%; opacity: 0;}
+  20%  {opacity: 0;}
+  40%  {opacity: 0.2;}
+  60%  {opacity: 0.5;}
+  80%  {opacity: 0.9;}
+  100% {width: 78%; opacity: 1;}
+}
+
+@-moz-keyframes menu_mob {
+  0%   {width: 0%; opacity: 0;}
+  20%  {opacity: 0;}
+  40%  {opacity: 0.2;}
+  60%  {opacity: 0.5;}
+  80%  {opacity: 0.9;}
+  100% {width: 78%; opacity: 1;}
+}
+
+@-o-keyframes menu_mob{
+  0%   {width: 0%; opacity: 0;}
+  20%  {opacity: 0;}
+  40%  {opacity: 0.2;}
+  60%  {opacity: 0.5;}
+  80%  {opacity: 0.9;}
+  100% {width: 78%; opacity: 1;}
+}
+
+@keyframes menu_mob {
+  0%   {width: 0%; opacity: 0;}
+  20%  {opacity: 0;}
+  40%  {opacity: 0.2;}
+  60%  {opacity: 0.5;}
+  80%  {opacity: 0.9;}
+  100% {width: 78%; opacity: 1;}
+}
+
+.headerCTinner {
+  /* background-color: rgba(255,255,255,1); */
+  border: 0px solid #ffffff;
+  background-color: #000000;
+  transition: .6s all ease;
+}
+.headerCTinner ul {
+  width: 100%;
+  float: left;
+  box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.headerCTinner ul li {
+  margin: 0px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  float: left;
+  /* border-bottom: 1px solid rgba(226,226,226,.7); */
+}
+
+.headerCTinner ul li a {
+  font-family: 'Open Sans';
+  width: 100%;
+  float: left;
+  font-size: 12px;
+  line-height: 1;
+  border: 0px;
+  color: white;
+  padding: 10px;
+  text-align: right;
+  display: none; /* new added*/
+}
+
+.headerCenter.active .headerCTinner ul li a {
+   display: block; /* new added*/
+}
+
+.submenuDiv ul li a {
+  padding: 10px 10px 10px 20px;
+}
+
+.headerCTinner ul li a:hover,
+.headerCTinner ul li a:focus, 
+.headerCTinner ul li a:active,
+.headerCTinner ul li a.active {
+  border: 0px;
+  /* background-color: rgba(255,222,0,1); */
+  color: #ffde00;
+}
+
+.headerLtinner a:last-child {
+  padding-left: 0px;
+}
+
+.headerLtinner a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  float: left;
+}
+
+.PageHeader{
+  background: transparent;
+  padding: 0 0px;
+  min-height: 60px;
+}
+
+.headerLtinner a:first-child,.mob_menuicon {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  display: inline-block; 
+  float: left;
+  padding-left: 0px;
+  z-index: 99;
+}
+
+.headerLtinner, .headerCTinner, .headerRtinner {
+  margin: 0;
+}
+
+.headerLtinner a img {
+  width: auto;
+  max-width: 60px;
+}
+
+.headerRtinner a img {
+  width: 98px;
+  max-width: 100%;
+}
+
+.PageHeader_inner {
+  width: 100%;
+  padding: 15px 0px 16px;
+  margin: 0;
+  border: 0;
+}
+
+.mob_padzero{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+header {
+  /*position: fixed;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: #000000;
+  /* background-color: rgba(255,255,255,1); */
+}
+
+.headerCTinner ul li a::after, .headerCTinner ul li a:after {
+  display: none;
+}
+
+
+.submenuDiv {
+  position: relative;
+  top: initial;
+  left: initial;
+  width: 100%;
+  float: left;
+  background-color: rgba(255,255,255,1);
+  min-height: 80px;
+  padding: 0px;
+  margin-top: 0px;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 0px;
+  border: none;
+  display: none;
+}
+
+.headerCTinner ul li:hover .submenuDiv,
+.headerCTinner ul li:focus .submenuDiv {
+  opacity: 1;
+  visibility: visible;
+  display: block;
+}
+
+.submenuDiv ul li a {
+  font-size: 10px;
+  color: #000000;
+  float: right;
+  padding: 10px 20px 10px 10px;
+}
+
+a.mobile_menu {
+  position: relative;
+  float: right;
+  width: 22px;
+  height: auto;
+  display: inline-block;
+}
+
+a.mobile_menu span {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 0 0 4px;
+}
+
+a.mobile_menu span:last-child {
+  margin: 0 0 0px;
+}
+
+.Nikon_homepage_start .PageHeader,
+.Nikon_homepage_start .PageHeader_inner {
+  position: relative;
+}
+
+/* 2 LOGIN START */ 
+
+.Nikon_Login_start header {
+  background-color: transparent;
+  position: absolute;
+}
+
+/* 2 LOGIN CLOSE */
+
+
+/* 3 After_LOGIN START */
+
+.Nikon_AfterLogin_start header {
+  background-color: transparent;
+  position: absolute;
+}
+
+
+/* 3 After_LOGIN CLOSE */
+
+
+/* 4 uploadpage START */
+
+.Nikon_upload_start header {
+  background-color: transparent;
+  position: absolute;
+}
+
+/* 4 uploadpage CLOSE */
+
+
+
+
+
+}
+
+/* Portrait phones and smaller .visible-xs- */
+
+@media only screen and (max-width: 480px) {
+
+}
+
+
+/* Portrait phones and smaller .visible-xs-*/
+
+
+@media only screen and (max-width:375px) {
+
+
+}
+
+
+@media only screen and (max-width:320px) {
+
+
+}
+
+
+
+/*==================================================
+  =      Bootstrap 3 Media Queries END      =
+====================================================*/

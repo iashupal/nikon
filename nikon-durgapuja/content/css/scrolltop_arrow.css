@@ -1,0 +1,205 @@
+
+
+#return_to_top {
+  z-index: 2;
+  position: fixed;
+  bottom: 90px;
+  right: 33px;
+  background: #000000;
+  background: rgba(0,0,0,1);
+  border: 0;
+  width: 38px;
+  height: 38px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#return_to_top:hover,
+#return_to_top:focus {
+  background: rgba(0,0,0,.6);
+}
+
+#return_to_top i {
+  color: #ffffff;
+  margin: 0;
+  position: absolute;
+  /* left: 16px; */
+  /* top: 13px; */
+  left: 50%;
+  top: 50%;
+  -o-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 15px;
+  padding: 0px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+
+a.msgBox_sec1 {
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  display: block;
+  width: 45px;
+  height: 45px;
+  margin: 0px;
+  padding: 0;
+  background: url(../images/spirit.png) no-repeat -5px -439px;
+  background-size: 210px;
+  z-index: 2;
+}
+
+
+
+
+
+/*==================================================
+=      Bootstrap 3 Media Queries START      =
+====================================================*/
+
+
+/* #######  1111  Large Devices, .visible-lg- ####### */
+
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1947px) {
+
+
+}
+
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1600px) {
+
+
+}
+
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1440px) {
+
+
+}
+
+@media screen and (max-width: 1340px) {
+
+
+}
+
+
+
+
+/* ####### 2222 Medium Devices, .visible-md-#######  */
+
+
+/* Medium desktops and laptops */
+
+@media only screen and (max-width:1199px) {
+
+  #return_to_top {
+    right: 23px;
+    bottom: 75px;
+  }
+
+  a.msgBox_sec1 {
+    right: 20px;
+    bottom: 20px;
+  }
+
+
+
+}
+
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+
+/* Landscape tablets and medium desktops */
+
+@media only screen and (max-width:1067px) {
+
+
+}
+
+
+/* ####### 3333 small,Medium Devices, .visible-sm- ####### */
+
+
+/* Portrait tablets and small desktops .visible-sm- ONLY WORK IN BETWEEN QUERY */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/* Landscape tablets and medium desktops .visible-sm- */
+
+@media only screen and (max-width:991px) {
+
+
+}
+
+
+/* ####### 4444 small Devices, .visible-xs- #######  */
+
+
+/* Landscape phones and portrait tablets .visible-xs- */
+
+@media only screen and (max-width:767px) {
+
+a.msgBox_sec1 {
+  right: 12px;
+}
+
+#return_to_top {
+  right: 15px;
+}
+
+
+
+}
+
+
+/* Portrait phones and smaller .visible-xs- */
+
+@media only screen and (max-width: 480px) {
+
+
+}
+
+
+/* Portrait phones and smaller .visible-xs-*/
+
+@media only screen and (max-width:320px) {
+
+
+}
+
+
+/*==================================================
+=      Bootstrap 3 Media Queries END      =
+====================================================*/

@@ -1,0 +1,1213 @@
+﻿@font-face{
+    font-family: 'FrutigerCE Light';
+    src: url('/common/fonts/Frutiger CE 45 Light.ttf');
+}
+@font-face{
+    font-family: 'FrutigerCE Bold';
+    src: url('/common/fonts/Frutiger CE 65 Bold.ttf');
+}
+@font-face{
+    font-family: 'FrutigerCE Regular';
+    src: url('/common/fonts/FrutigerCE-Roman.otf');
+}
+
+@font-face{
+    font-family: 'FrutigerRoman';
+    src: url('/common/fonts/FrutigerRoman.ttf');
+}
+
+
+body{
+background-color:transparent !important
+}
+.left-pen-div {
+    position: absolute;
+    left: 8%;
+       top: 27%;
+}
+.left-pen-div.quiz-d750-nik-left{
+    left: 17%;
+}
+.question-main-div {
+    width: 55%;
+    float: right;
+    /* padding-top: 40px; */
+}
+.left-pen-div img{
+width: 320px;
+}
+.one-minute-right {
+    position: absolute;
+    float: right;
+    right: 23px;
+    top: 25px;
+}
+.one-minute-right img {
+    /* width: 95px; */
+    width: 150px;
+}
+.nik-mob-choose-cam {
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 50px;
+    
+   
+   
+}
+.nik-mob-choose-cam h4{
+    font-size: 20px;
+    font-family: 'Frutiger_Black';
+    /* padding-left: 40px; */
+    letter-spacing: 0.02em;
+    font-weight: 800;
+    position: relative;
+}
+.nik-mob-choose-cam h4:after{
+    content: '';
+    background-image: url(/common/images/quiz-img/cam-border.png);
+    width: 14%;
+    margin: 0 auto;
+    position: absolute;
+    height: 2px;
+    bottom: -6px;
+    background-position: center center;
+    text-align: center;
+    background-repeat: no-repeat;
+    left: 43%;
+}
+.quiz-nik-para{
+    font-size: 17px;
+    width: 70%;
+    margin: 0 auto;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    position: relative;
+    padding: 40px 45px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Corbel';
+    /* font-family: 'FruitgerCE Light'; */
+}
+
+.quiz-nik-para::after{
+    content: '';
+    position: absolute;
+    background-image: url(/common/images/quiz-img/quiz-inner-img1.png);
+    width: 53px;
+    left: 0;
+    height: 45px;
+    top: 15px;
+
+}
+.quiz-nik-para::before{
+    content: '';
+    position: absolute;
+    background-image: url(/common/images/quiz-img/quiz-inner-img2.png);
+    width: 53px;
+    right: 0;
+    height: 45px;
+    top: 15px;
+
+}
+
+.quiz-nik-participatn{
+    font-size: 16px;
+    width: 70%;
+    margin: 0 auto;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    position: relative;
+    padding: 0px 45px;
+    font-family: FrutigerCE;
+}
+.quiz-nik-participatn::after{
+    content: '';
+    position: absolute;
+    background-image: url(/common/images/quiz-img/nik-inner-img3.png);
+    width: 53px;
+    left: 0;
+    height: 45px;
+    bottom: -20px;
+
+}
+.quiz-nik-participatn::before{
+    content: '';
+    position: absolute;
+    background-image: url(/common/images/quiz-img/quiz-inner-img4.png);
+    width: 53px;
+    right: 0;
+    height: 45px;
+    bottom: -20px;
+
+}
+
+.quiz-nik-participatn ul li{
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: 'Corbel';
+    /* font-family: 'FruitgerCE Light'; */
+}
+.quiz-nik-participatn h4{
+    /* font-family: 'FrutigerCE Bold'; */
+    font-size: 22px;
+    font-family: 'Frutiger_Black';
+    padding-left: 40px;
+    font-weight: 800;
+}
+
+.quiz-nik-para p span{
+    font-weight: 800;
+    /* font-family: 'FrutigerCE Bold'; */
+    font-family: 'FrutigerBold';
+}
+
+.question-count-div {
+    text-align: left;
+    font-family: 'FrutigerCE Regular';
+    font-size: 30px;
+    font-weight: 800;
+    color: #1d1919;
+}
+.question-div {
+    font-size: 22px;
+    font-family: 'FrutigerCE Regular';
+    color: #1d1919;
+    font-weight: 600;
+}
+.answer-div {
+font-family:CorbelBold;
+ font-size: 22px;
+     color: #1d1919;
+}
+.question1 {
+    text-transform: uppercase;
+        margin-top: 16%;
+}
+.like-us-div{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.like-us-div img{
+    width: 150px;
+    margin-top: 25px;
+}
+.quiz-nik-participatn ul{
+    list-style: none;
+}
+.quiz-nik-participatn ul li span{
+    background-color: black;
+    color: #ffea1f;
+    border-radius: 50%;
+    padding: 0px 8px 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-family: Corbel;
+    font-weight: 600;
+}
+.answer-div {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+    clear: both;
+}
+.answer {
+    float: left;
+    width: 100%;
+    font-family: 'FrutigerCE Regular';
+    font-size: 20px;
+    font-weight: 500;
+}
+.answer-row-top {
+float: left;
+    width: 100%;
+    margin-top: 5%;
+}
+.answer-row-top div{
+    width: 50%;
+    float: left;
+}
+.answer-row-bottom {
+ float: left;
+    width: 100%;
+    margin-top: 5%;
+}
+.answer-row-bottom div{
+    width: 50%;
+    float: left;
+}
+.nik-upper-quiz-div{
+    width: 100%;
+    position: absolute;
+    top: 13%;
+    bottom: 0;
+}
+
+.next-div {
+    font-family: CorbelBold;
+    text-align: center;
+    float: none;
+    width: 20%;
+    margin-top: 75px;
+    margin: 0 auto 30px;
+}
+.next-a {
+    color: white !important;
+    background-color: #1d1919;
+    width: 170px;
+    display: block;
+    margin: auto;
+    font-size: 19px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration:none !important
+}
+.timer-div {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background-color: white;
+    font-size: 27px;
+    font-family: arial;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    text-align: center;
+}
+.timer-inner-div {
+    height: 77px;
+    width: 77px;
+    margin-left: 4px;
+    margin-top: 4px;
+    text-align: center;
+    position: relative;
+    line-height: 70px;
+    border-radius: 50%;
+    border: 1px solid #787676;
+}
+.timer-inner-div .span-sec-txt {
+    font-size: 19px;
+    position: absolute;
+    bottom: 12px;
+    left: 32%;
+    line-height: 0;
+}
+.quiz-camera750 img{
+    width: 450px;
+}
+.quiz-camera750{
+    left: 5%;
+    top: 30%;
+}
+.choose-d750-img{
+    width: 20%;
+    position: absolute;
+    bottom: 28%;
+    /* right: 0; */
+    left: 18%;
+    vertical-align: middle;
+}
+.choose-d5600-img{
+    position: absolute;
+    bottom: 28%;
+    right: 29%;
+}
+.choose-d5600-img img{
+width: 140px !important;
+}
+.choose-d750-img img{
+    width: 140px !important;
+}
+.quiz-nik-camera5600{
+    width: 45%;
+    float: right;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* padding-top: 128px; */
+}
+.quiz-nik-camera5600 img{
+    width: 450px;
+}
+
+.main-div .nik-center-img{
+    width: 30%;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    left: 44%;
+}
+.main-div .nik-center-img img{
+    width: 240px;
+}
+.nik-choose-img img{
+    width: 280px;
+   
+}
+.quiz-nik-camera5600 .quiz-nik-side-div{
+    margin-bottom: 25px;
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+}
+
+
+/* congrats page */
+.left-pen-div.congrats-icon-d750{
+    left: 17%;
+}
+.winner-declaration {
+    text-align:center;
+    font-family: 'Corbel';
+        font-size: 18px;
+        color: #1d1919;
+        width: 50%;
+    margin: 15px auto;
+    }
+.congratulations-text img{
+    max-width: 400px;
+    width: 70%;
+}
+.congratulations-text h1{
+    color: black;
+    font-family: 'Frutiger_Black';
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    
+}
+.congratulations-text h1::after{
+    content: '';
+    width: 260px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    margin: 0 auto;
+    right: 0;
+}
+.ques-solve-time{
+    font-weight: 800;
+}
+.btns-div.congrats-btn-div2{
+    margin-top: 20px;
+}
+.btns-div {
+    margin-top: 20px;
+    width: 100%;
+    margin: 30px auto 0;
+    vertical-align: middle;
+    text-align: center;
+    /* padding-left: 131px; */
+}
+.back-btn.check-answers{
+    width: 280px;
+    margin: 0;
+}
+.back-btn.answer-back-btn{
+    width: 100%;
+    margin: 30px auto;
+}
+.back-btn {
+    padding-left: 25px;
+       margin-top: 25px;
+       width: 280px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.back-btn.answer-back-btn a{
+    width: 180px;
+}
+
+/* finish congrats page */
+/* media query css code */
+@media screen and (max-width:1500px){
+    .quiz-nik-participatn, .quiz-nik-para{
+        width: 75%;
+    }
+    .back-btn.check-answers{
+        width: 280px;
+      
+    }
+    .quiz-nik-camera5600 .quiz-nik-side-div{
+        top: 0;
+    }
+    .question-main-div{
+        width: 55%;
+        padding-top: 0;
+    }
+    .question-main-div.quiz-nik-camera5600{
+        width: 45%;
+        padding-top: 0px;
+    }
+    .next-div.nik-choose-img{
+        margin: 88px auto;
+        width: 17%;
+    }
+    .main-div .nik-center-img img{
+        width: 200px;
+    }
+    .nik-choose-img img{
+        width: 240px;
+    }
+}
+
+/* 1280px css code */
+@media screen and (max-width:1280px){
+    .quiz-nik-para, .quiz-nik-participatn ul li{
+        font-size: 16px;
+    }
+    .main-div .nik-center-img img{
+        width: 160px;
+    }
+    .quiz-nik-participatn::before, .quiz-nik-participatn::after{
+        bottom: 0;
+    }
+    .quiz-camera750{
+        top: 36%;
+        left: 5%;
+    }
+    .winner-declaration{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .quiz-nik-camera5600 .quiz-nik-side-div{
+        top: 35px;
+    }
+    /* .btns-div{
+        padding-left: 85px;
+    } */
+  
+    .back-btn.check-answers{
+        width: 240px;
+    }
+    .left-pen-div.congrats-icon-d750{
+        left: 14%;
+    }
+   
+    .quiz-camera750 img,.quiz-nik-camera5600 img {
+    
+        width: 400px;
+    }
+   .quiz-nik-para{
+        padding: 40px 25px 20px;
+    }
+    .question-main-div.quiz-nik-camera5600{
+        padding-top: 20px;
+    }
+    .next-div.nik-choose-img{
+        
+        width: 14%;
+    }
+    .quiz-nik-participatn{
+        padding: 20px 10px 40px;
+    }
+    .left-pen-div{
+        left: 5%;
+    }
+}
+/* 1180px css code */
+@media screen and (max-width:1180px){
+    /* .btns-div {
+        padding-left: 50px;
+    } */
+    .left-pen-div img{
+        width: 300px;
+    }
+   
+    .score-main-div.nik-anwr-score{
+        width: 450px;
+    }
+    .left-pen-div.quiz-camera750 img, .quiz-nik-camera5600 img{
+    width: 350px;
+    }
+   
+    .congratulations-text img{
+        max-width: 430px;
+    }
+    .question-main-div.quiz-nik-camera5600{
+        padding-top: 54px;
+    }
+    .question-main-div {
+       
+         margin-top: -20px;
+    }
+    .quiz-nik-participatn h4{
+        font-size: 20px;
+    }
+}
+/* 1100px css code */
+@media screen and (max-width:1100px){
+    .quiz-nik-participatn {
+        padding: 10px 0px 40px;
+    }
+    .quiz-nik-participatn, .quiz-nik-para{
+        width: 80%;
+    }
+    .quiz-nik-para {
+        padding: 40px 25px 10px;
+    }
+    .main-logo img{
+        width: 70px;
+    }
+    .quiz-nik-camera5600 .quiz-nik-side-div {
+        top: 80px;
+    }
+}
+@media(max-width:1070px) {
+.left-pen-div {
+    position: absolute;
+    left: 6%;
+    
+}
+.back-btn{
+    width: 280px;
+    padding-left: 25px;
+}
+.nik-mob-choose-cam h4{
+    font-size: 17px;
+}
+.left-pen-div.quiz-camera750{
+    top: 42%;
+}
+.question-main-div.quiz-nik-camera5600{
+    padding-top: 45px;
+}
+.next-div.nik-choose-img {
+    width: 17%;
+}
+.nik-mob-choose-cam{
+    padding-top: 30px;
+}
+.left-pen-div.quiz-camera750 img, .quiz-nik-camera5600 img{
+    width: 300px !important;
+}
+.left-pen-div img {
+    width: 250px;
+}
+.question-div {
+    font-family: CorbelBold;
+    font-size: 23px;
+    color: #1d1919;
+}
+}
+
+/* 992px css code */
+@media screen and (max-width:992px){
+    .quiz-nik-para, .quiz-nik-participatn ul li {
+        font-size: 14px;
+    }
+    .left-pen-div {
+        
+        left: 4%;
+       
+    }
+    .question-main-div.nik-answer-main-div{
+        width: 55%;
+    }
+    .score-main-div.nik-anwr-score{
+        max-width: 450px;
+    width: 80%;
+    margin: 0 auto;
+    }
+    .score-heading.score-answer-heading{
+        width: 100%;
+    }
+    .congratulations-text img {
+        max-width: 290px;
+    }
+    .nik-upper-quiz-div{
+        top: 10%;
+    }
+    .score-heading{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .next-div{
+        width: 25%;
+    }
+
+    .quiz-nik-participatn{
+        padding: 10px 0px 30px;
+    }
+    .question-main-div{
+        width: 60%;
+    }
+    /* .quiz-nik-para {
+        padding: 30px 25px 10px;
+    } */
+}
+@media(max-width:767px) {
+
+    body {
+        background-image: none !important;
+    }
+    .quiz-inner-mob-banner.d750-header{
+        background-color: transparent !important;
+    }
+    .quiz-inner-mob-banner{
+        background-color: black;
+        width: 100%;
+
+
+    }
+    .nik-upper-quiz-div{
+        position: initial;
+    }
+    .score-main-div.nik-anwr-score{
+        max-width: 100%;
+        width: 100%;
+    }
+    .one-minute-right {
+        position: absolute;
+        float: right;
+        right: 23px;
+        top: 20px;
+    }
+    .left-pen-div.congrats-icon-d750{
+        position: initial;
+       
+    }
+    .left-pen-div.congrats-icon-d750 img{
+        margin: 0px auto 10px;
+        width: 250px;
+    }
+    .quiz-nik-para {
+        padding: 45px 30px 10px;
+    }
+    .quiz-nik-participatn {
+        padding: 10px 20px 30px;
+    }
+    .nik-upper-quiz-div {
+        width: 100%;
+        height: auto;
+        background-color: #fede1a;
+        float: initial;
+    }
+    .one-minute-right img {
+        width: 80px;
+    }
+    .question-main-div {
+        margin-left: 0;
+    width: 100%;
+    margin: auto;
+    float: initial;
+        margin-top: 0px;
+    }
+    .question-main-div.nik-answer-main-div{
+        padding-top: 50px;
+    /* text-align: center; */
+    width: 100%;
+    }
+    .score-heading.score-answer-heading{
+        text-align: center;
+        width: 100%;
+        margin: 10px auto;
+        color: #1d1919;
+    }
+    .answer-txt{
+        color: #1d1919;
+    }
+    .question-main-div.quiz-nik-camera5600{
+        padding-top: 0;
+        background-color: #fede1a;
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .left-pen-div.quiz-camera750 img, .quiz-nik-camera5600 img{
+        margin: 0 auto;
+    }
+
+    .nik-mob-choose-cam{
+        
+         color: #fee11c;
+    text-align: center;
+    width: 100%;
+    margin: 50px auto;
+    font-family: 'FrutigerCE Bold';
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    font-size: 24px;
+    }
+    .quiz-nik-camera5600 .quiz-nik-side-div{
+        padding-left: 90px;
+        position: initial;
+    }
+    .left-pen-div.quiz-camera750{
+        left: -3%;
+    }
+    .question-div {
+    font-family: CorbelBold;
+    font-size: 18px;
+    color: white;
+}
+    .question-count-div {
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+}
+.timer-div {
+    position: absolute;
+    right: initial;
+    top: initial;
+    background-color: white;
+    font-size: 27px;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    left: 34%;
+}
+.timer-inner-div {
+    height: 60px;
+    width: 60px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+    line-height: 52px;
+    border-radius: 50%;
+    border: 1px solid #787676;
+}
+.timer-inner-div .span-sec-txt {
+    left: 26%;
+    line-height: 0;
+}
+.main-logo {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.main-logo img {
+    display: inline-block;
+    width: 60px;
+}
+.left-pen-div {
+    /* position: absolute;
+    right: 14%;
+    top: 10%; */
+    position: relative;
+    text-align: center;
+    left: initial;
+    margin-top: 35px;
+}
+.left-pen-div img {
+    width: 30%;
+    /* float: right; */
+    margin: 0 auto;
+}
+.answer-div {
+    margin-top: 10%;
+    font-size:18px;
+}
+.answer {
+    color: white;
+}
+.luxor-left {
+    position: absolute;
+    left: initial;
+    right: 20px;
+    top: 20px;
+    display: inline-block;
+    bottom: initial;
+}
+.next-div {
+    position: relative;
+    bottom: 0;
+    width: 220px;
+    left: 0;
+    margin-bottom: 0px;
+    margin-top:0px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+.next-a {
+    cursor: pointer;
+    width: 100%;
+    margin-left: 0;
+        padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tnc-right {
+    position: relative;
+    right: initial;
+    bottom: 40px;
+    font-family: 'Corbel';
+    color: black;
+    font-size: 12px;
+    left: 0;
+    padding: 20px 20px 0;
+}
+}
+
+/*score.html css*/
+.score-main-div {
+max-width:550px;
+margin:auto
+}
+.score-heading {
+    font-family: 'Corbel';
+    font-size: 20px;
+    color: #1d1919;
+}
+.score-heading .score-main-span {
+    background-color: white;
+    font-size: 30px;
+    font-family: 'CorbelBold';
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    padding-left: 0;
+    border-radius: 50%;
+    line-height: 90px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+.answer-txt {
+    font-family: 'CorbelBold';
+    font-size: 30px;
+    color: #1d1919;
+    margin-top: 30px;
+    padding-left: 35px;
+    margin-bottom: 5px;
+}
+.answers-div {
+    font-family: 'Corbel';
+    font-size: 22px;
+    color: #1d1919;
+    margin-bottom: 10px;
+}
+.answers-div span:nth-child(1) img{
+       width: 20px;
+       margin-right:5px
+}
+    .answers-div span:nth-child(2), .answers-div span:nth-child(3), .answers-div span:nth-child(4) {
+    margin-left:10px
+    }
+
+.back-btn a{
+font-family: 'CorbelBold';
+    font-size: 15px;
+    color: #1d1919;
+    text-decoration: none;
+    border: 2px solid #1d1919;
+    width: 150px;
+    display: block;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+/* 1180px css code */
+@media screen and (max-width:1180px){
+    /* .score-heading {
+        font-size: 24px;
+    } */
+    .winner-declaration{
+        font-size: 18px;
+    }
+    .score-heading .score-main-span{
+        font-size: 32px;
+    }
+    .back-btn{
+        width: 40%;
+    }
+    /* .back-btn a{
+        font-size: 16px;
+    } */
+}
+/* 992px css code */
+@media screen and (max-width: 992px){
+    .score-heading{
+        font-size: 18px;
+    }
+    .score-heading .score-main-span{
+        font-size: 28px;
+    }
+    .back-btn{
+        width: 48%;
+    }
+    .back-btn a{
+        padding-left: 10px;
+    padding-right: 10px;
+    }
+    .back-btn{
+        padding-left: 0px;
+    }
+    .winner-declaration{
+        font-size: 17px;
+    }
+    .left-pen-div.congrats-icon-d750{
+        left: 10%;
+    }
+    .main-logo img {
+        width: 60px;
+    }
+    .main-logo {
+        padding-top: 18px;
+        padding-left: 18px;
+    }
+    .btns-div.congrats-btn-div2{
+        margin-top: 10px;
+    }
+    .back-btn a{
+        font-size: 14px;
+    }
+    .back-btn.check-answers{
+        width: 180px;
+    }
+}
+
+@media(max-width:767px) {
+.like-us-div img{
+    text-align: center;
+    margin-top: 5px;
+}
+.nik-quiz-start{
+    background-color: #fede1a;
+}
+/* .score-heading {
+    font-size: 23px;
+} */
+    .span-text {
+    display:block;
+    color:#1d1919;
+    }
+   
+    .score-heading .score-main-span {
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    padding-left: 11px;
+    line-height: 70px;
+        margin-top: 5px;
+}
+    .score-main-div {
+    max-width: 100%;
+    margin: auto;
+    margin-bottom:40px
+}
+    .answer-txt {
+    font-family: 'CorbelBold';
+    font-size: 27px;
+    color:#1d1919;
+    width: 80%;
+    margin: 0 auto;
+}
+.answers-main-div{
+    width: 65%;
+    margin: 0 auto;
+}
+.nik-mob-choose-cam h4:after{
+    content: '';
+    background-image: url(/common/images/quiz-img/cam-mob-border.png);
+    width: 14%;
+    margin: 0 auto;
+    position: absolute;
+    height: 2px;
+    bottom: -6px;
+    background-position: center center;
+    text-align: center;
+    background-repeat: no-repeat;
+    left: 43%;
+}
+.back-btn.answer-back-btn{
+    padding-left: 0;
+    background-color: #000000;
+}
+.back-btn.answer-back-btn:hover{
+    background-color: #fede1a;
+}
+.back-btn.answer-back-btn a {
+    width: 100%;
+    margin: 0 auto;
+    color: #fede1a;
+}
+.answers-div {
+    font-family: 'Corbel';
+    font-size: 17px;
+    color:#1d1919;
+}
+    .back-btn {
+    padding-left: 20px;
+    margin-top: 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+        .back-btn a {
+        width: 100%;
+    /* background-color: #ffe41c;
+    border: 2px solid #ffe41c; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+        /* margin-top: 20px;
+    margin-bottom: 30px; */
+        }
+        .back-btn.check-answers{
+            width: 32%;
+        }
+	.btns-div {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+        .answers-div span:nth-child(2), .answers-div span:nth-child(3), .answers-div span:nth-child(4) {
+    margin-left: 3px;
+}
+}
+
+
+
+/*thank you html*/
+.trophy-heading {
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 35%;
+    margin: auto;
+    line-height: 0px;
+}
+.trophy-heading img{
+    width: 55px;
+    margin-bottom: -7px;
+}
+.thankyou-main-div {
+    width: 60%;
+    float: right;
+}
+.congratulations-text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+@media(max-width:767px) {
+body{
+padding-bottom:20px
+}
+.thankyou-main-div {
+    margin-left: 0;
+    width: 95%;
+    float: initial;
+    margin: auto;
+    padding-top: 40px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+.btns-div{
+    padding-left: 0;
+}
+.trophy-heading {
+    border-bottom: 1px solid #baa715;
+}
+.trophy-heading img {
+    width: 42px;
+    margin-bottom: -7px;
+}
+.congratulations-text img {
+    max-width: 290px;
+    width: 100%;
+}
+.winner-declaration {
+    text-align: center;
+    font-family: 'Corbel';
+    font-size: 16px;
+    color: #1d1919;
+    margin-top: 10px;
+}
+.back-btn {
+    width: 40%;
+    left: 0;
+}
+    .check-answers {
+        right: 0;
+    left: initial;
+    }
+        .check-answers a {
+            background-color: transparent;
+            border: 2px solid black;
+        }
+}
+/* 580px css code */
+@media screen and (max-width:580px){
+    .back-btn{
+        width: 50%;
+    }
+    .back-btn.check-answers {
+        width: 40%;
+    }
+    .back-btn{
+        padding-left: 0;
+    }
+    .thankyou-main-div{
+        width: 100%;
+    }
+}
+@media(max-width:460px) {
+.btns-div .back-btn a {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 100% !important;
+    font-size: 12px !important;
+}
+.winner-declaration{
+    width: 90%;
+}
+.congratulations-text h1{
+    font-size: 26px;
+}
+.congratulations-text h1::after{
+    width: 220px;
+}
+.left-pen-div.congrats-icon-d750 img{
+    width: 200px;
+}
+.back-btn {
+    width: 58%;
+}
+.quiz-nik-participatn, .quiz-nik-para {
+    width: 90%;
+}
+.quiz-nik-participatn h4 {
+    font-size: 18px;
+}
+.quiz-nik-participatn h4{
+    padding-left: 20px;
+}
+.answer-txt{
+    width: 100%;
+}
+.answers-main-div{
+    width: 80%;
+}
+.left-pen-div.quiz-camera750 img, .quiz-nik-camera5600 img{
+    width: 240px !important;
+}
+.nik-mob-choose-cam{
+    font-size: 18px;
+    margin: 70px auto 50px;
+}
+.left-pen-div.quiz-camera750{
+    left: -7%;
+}
+.next-div{
+    width: 200px;
+}
+.quiz-nik-camera5600 .quiz-nik-side-div{
+    padding-left: 55px;
+}
+.nik-mob-choose-cam h4{
+    font-size: 16px;
+}
+}
+
+/* @media screen and (max-width: 380px){
+
+} */

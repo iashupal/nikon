@@ -1,0 +1,409 @@
+﻿@font-face {
+    font-family: 'CorbelBold';
+    src: url('../fonts/Corbel Bold.ttf') format('truetype');
+}
+body,html {
+    margin:0;
+    height:100%;
+    width:100%
+}
+.diplay-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+    table-layout: fixed;
+    background-color: #fed316;
+    position: relative;
+}
+.diplay-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    /* transform: skewY(6deg); */
+}
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#ba971f;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color:#ba971f;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color:#ba971f;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color:#ba971f;
+}
+
+.main-right-div{
+    width: 480px !important;
+}
+
+.quiz-logo-left{
+    background-image: url(/common/images/nik-bg-5.png);
+    position: relative;
+}
+.yellow-cont {
+    height: 77%;
+    position: relative;
+}
+.yellow-cont::before {
+    content: '';
+    width: 100%;
+    height: 10px;
+    border-left: 480px solid transparent;
+    border-bottom: 59px solid #fed316;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    bottom: 100%;
+}
+.quiz-nik-logo{
+    height: 22%;
+    position: relative;
+    margin-bottom: 2%;
+
+}
+.quiz-nik-logo:after{
+    content: '';
+    width: 100%;
+    height: 53px;
+    border-left: 479px solid black;
+    border-bottom: 60px solid transparent;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+}
+
+.home-main-div {
+width:96%;
+margin:auto;
+}
+.main-left-div {
+width:50%;float:left;
+height:100%;
+}
+.main-left-div img{
+    width: 80%;
+    float: right;
+    padding-right: 30px;
+}
+.logo-left {
+    /* position: absolute;
+    left: 25px;
+    top: 25px;
+    width: 100px; */
+    text-align: left;
+    background-color: black;
+    height: 64%;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.logo-left img{
+    width: 60px;
+    max-width: 100%;
+}
+.one-minute-right {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+.one-minute-right img{
+ width: 100px;
+}
+.main-right-div {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.contest-main-img {
+    text-align: center;
+        max-width: 400px;
+    margin: auto;
+    width: 55%;
+}
+.contest-main-img img{
+    width: 90%;
+    margin: auto;
+}
+
+.form-div {
+    max-width: 400px;
+    margin: auto;
+    text-align:center;
+    width: 60%;
+}
+.form-div select,.form-div input,.form-div button {
+    width:90%;
+    margin: auto;
+    margin-bottom:3px;
+        height: 40px;
+        padding-left:10px;
+        color:#ba971f;
+        font-family:CorbelBold
+}
+form {
+margin-top:10px
+}
+input , select  {
+    background-color: #fff4d4;
+    outline: none;
+    border: none;
+}
+input::selection,input:active,input:focus,select:focus,select:active,select::selection {
+    background-color:#ffae13;
+   border:none;
+   color:#58430c;
+}
+
+#submit {
+    border:none;
+    box-shadow:none;
+    background-color:#000000;
+    color:white;
+    margin-top: 10px;
+}
+.or-text {
+    color: #ba971f;
+    font-family: CorbelBold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.fb-login img{
+    width: 75%;
+    max-width: 250px;
+}
+
+.luxor-left {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.luxor-left img{
+    width: 80px;
+}
+.luxor-left img.hidden-xs{
+    display:none;
+}
+.tnc-right {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+       font-family: 'Corbel';
+       color:black;
+       font-size:12px
+}
+
+
+/* media query css code */
+@media screen and (max-width:1500px){
+    .logo-left{
+        height: 60%;
+    }
+    .logo-left img{
+        width: 50px;
+    }
+   
+  
+    .contest-main-img{
+        width: 45%;
+    }
+    .main-right-div{
+        width: 440px !important;
+    }
+    .yellow-cont::before{
+        border-left: 440px solid transparent;
+    }
+    .quiz-nik-logo:after{
+        border-left: 440px solid black;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+.contest-main-img img{
+    width: initial;
+    max-width: 190px;
+    margin:auto
+}
+.form-div {
+    width: initial;
+}
+.main-left-div img {
+    width: 87%;
+    }
+    .main-right-div {
+        width: 400px !important;
+    }
+    .yellow-cont::before {
+        border-left: 400px solid transparent;
+    }
+    .quiz-nik-logo:after {
+        border-left: 400px solid black;
+    } 
+}
+@media only screen and (max-width: 1140px) {
+.contest-main-img img{
+    max-width: 85%;
+}
+.form-div {
+    max-width: 80%;
+}
+.main-left-div img {
+    width: 90%;
+    }
+}
+@media only screen and (max-width: 991px) {
+.main-left-div img {
+    width: 100%;
+    }
+    .main-right-div {
+        width: 360px !important;
+    }
+    .yellow-cont::before {
+        border-left: 360px solid transparent;
+    }
+    .quiz-nik-logo:after {
+        border-left: 360px solid black;
+    } 
+}
+@media only screen and (max-width: 767px) {
+.main-left-div , .main-right-div , .home-main-div {
+    width: 100% !important;
+}
+.main-left-div{
+    height: auto;
+}
+body {
+    background-image: none !important;
+    overflow: scroll !important;
+}
+.quiz-nik-bannerImg{
+    /* background-image: url(/common/images/quiz-img/quiz-mainpage-mob-bnr.png); */
+    background-image: url(/common/images/quiz-img/quiz-home-mob-bnr.png);
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.contest-main-img{
+    width: 100%;
+    margin: 30px auto;
+    max-width: 100%;
+    float: left;
+    text-align: center;
+}
+.main-left-inner-div{
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin: 0px auto;
+    text-align: center;
+    bottom: 0;
+}
+.main-left-img1{
+    width: 50%;
+    float: left;
+    padding: 20px 20px 0;
+    left: 0;
+}
+
+.main-left-img1 img1{
+    width: 100%;
+}
+.main-left-img2{
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+    padding: 20px 20px 0;
+    text-align: center;
+    right: 0;
+}
+.contest-main-img img{
+    width: 180px;
+    margin: 0 auto;
+    float: none;
+}
+.form-div{
+    margin-top: 50px;
+}
+.fb-login{
+    margin-bottom: 40px;
+}
+
+ .logo-left{
+        background-color: transparent;
+}
+.quiz-nik-logo:after{
+        border-left: transparent; 
+    border-bottom: transparent;
+}
+.yellow-cont::before{
+        border-left: transparent; 
+        border-bottom: transparent;
+}
+.main-left-div img {
+    padding-right: 0px;
+}
+.quiz-nik-logo{
+    background-image: url(/nikon-questionnaire/content/images/quiz-img/quiz-mob-banner.png);
+}
+.logo-left, .tnc-right {
+    position: relative;
+    float: left;
+}
+.one-minute-right {
+    position: absolute;
+    float: right;
+}
+ .luxor-left  {
+    position: relative;
+    float: right;
+}
+.home-main-div {
+    /* padding-top: 40px; */
+    height: initial !important;
+}
+.tnc-right {
+    left: 20px;
+    right: initial;
+    margin-bottom: 20px;
+    bottom: -28px;
+}
+.luxor-left {
+    right: 20px;
+    left: initial;
+    bottom: 20px;
+}
+.luxor-left img {
+    width: 70px;
+}
+.logo-left img {
+    width: 60px;
+}
+.one-minute-right img {
+    width: 80px;
+}
+.logo-left {
+    left: 0;
+}
+.one-minute-right {
+    right: 23px;
+}
+/* .one-minute-right img.visible-xs {
+    display:none !important;
+} */
+.fb-login img {
+    max-width: 185px;
+}
+}
+@media only screen and (max-width: 480px) {
+.form-div {
+    max-width: 85%;
+}
+.home-main-div {
+    padding-bottom: 40px;
+    }
+
+/* .quiz-nik-bannerImg {
+    height: 300px;
+} */
+}

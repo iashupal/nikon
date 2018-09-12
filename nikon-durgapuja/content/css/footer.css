@@ -1,0 +1,590 @@
+﻿
+
+/*==================================================
+    =      Bootstrap 3 Media Queries START      =
+====================================================*/
+
+
+
+footer.container {position: relative;float: left;width: 100%;display: block; padding: 0 0 0px; margin:0; background-color: transparent; height: auto; }
+footer .footerInner {position: relative;float: left;width: 100%;display: block; padding: 0px; margin:0; background-color: transparent; padding-left: 70px;}
+
+footer .footerContentDiv {position: relative;float: left;width: 100%;display: block; padding: 0px; margin:70px auto 0; padding: 0 0 0 8%;}
+
+.footerContentDiv_inner {position: relative;float: left;width: 100%;display: block; padding: 0px; margin:0px auto;}
+
+.footerInner,.footerContentDiv  {position: relative;float: left;width: 100%;display: block; padding: 0px; margin:0px;}
+.footerLeft,.footerCenter,.footerRight {position: relative;float: left;width: 100%;display: block; padding: 0px; margin:20px auto; padding-left: 0px;}
+
+.footerCenter {margin-bottom:40px;}
+
+a.artize_logo_Left {
+  position: relative;
+  width: 180px;
+  display: inline-block;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.centerLeft_footer,.centerRight_footer {position: relative;float: left;width: 40%; display: block; padding: 0px; margin:0px auto;padding-right: 10%;}
+.centerRight_footer {padding-right: 6%;}
+
+.centerRight_footer {width: 60%;}
+
+h3.signup_footer{
+font-family: 'Open Sans';
+text-align: left;
+color: #ffffff;
+font-size: 19px;
+line-height: 28px;
+font-weight: 400;
+padding: 0px;
+margin: 0px 0 0px;
+text-transform: uppercase;
+letter-spacing: 2px;
+clear: both;
+float: left;
+width: 100%;
+max-width: 200px;
+}
+
+.signup_Div { position: relative; width: 100%; display: inline-block; float: left; margin: 40px auto; padding: 0; text-align: center; }
+
+.signup_Div input {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 0;
+  background-color: transparent;
+  color: #ffffff;
+  border: 0;
+  border-bottom: 1px solid #575757;
+  padding: 6px 12px 6px 0;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  padding-right: 40px;
+  height: 44px;
+}
+
+.signup_Div .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  padding: 6px 12px;
+  padding-right: 40px;
+  opacity: .6;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 0px rgba(102,175,233,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 0px rgba(102,175,233,.6);
+}
+
+
+a.signup_btn {position: absolute;top:0; right: 0; display: inline-block;height: 44px;width: 44px;padding-left: 44px;
+  background: url(../images/black_circle_arrow_footer.png) no-repeat 100% 0px; 
+}
+
+.signup_Div input[type="text"]::-webkit-input-placeholder {color: #575757; } 
+.signup_Div input[type="text"]::-moz-placeholder {color: #575757;opacity:1;  }
+.signup_Div input[type="text"]:-ms-input-placeholder {color: #575757; }
+.signup_Div input[type="text"]:-moz-placeholder {color: #575757; }
+
+
+a.social_logo_footer { display: inline-block;}
+
+.social_list_Footer,ul#footer_socila_ul  {position: relative; width: 100%; display: inline-block; float: left; margin: 0px auto; padding: 0; }
+
+a.social_logo_footer i.fa { font-size: 22px; color: #ffffff; line-height: 35px; vertical-align: middle; }
+
+a.social_logo_footer:hover i.fa {opacity:0.5;}
+
+#footer_socila_ul li { margin: 0 25px 0 0; }
+#footer_socila_ul li:last-child { margin: 0; }
+
+.centerRight_footerInner,.footer_List1_inner,.footer_List2_inner,.footer_List3_inner,.footer_List,
+.menuList_Left {position: relative;float: left;width: 100%; display: block; padding: 0px; margin:0px auto;}
+
+.footer_List1,.footer_List2,.footer_List3,.footer_List {position: relative;float: left;width: 33.33%; display: inline-block; padding: 0px; margin:0px auto;}
+
+ul.menuList_Left li {display: block;}
+
+a.menu_list {
+font-family: 'Open Sans'; font-size: 11px; line-height: 22px;
+text-transform: uppercase;font-weight: 600;letter-spacing: 1px;
+position: relative;float: left;width: 100%;
+display: block; padding: 0px; margin: 0 0 12px 0;
+color: #545454;
+}
+
+ul.menuList_Left li a:hover,
+ul.menuList_Left li a:focus {
+color: #ffffff; margin-left: 3px;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+}
+
+a.title_menu_footer {
+font-family: 'Open Sans'; font-size: 13px; line-height: 25px;
+color: #545454;font-weight: 600;padding-right: 40px;display: block;
+text-transform: uppercase;cursor: default;
+
+}
+
+a.title_menu_footer span {
+  position: absolute;
+  width: 20px;
+  height: 1px;
+  background: #545454;
+  display: inline-block;
+  top: 50%;
+  right: 0px;
+  -o-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+
+span.footertitle_div_inner {display: inline-block; position: relative; }
+
+.footertitle_div  {position: relative;float: left;width: 100%; display: block; padding: 0px; margin:0 0 26px; }
+
+a.copyright_artize {
+font-family: 'Open Sans'; font-size: 10px; line-height: 20px;
+text-transform: uppercase;font-weight: 400;letter-spacing: 1px;
+position: relative;display: inline-block; padding: 0px; color: #545454;cursor: default;
+}
+
+a.copyrightLogo_artize { position: absolute;bottom: 0px;right: 40px;}
+
+a.copyrightLogo_artize img {width: 34px;}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #######  1111  Large Devices, .visible-lg- ####### */
+
+
+/* Large desktops and laptops */
+@media screen and (max-width: 1947px) {
+
+
+}
+
+/* Large desktops and laptops */
+@media screen and (max-width: 1600px) {
+
+
+}
+
+/* Large desktops and laptops */
+@media screen and (max-width: 1440px) {
+
+
+}
+
+
+
+
+/* ####### 2222 Medium Devices, .visible-md-#######  */
+
+/* Medium desktops and laptops */
+@media only screen and (max-width:1199px){
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media only screen and (max-width:1067px){
+
+h3.signup_footer {
+font-size: 14px;
+line-height: 24px;
+max-width: 160px;
+}
+a.artize_logo_Left {
+width: 144px;
+}
+
+a.title_menu_footer {
+font-size: 11px;
+line-height: 22px;
+padding-right: 31px;
+}
+
+a.menu_list {
+font-size: 10px;
+line-height: 18px;
+}
+
+.signup_Div input {
+font-size: 12px;
+height: 42px;
+}
+
+a.social_logo_footer i.fa {
+font-size: 20px;
+line-height: 30px;
+}
+
+a.signup_btn {
+height: 40px;
+width: 40px;
+}
+
+footer .footerContentDiv {
+margin: 60px auto 0;
+padding: 0 0 0 6%;
+}
+.centerLeft_footer {
+width: 35%;
+padding-right: 20px;
+}
+.centerRight_footer {
+width: 65%;
+padding-right: 0px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+/* ####### 3333 small, Medium Devices, .visible-sm- ####### */
+
+/* Portrait tablets and small desktops .visible-sm- ONLY WORK IN BETWEEN QUERY */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape tablets and medium desktops .visible-sm- */
+@media only screen and (max-width:991px){
+a.menu_list {
+font-size: 10px;
+line-height: 15px;
+}
+
+
+}
+
+
+
+
+
+/* ####### 4444 small Devices, .visible-xs- #######  */
+
+/* Landscape phones and portrait tablets .visible-xs- */
+@media only screen and (max-width:767px){
+
+a.artize_logo_Left {
+width: 138px;
+margin-left: 15px;
+}
+
+footer .footerContentDiv {
+margin: 35px auto 0;
+padding: 0 15px;
+}
+.centerLeft_footer {
+width: 100%;padding: 0;
+}
+.footerLeft, .footerCenter, .footerRight {
+margin: 10px auto;
+}
+
+h3.signup_footer {
+font-size: 14px;
+line-height: 24px;
+max-width: 160px;
+margin-left: 15px;
+}
+.signup_Div {
+margin: 35px auto;
+padding: 0 0 0 15px;
+}
+
+
+.social_list_Footer,
+ul#footer_socila_ul {
+position: relative;
+width: 100%;
+display: inline-block;
+float: left;
+margin: 0px auto;
+padding: 0;
+text-align: center;
+}
+ul#footer_socila_ul {
+  margin: 0px auto 30px;
+}
+
+
+.centerRight_footer {
+width: 100%;
+padding-right: 0px;
+}
+
+.footer_List1, 
+.footer_List2, 
+.footer_List3,
+.footer_List {
+position: relative;
+float: left;
+width: 100%;
+display: inline-block;
+padding: 0px;
+margin: 0px auto;
+}
+
+.centerRight_footerInner .footer_List {
+border-bottom: 1px solid #575757;
+}
+
+.centerRight_footerInner .footer_List:first-child {
+border-top: 1px solid #575757;
+}
+
+
+span.footertitle_div_inner {
+position: relative;
+float: left;
+width: 100%;
+display: block;
+position: relative;
+}
+
+.footertitle_div { margin: 0; }
+
+a.title_menu_footer { 
+padding-right: 0px;cursor: pointer;
+font-size: 13px;
+line-height: 30px; 
+}
+
+a.title_menu_footer span {
+position: absolute;
+width: 30px;
+height: 30px;
+background:transparent;
+display: inline-block;
+top: 0;
+right: 0;
+-o-transform: initial;
+-moz-transform: initial;
+-webkit-transform: initial;
+-ms-transform: initial;
+transform: initial;
+
+transition: all 0.5s;
+background: url(../images/spirit.png) no-repeat 2px -3447px;
+
+}
+
+
+/*a.title_menu_footer span:before {
+content: '';
+position: absolute;
+width: 30px;
+height: 30px;
+top: 0;
+right: 0;
+transition: all 0.5s;
+background: url(../images/spirit.png) no-repeat 2px -3447px;
+}*/
+
+
+/*a.title_menu_footer span:after {
+content: '';
+content: '';
+position: absolute;
+width: 30px;
+height: 30px;
+top: 0;
+right: 0;
+transition: all 0.5s;
+background: url(../images/spirit.png) no-repeat 2px -3557px;
+}*/
+
+
+.active{display: block;opacity: 1;}
+
+.menuList_Left {display: none; margin: 15px 0 20px; }
+.menuList_Left.active{ display: block; }
+
+.footerRight { margin: 10px auto 40px; text-align: center;}
+
+.store_locator {position: relative;float: left;width: 100%;display: block; margin: 15px 0px;}
+
+
+
+
+/* sfsdfd */
+
+
+
+
+/*org*/
+/*#storeLocator_btn {
+  border-radius: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background-color: #ebebeb;
+  color: #000;
+  height: 70px;
+  width: 215px;
+  margin-bottom: -70px;
+  padding: 0px 22px;
+  vertical-align: middle;
+}*/
+
+#storeLocator_btn {
+position: relative;
+border-radius: 0;
+bottom: initial;
+left: initial;
+-webkit-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transform-origin: 0 0;
+-ms-transform-origin: 0 0;
+transform-origin: 0 0;
+background-color: #000000;
+color: #575757;
+height: auto;
+width: auto;
+margin-bottom: 0px;
+padding: 0px 10px 0 1px;
+vertical-align: middle;
+border:1px solid #575757;
+}
+
+/*org*/
+#storeLocator_btn span {
+  position: relative;
+  width: initial;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  font-weight:600;
+  padding: 0 0 0 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*#storeLocator_btn span { font-size: 10px; padding:0px;}*/
+
+/* org
+#storeLocator_btn span.pin_location {
+  position: relative;
+  width: 32px;
+  height:32px;
+  background: url(../images/spirit.png) no-repeat -10px -430px;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  -o-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+} */
+
+#storeLocator_btn span.pin_location {
+position: relative;
+width: 32px;
+height: 32px;
+background: url(../images/spirit.png) no-repeat 0px -341px;
+display: inline-block;
+margin: 0;
+padding: 0;
+background-size: 200px;
+text-align: center;
+-o-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+}
+
+#storeLocator_btn.active,
+#storeLocator_btn:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+footer .footerInner { padding-left: 0px; }
+
+
+
+
+a.copyright_artize { font-size: 9px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Portrait phones and smaller .visible-xs- */
+@media only screen and (max-width: 480px) {
+
+}
+
+/* Portrait phones and smaller .visible-xs-*/
+@media only screen and (max-width:320px){
+
+}
+
+
+
+
+/*==================================================
+    =      Bootstrap 3 Media Queries END      =
+====================================================*/

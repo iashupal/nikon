@@ -1,0 +1,122 @@
+﻿@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'TITILLIUMWEB-LIGHT';
+    src: url(../fonts/TITILLIUMWEB-LIGHT.TTF) format('truetype');
+}
+@font-face {
+    font-family: 'TITILLIUMWEB-REGULAR';
+    src: url(../fonts/TITILLIUMWEB-REGULAR.TTF) format('truetype');
+}
+@font-face {
+    font-family: 'TITILLIUMWEB-SEMIBOLD';
+    src: url(../fonts/TITILLIUMWEB-SEMIBOLD.TTF) format('truetype');
+}
+@font-face {
+    font-family: 'TITILLIUMWEB-BOLD';
+    src: url(../fonts/TITILLIUMWEB-BOLD.TTF) format('truetype');
+}
+@font-face {
+    font-family: 'TITILLIUMWEB-THIN';
+    src: url(../fonts/titillium-web.thin.ttf) format('truetype');
+}
+
+a {
+	text-decoration:none !important;
+	color:inherit !important;
+	}
+.pad-zero {
+	padding:0px !important;
+	}
+.margin-zero {
+	margin:0px !important;
+	}
+.row {
+	margin:0px !important;	
+	}
+.clear-both {
+	clear:both;
+	}
+html , body {
+    background-color: #000;
+}
+
+#myModalOffer {
+        position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999999999999999999;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-open #myModalOffer {
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+}
+.main-menu {
+        position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 9;
+    text-align:left
+}
+.main-menu ul{
+        margin-left: 22%;
+    margin-bottom: 0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.clip-svg {
+    position: absolute;top: 0;z-index: -1;
+}
+.main-menu ul li{
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    font-family: 'Titillium Web';
+    font-weight:600
+}
+.divider {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media (min-width: 1300px)
+{
+    #myModalOffer .modal-dialog {
+        width: 44% !important;
+    }
+    #myModalOffer img {
+    width: 100% !important;
+    }
+}
+@media (min-width: 768px) and (max-width:1300px)
+{
+    #myModalOffer .modal-dialog {
+        width: 500px !important;
+    }
+    #myModalOffer img {
+    width: 500px !important;
+    }
+}
+
+@media (min-width: 1400px) {
+html , body {
+    width: 1400px;
+    margin: auto;
+    background-color: #000;
+}
+}

@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+.container-leaderboard {
+	width:95%;
+	margin:auto;
+	}
+.container-leaderboard h3.heading-h3 {
+	display:inline-block;
+	}
+.container-leaderboard h3.heading-h3.home {
+	font-size:14px;
+	}
+.person-img {
+	width: 35%;
+    float: left;
+	}
+.person-img img {
+	width: 130px;
+	height:130px;
+	border-radius:50%;
+	}
+.right-side-text-div {
+    width: 65%;
+    float: left;
+    text-align: left;
+    padding: 0px;
+}
+.right-side-text-div h5 {
+    font-family: 'TITILLIUMWEB-LIGHT';
+    font-size: 18px;
+    color: #ffde00;
+    margin-top: 0px;
+}
+.right-side-text-div ul li {
+	width:31%;
+	}
+.icon-div {
+	border: 1px solid #5a5a5a;
+    border-radius: 5px;
+    text-align: center;
+	width:100%;
+	padding:10px;
+	}
+.icon-div h5 {
+	margin-bottom:0px;
+	margin-top:10px;
+	}
+.color-white {
+	color:#fff !important;
+	}
+.fixed-ht {
+	height:500px;
+	overflow-y:scroll;
+	}
+.mar-btm-30 {
+	margin-bottom:30px;
+	}
+::-webkit-scrollbar-track {
+      background-color: #262626;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+      background-color: #555555; 
+	  border-radius:20px;
+	  height:30px;
+
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: black;
+	  
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: #555555;
+}
+::-webkit-scrollbar {
+      width: 15px;
+	  
+}
+@media (max-width: 1420px) {
+	.person-img img {
+    width: 110px;
+    height: 110px;
+}
+}
+@media (max-width: 1200px) {
+.icon-div {
+    padding: 10px 2px;
+}
+.person-img img {
+    width: 80px;
+    height: 80px;
+}
+.person-img {
+    width: 32%;
+}
+.right-side-text-div {
+    width: 68%;
+}
+.icon-div h5 {
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+}
+@media (max-width: 1000px) {
+.container-leaderboard {
+    width: 95%;
+    margin: auto;
+}
+
+}
+@media (max-width: 360px) {
+.person-img img {
+    width: 60px;
+    height: 60px;
+}
+}

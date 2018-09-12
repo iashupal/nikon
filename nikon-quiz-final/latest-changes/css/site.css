@@ -1,0 +1,287 @@
+﻿/*
+    Sections
+
+    1. Font Families
+    2. Body Css
+*/
+
+
+
+
+/* 1.Fonts*/
+
+@font-face {
+    font-family: 'CorbelBoldItalic';
+    src: url('../fonts/Corbel Bold Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CorbelBold';
+    src: url('../fonts/Corbel Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CorbelItalic';
+    src: url('../fonts/Corbel Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Corbel';
+    src: url('../fonts/Corbel.ttf') format('truetype');
+}
+
+
+/* 2.Body Css*/
+
+body,html {
+    margin:0;
+    height:100%;
+    width:100%
+}
+.main-logo img {
+display:inline-block;
+width: 95px;
+}
+.main-logo {
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.heading-text {
+    font-family: CorbelBold;
+    font-size: 34px;
+    text-align: center;
+    color: #1d1919;
+    padding-top: 30px;
+    position: relative;
+}
+.heading-text img{
+        position: absolute;
+    top: 0;
+}
+    .heading-text .span2 {
+    margin-left: 110px;
+    
+    }
+.main-product-div{
+margin:0;
+ 
+    font-family: Corbel;
+    color: white;
+    font-size: 18px;
+}
+.product-left-div div {
+    margin-top: 6%;
+       text-align: right;
+}
+.product-left-div div img{
+    margin-left: 7%;
+        float: right;
+            height: 30px;
+}
+    .product-left-div div span {
+        display: inline-block;
+    }
+.product-left-1 {
+    padding-right: 13%;
+}
+.product-left-2 {
+    padding-right: 20%;
+}
+.product-left-3 {
+    padding-right: 25%;
+}
+.product-left-4 {
+    padding-right: 29%;
+}
+.product-left-5 {
+    padding-right: 26%;
+}
+
+
+
+
+
+.product-right-div div {
+    margin-top: 6%;
+           text-align: left;
+}
+.product-right-div div img{
+    margin-right: 7%;
+        float: left;
+            height: 30px;
+}
+    .product-right-div div span {
+        display: inline-block;
+		color:#000000;
+    }
+.product-right-5 {
+    padding-left: 13%;
+	text-transform:uppercase;
+}
+.product-right-4 {
+    padding-left: 20%;
+}
+.product-right-3 {
+    padding-left: 25%;
+}
+.product-right-2 {
+    padding-left: 29%;
+}
+.product-right-1 {
+    padding-left: 26%;
+}
+.product-right-div {
+    padding-left: 6%;
+}
+.quiz-btn-inner-div {
+    margin-top: 20px;
+}
+.quiz-btn-inner-div a {
+    background-color: white;
+    font-family: CorbelBold;
+    color: black;
+    text-decoration: none !important;
+    width: 400px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    margin: auto;
+}
+.luxor-left {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.luxor-left img{
+    width: 80px;
+}
+.tnc-right {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+       font-family: 'Corbel';
+       color:black;
+       font-size:12px
+}
+.center-pen{
+        background-image: url(../images/pen.png);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: 310px;
+    background-position: 52% 62%;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+        text-align: center;
+    display: table;
+}
+.center-pen-mrp {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+.center-pen-mrp img{
+    width: 76px;
+    margin-bottom: 16%;
+    margin-right: 3%;
+}
+.quiz-btn-main-div{
+    position: relative;
+	left: 0;
+	    margin-top: 30px
+}
+
+@media only screen and (min-width:767px){
+	.center-penMB{display:none;}
+	.main-logo .pilot_logo_blur{display:none;}
+	.product-rightmb-5{display:none!important;}
+	.product_rightM{display:none!important;}
+}
+@media only screen and (max-width:1399px){
+	.quiz-btn-main-div{bottom: 25px;}
+}
+
+@media only screen and (max-width:1199px){
+    .center-pen {background-position: 52% 84%;}
+	.heading-text{font-size:26px;}
+	.product-left-div div{margin-top:10%;}
+	.product-right-div div{margin-top:9%;}
+	
+}
+
+@media only screen and (max-width:991px){
+	.center-pen {background-size: 180px;background-position: 56% 48%;}
+	.center-pen-mrp img {margin-bottom: 55%;margin-right: 0;}
+	.heading-text {font-size: 22px;padding-top: 24px;}
+	.heading-text img {max-width: 80px;}
+	.heading-text .span2 {margin-left: 85px;}
+	.main-div{background-position:43% center !important;}
+	.product-left-div div span{font-size:12px;}
+	.product-right-div div span{font-size:12px;}
+	.product-left-1 {padding-right: 40%;}
+	.product-left-2 {padding-right: 30%;}
+	.product-left-3 {padding-right: 18%;}
+	.product-right-1 {padding-left: 0;padding-right:0;}
+	.product-right-2 {padding-left: 5%;padding-right:0;}
+	.product-right-3 {padding-left: 10%;padding-right:0;}
+	.product-right-4 {padding-left: 15%;padding-right:0;}
+	.product-right-5 {padding-left: 25%;padding-right:0;}
+}
+
+@media only screen and (max-width:991px){
+	.main-div {background-position: 43% center !important;}
+}
+
+
+@media only screen and (max-width:767px){
+	body{background-color:#2f6fdc;}
+	.main-logo{padding-left:15px;}
+	.main-logo .pilot_logoD{display:none;}
+	.main-logo .pilot_logo_blur{display:inline-block;width:75px;}
+	.main-div {background-position: 50% center !important;height:auto !important;}
+	.heading-text {margin-top:10px;margin-left: 32%;text-align: left;}
+	.heading-text .span2 {
+		margin-left: 0;
+		display: block;
+	}
+	.center-pen{background:none;position:absolute;}
+	.center-pen-mrp img {
+		margin-bottom: 0;
+		margin-left: 20px;
+		float: left;
+		margin-right: 0;
+	}
+	.center-penMB{display:inline-block;}
+	.center-penMB img{display:block;width: 70%;margin: 0 auto;}
+	.tnc-right{position:static;width:100%;float:left;padding:10px 0 10px 20px;}
+	.luxor-left {right: 20px;bottom: auto;top: 30px;left: auto;}
+	.quiz-btn-main-div{position:relative;margin:0;width:100%;float:left;left:0;bottom:0}
+	.quiz-btn-inner-div {margin-top: 0;}
+	.quiz-btn-inner-div a{width:100%;color:#000000;background:#fee11b;border:0;border-top:1px solid #000000;padding-top: 15px;
+    padding-bottom: 15px;}
+	.product-right-div {padding-left: 15px;}
+	.product-right-div div span{color:#ffffff;}
+	.main-product-div{width:100%;float:left;margin-top: 10px;}
+	.product-left-div .col-lg-12.col-md-12.col-sm-12.col-xs-12{padding:0!important;margin-top:20px;}
+	.product-right-div .col-lg-12.col-md-12.col-sm-12.col-xs-12{padding:0!important;margin-top:20px;}
+	.product-left-div div img {margin-left: 0;float: left;height: 30px;width: 30px;margin-right: 20px;}
+	.product-left-div div span {font-size: 13px;text-align: left;float: left;}
+	.product-right-div div img {margin-left: 0;float: left;height: 30px;width: 30px;margin-right: 20px;}
+	.product-right-div div span {font-size: 13px;text-align: left;float: left;}
+	
+	.product_rightD{display:none!important;}
+	.product_rightM{display:inline-block!important;}
+	.heading-text img {
+	    position:static;
+	}
+}
+
+
+@media only screen and (max-width:479px){
+	.main-div {background-position: 48% center !important;}
+	.center-pen-mrp img{margin-left:15px;}
+	.heading-text {margin-top: 20px;margin-left: 25%;margin-bottom: 20px;font-size:16px;}
+	.center-penMB img{width: 55%;}
+}

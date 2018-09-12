@@ -1,0 +1,2161 @@
+﻿.Nikon_product_start {
+  background: #000;
+  height: 100%;
+}
+
+.Nikon_product_start .section1Vertical_Middle {
+  width: 80%;
+  position: relative;
+  float: none;
+  display: inline-block;
+  transform: unset;
+  left: unset;
+  top: unset;
+  margin: 0 auto;
+  padding: 60px 0 100px;
+}
+
+.product_img1 {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.product_imgM1 {
+  display: none;
+}
+
+.product_Coutr {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  color: #ffffff;
+}
+
+.product_Cinr {
+  position: absolute;
+  text-align: center;
+  padding-top: 85px;
+  z-index: 1;
+  max-width: 245px;
+}
+
+.product_Cinr span {
+  position: absolute;
+  left: 50%;
+  top: -10px;
+}
+.product_Cinr.product_Cinr5 small img{
+margin-top: 30px;
+}
+
+.product_Cinr.product_Cinr1 small img, .product_Cinr.product_Cinr2 small img, .product_Cinr.product_Cinr3 small img,
+.product_Cinr.product_Cinr4 small img, .product_Cinr.product_Cinr5 small img {
+  height: 65px;
+    width: 90px;
+}
+
+.product_Cinr5 span{
+  top: 40px;
+}
+
+.product_Cinr span img {
+  max-width: inherit;
+}
+
+.product_Cinr small {
+  width: 100%;
+  float: left;
+}
+
+.product_Cinr4 small{
+  margin-top: -10px;
+}
+
+.product_Cinr p {
+  width: 100%;
+  float: left;
+  font: 400 15px/20px 'Myriad Pro';
+  color: #ffde05;
+  margin-top: 5px;
+}
+
+.product_Cinr1 {
+  left: -81%;
+  top: 5%;
+}
+
+.product_Cinr2 {
+  right: -88%;
+  top: 25%;
+}
+
+.product_Cinr2 span {
+  left: auto;
+  right: 52%;
+  top: -100px;
+}
+.product_Cinr.product_Cinr2 small{
+  margin-top: -92px;
+}
+.product_Cinr.product_Cinr2 p{
+  margin-top: -20px;
+}
+
+.product_Cinr.product_Cinr1 small{
+  margin-top: 10px;
+}
+.product_Cinr.product_Cinr5 small{
+  margin-top: 15px;
+}
+
+.product_Cinr3 {
+  right: -59%;
+  top: 39%;
+}
+
+.product_Cinr3 span {
+  left: auto;
+  right: 50%;
+  top: -10px;
+}
+
+.product_Cinr4 {
+  right: -103%;
+  top: 88%;
+}
+
+.product_Cinr4 span {
+  left: auto;
+  right: 50%;
+  top: -100px;
+}
+
+.product_Cinr5 {
+  left: -98%;
+  top: 45%;
+}
+
+.product_Cinr6 {
+  left: -56%;
+  top: 50%;
+}
+
+.d850 {
+  position: absolute;
+  bottom: 15px;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+.Nikon_parti_start {
+  background: #000;
+  height: 100%;
+}
+
+.Nikon_parti_start .section1Vertical_Middle {
+  max-width: 870px;
+  color: #ffffff;
+  left: 40%;
+}
+
+.how_to_participate {
+  width: 100%;
+  float: left;
+}
+
+.how_to_participate .howtoPara {
+  width: 100%;
+  float: left;
+  font: 400 16px/26px 'Open Sans';
+  color: #ffffff;
+  padding: 0 20%;
+}
+
+.how_to_participate h1 {
+  width: 100%;
+  float: left;
+  font: 400 28px/40px 'Open Sans';
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+
+.how_to_participate ul {
+  width: 100%;
+  float: left;
+  margin: 80px 0;
+}
+
+.how_to_participate ul li {
+  width: 33.33%;
+  float: left;
+}
+
+.how_to_participate ul li p {
+  margin-top: 20px;
+  font: 600 17px/26px 'Open Sans';
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+.how_to_participate .know_moreDiv {
+  text-align: center;
+}
+
+.how_to_participate .know_moreDiv a {
+  margin: 0;
+  float: none;
+  border: 1px solid #ffde00;
+}
+
+.how_to_participateRight {
+  width: 410px;
+  position: relative;
+  float: right;
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 20px;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  background: url(../images/product/par_img2.png) no-repeat left center;
+}
+
+.how_to_participateRight h3 {
+  font: 400 28px/40px 'Myriad Pro';
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.how_to_participateRight p {
+  margin-bottom: 20px;
+  font: 400 17px/19px 'Myriad Pro';
+  color: #ffffff;
+}
+
+.how_to_participateRight span {
+  width: 100%;
+  float: left;
+  margin: 15px 0;
+}
+
+.tc_applied {
+  width: auto;
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  color: #fff;
+}
+
+.tc_applied span {
+  font: 15px/20px 'Myriad Pro';
+  color: #ffffff;
+  display: inline-block;
+}
+.d850 {
+  width: 75%;
+}
+.know_more850Div {
+  position: absolute;
+  bottom: -48px;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.know_more850Div a,.know_more850_btn {
+  position: relative;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  max-width: 220px;
+  display: inline-block;
+  color: #000000;
+  background-color: #ffde00;
+  padding: 12px 28px;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  float: none;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+.know_more850Div a:hover,
+.know_more850_btn:hover,
+.know_more850Div a:focus,
+.know_more850_btn:focus {
+  border: 1px solid rgba(255,255,255,.7);
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.d850_body {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+  background-color:  rgba(0,0,0,1);
+}
+
+.d850_body header{
+  position: relative;
+  float: left;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.bg_3400 header{
+  position: relative;
+  float: left;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.bg_5600 header{
+  position: relative;
+  float: left;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.d850_body .section1Inner {
+  text-align: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.d850_body .bottomLeft {
+  text-align: left;
+}
+img.PRODUCT_D850 {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: inline-block;
+}
+.d850_body .section1Inner {
+  background-color: #000000;
+}
+/*.d850_body section.section1 {
+  height: unset;
+  padding-top: 30px;
+}*/
+.d850_body section.section1 {
+  height: unset;
+  padding-top: 0px;
+}
+.d850_body .bottomDIv {
+  position: relative;
+  bottom: unset;
+  left: unset;
+  width: 95%;
+  display: inline-block;
+  padding: 0 0 15px;
+  margin: 0;
+  float: none;
+}
+
+.d850_body .bottomLeft {
+  position: relative;
+  bottom: unset;
+  left: unset;
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+/* Product_D850 close */
+
+
+
+
+
+/* Product_D3400 START */
+
+.bg_3400 {
+  background-color: #f9eb0e;
+  /* fallback color (eg. the gradient center color), if gradients not supported; you could also work with an gradient image, but mind the extra HTTP-Request for older browsers */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorStr=#0C93C0, EndColorStr=#FFFFFF )";
+  /* IE8-9, ColorZilla Ultimate CSS Gradient Generator uses SVG bg image for IE9 */
+  background-image: -webkit-radial-gradient(#f9eb0e 50%, #dbb526);
+  /* Chrome10-25, Saf5.1-Saf6, iOS -6.1, Android -4.3 */
+  background-image: -moz-radial-gradient(#f9eb0e 50%, #dbb526);
+  /* Fx3.6-15 */
+  background-image: -o-radial-gradient(#f9eb0e 50%, #dbb526);
+  /* Op11.10-12.02 */
+  background-image: radial-gradient(#f9eb0e 50%, #dbb526);
+  /* W3C, Fx16+, Chrome26+, IE10+, Op12.10+, Saf6.1+ */
+  height: 100%;
+}
+
+.Nikon_product_D3400_start {
+  height: 100%;
+}
+
+/*.product_D3400 .section1Vertical_Middle {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  top: unset;
+  left: unset;
+  transform: unset;
+  float: none;
+  padding: 162px 0 132px;
+  height: auto;
+}*/
+
+.product_D3400 .section1Vertical_Middle {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  top: unset;
+  left: unset;
+  transform: unset;
+  float: none;
+  padding: 134px 0 80px;
+  height: auto;
+}
+
+main.product_D3400 {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.product_D3400 .headerCTinner ul li a {
+  color: #000000;
+}
+
+.product_D3400 .product_img1 {
+  display: inline-block;
+  max-width: 90%;
+  position: relative;
+  z-index: 4;
+}
+
+.product_D3400 .headerCTinner ul li a:hover,
+.product_D3400 .headerCTinner ul li a.active {
+  color: #ffffff;
+}
+
+.product_D3400 .submenuDiv ul li a {
+  position: relative;
+  width: 100%;
+  float: left;
+  font-family: 'Open Sans';
+  text-align: left;
+  display: block;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: 600;
+  padding: 11px 10px 11px 20px;
+  margin: 0px;
+  border: 0px solid #000000;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+  -o-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.product_D3400 .submenuDiv ul li a:hover,
+.product_D3400 .submenuDiv ul li a:focus {
+  background-color: rgba(255, 222, 0, 1);
+  color: #000000;
+  border-radius: 0px;
+}
+
+.product_D3400 .d850 {
+  position: absolute;
+  width: 100%;
+  bottom: -10px;
+  z-index: 9;
+  left: 50%;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+.product_D3400 .product_Cinr p {
+  width: 100%;
+  float: left;
+  font: 400 12px/20px 'Myriad Pro';
+  color: #000000;
+  margin-top: 5px;
+}
+
+.product_D3400 .product_Cinr small img {
+  max-width: 52px;
+}
+
+.product_D3400 section.section1 {
+  height: unset;
+  z-index: 2;
+}
+
+.product_D5600 section.section1 {
+  height: unset;
+  z-index: 2;
+}
+
+
+/* img.product_3400_bg {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  height: initial;
+}*/
+
+
+/*align product_D3400 items start */
+
+.product_D3400 .product_Cinr span {
+  position: absolute;
+  left: 50%;
+  top: -45px;
+}
+
+.product_D3400 .product_Cinr2 span {
+  left: auto;
+  right: 60%;
+  top: -126px;
+}
+
+.product_D3400 .product_Cinr3 span {
+  left: auto;
+  right: 50%;
+  top: -10px;
+}
+
+.product_D3400 .product_Cinr {
+  padding-top: 54px;
+}
+
+.product_D3400 .product_Cinr1 {
+  left: -75%;
+  top: 40px;
+}
+
+.product_D3400 .product_Cinr2 {
+  right: -84%;
+  top: 32%;
+}
+
+.product_D3400 .product_Cinr3 {
+  right: -45%;
+  padding-top: 90px;
+}
+
+.product_D3400 .product_Cinr5 {
+  left: -96%;
+  top: 48%;
+  padding-top: 40px;
+}
+
+.product_D3400 .product_Cinr6 {
+  left: -50%;
+  padding-top: 40px;
+  top: 72%;
+}
+
+.product_D3400 .product_Cinr2 small {
+  padding-top: 10px;
+}
+
+
+/*align product_D3400 items close */
+
+.know_more_d3400Div {
+  position: relative;
+  bottom: unset;
+  width: 100%;
+  display: block;
+  margin: 30px 0 0;
+  padding: 0;
+  float: left;
+}
+.know_more_d3400Div a, .know_more_d3400_btn {
+  position: relative;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  max-width: 220px;
+  display: inline-block;
+  color: #ffffff;
+  background-color: rgba(0,0,0,1);
+  /*background-color: #ffde00;*/
+  padding: 12px 28px;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  float: none;
+  margin: 0 auto;
+  z-index: 3;
+  box-shadow: none;
+}
+
+.know_more_d3400Div a:hover, .know_more_d3400_btn:hover,
+.know_more_d3400Div a:focus, .know_more_d3400_btn:focus {
+  border: 1px solid rgba(0,0,0,.7);
+  background-color: transparent;
+  color: #000000;
+  box-shadow: none;
+}
+
+
+
+
+/* Product_D3400 CLOSE */
+
+
+/* Product_D5600 START */
+
+.bg_5600 {
+  background-color: #f9eb0e;
+  /* fallback color (eg. the gradient center color), if gradients not supported; you could also work with an gradient image, but mind the extra HTTP-Request for older browsers */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorStr=#0C93C0, EndColorStr=#FFFFFF )";
+  /* IE8-9, ColorZilla Ultimate CSS Gradient Generator uses SVG bg image for IE9 */
+  background-image: -webkit-radial-gradient(#f9eb0e 50%, #dbb526);
+  /* Chrome10-25, Saf5.1-Saf6, iOS -6.1, Android -4.3 */
+  background-image: -moz-radial-gradient(#f9eb0e 50%, #dbb526);
+  /* Fx3.6-15 */
+  background-image: -o-radial-gradient(#f9eb0e 50%, #dbb526);
+  /* Op11.10-12.02 */
+  background-image: radial-gradient(#f9eb0e 50%, #dbb526);
+  /* W3C, Fx16+, Chrome26+, IE10+, Op12.10+, Saf6.1+ */
+  height: 100%;
+}
+
+.Nikon_product_D5600_start {
+  height: 100%;
+}
+
+/*.product_D5600 .section1Vertical_Middle {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  top: unset;
+  left: unset;
+  transform: unset;
+  float: none;
+  padding: 162px 0 160px;
+  height: auto;
+}
+*/
+
+.product_D5600 .section1Vertical_Middle {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  top: unset;
+  left: unset;
+  transform: unset;
+  float: none;
+  padding: 134px 0 92px;
+  height: auto;
+}
+
+main.product_D5600 {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.product_D5600 .headerCTinner ul li a {
+  color: #000000;
+}
+
+.product_D5600 .product_img1 {
+  position: relative;
+  z-index: 4;
+  display: inline-block;
+  max-width: 90%;
+}
+
+.product_D5600 .headerCTinner ul li a:hover,
+.product_D5600 .headerCTinner ul li a.active {
+  color: #ffffff;
+}
+
+.product_D5600 .submenuDiv ul li a {
+  position: relative;
+  width: 100%;
+  float: left;
+  font-family: 'Open Sans';
+  text-align: left;
+  display: block;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: 600;
+  padding: 11px 10px 11px 20px;
+  margin: 0px;
+  border: 0px solid #000000;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+  -o-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.product_D5600 .submenuDiv ul li a:hover,
+.product_D5600 .submenuDiv ul li a:focus {
+  background-color: rgba(255, 222, 0, 1);
+  color: #000000;
+  border-radius: 0px;
+}
+
+.product_D5600 .d850 {
+  position: absolute;
+  width: 97%;
+  bottom: -25px;
+  z-index: 9;
+  left: 50%;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+.product_D5600 .product_Cinr p {
+  width: 100%;
+  float: left;
+  font: 400 12px/20px 'Myriad Pro';
+  color: #000000;
+  margin-top: 5px;
+}
+
+.product_D5600 .product_Cinr small img {
+  max-width: 52px;
+}
+
+
+/*align product_D5600 items start */
+
+.product_D5600 .product_Cinr span {
+  position: absolute;
+  left: 50%;
+  top: -45px;
+}
+
+.product_D5600 .product_Cinr2 span {
+  left: auto;
+  right: 60%;
+  top: -126px;
+}
+
+.product_D5600 .product_Cinr3 span {
+  left: auto;
+  right: 50%;
+  top: -10px;
+}
+
+.product_D5600 .product_Cinr {
+  padding-top: 54px;
+}
+
+.product_D5600 .product_Cinr1 {
+  left: -74%;
+  top: 70px;
+}
+
+.product_D5600 .product_Cinr2 {
+  right: -78%;
+  top: 38%;
+}
+
+.product_D5600 .product_Cinr3 {
+  right: -45%;
+  padding-top: 90px;
+}
+
+.product_D5600 .product_Cinr5 {
+  left: -86%;
+  top: 55%;
+  padding-top: 35px;
+}
+
+.product_D5600 .product_Cinr6 {
+  left: -48%;
+  padding-top: 34px;
+  top: 84%;
+}
+
+.product_D5600 .product_Cinr2 small {
+  padding-top: 10px;
+}
+
+
+/*align product_D5600 items close */
+/*.know_more_d5600Div {
+  position: absolute;
+  bottom: -48px;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: left;
+}*/
+
+.know_more_d5600Div {
+  position: relative;
+  bottom: unset;
+  width: 100%;
+  display: block;
+  margin: 45px 0 0;
+  padding: 0;
+  float: left;
+}
+.know_more_d5600Div a, .know_more_d5600_btn {
+  position: relative;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  max-width: 220px;
+  display: inline-block;
+  color: #ffffff;
+  /*background-color: #ffde00;*/
+  background-color: #000000;
+  padding: 11px 28px;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  float: none;
+  margin: 0 auto;
+  z-index: 3;
+  box-shadow: none;
+}
+
+.know_more_d5600Div a:hover, .know_more_d5600_btn:hover,
+.know_more_d5600Div a:focus, .know_more_d5600_btn:focus {
+  border: 1px solid rgba(0,0,0,.7);
+  background-color: transparent;
+  color: #000000;
+  box-shadow: none;
+}
+
+
+/* Product_D5600 CLOSE */
+
+@media only screen and (max-width:1599px) {
+  .product_Coutr {
+    max-width: 410px;
+  }
+  .product_Cinr1 {
+    left: -108%;
+  }
+  .product_Cinr2 {
+    right: -130%;
+  }
+  .product_Cinr3 {
+    right: -80%;
+  }
+  .product_Cinr4 {
+    right: -45%;
+  }
+  .product_Cinr5 {
+    left: -78%;
+  }
+  .product_Cinr6 {
+    left: -76%;
+  }
+  .how_to_participate .howtoPara {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .how_to_participate h1 {
+    font-size: 26px;
+    line-height: 36px;
+    margin: 24px 0;
+  }
+  .how_to_participate ul {
+    margin: 60px 0;
+  }
+  .how_to_participate ul li p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 12px;
+    padding: 0 35px;
+  }
+  .how_to_participateRight span img {
+    max-width: 150px;
+  }
+  .how_to_participateRight h3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .how_to_participateRight p {
+    font-size: 16px;
+  }
+  /* Product_D3400 START */
+  /*align product_D3400 items start */
+  .product_D3400 .product_Cinr span {
+    position: absolute;
+    left: 50%;
+    top: -45px;
+  }
+  .product_D3400 .product_Cinr2 span {
+    left: auto;
+    right: 60%;
+    top: -126px;
+  }
+  .product_D3400 .product_Cinr3 span {
+    left: auto;
+    right: 50%;
+    top: -10px;
+  }
+  .product_D3400 .product_Cinr {
+    padding-top: 54px;
+  }
+  .product_D3400 .product_Cinr1 {
+    left: -100%;
+    top: 36px;
+    padding-top: 54px;
+  }
+  .product_D3400 .product_Cinr2 {
+    right: -100%;
+    top: 38%;
+    padding-top: 53px;
+  }
+  .product_D3400 .product_Cinr3 {
+    right: -50%;
+    padding-top: 88px;
+  }
+  .product_D3400 .product_Cinr5 {
+    left: -80%;
+    top: 50%;
+    padding-top: 40px;
+  }
+  .product_D3400 .product_Cinr6 {
+    left: -50%;
+    padding-top: 40px;
+    top: 72%;
+  }
+  .product_D3400 .product_Cinr2 small {
+    padding-top: 10px;
+  }
+  /*align product_D3400 items close */
+  /* Product_D3400 CLOSE */
+
+  /* Product_D5600 START */
+  /*align product_D5600 items start */
+  .product_D5600 .product_Cinr span {
+    position: absolute;
+    left: 50%;
+    top: -45px;
+  }
+  .product_D5600 .product_Cinr2 span {
+    left: auto;
+    right: 60%;
+    top: -126px;
+  }
+  .product_D5600 .product_Cinr3 span {
+    left: auto;
+    right: 50%;
+    top: -10px;
+  }
+  .product_D5600 .product_Cinr {
+    padding-top: 54px;
+  }
+  .product_D5600 .product_Cinr1 {
+    left: -95%;
+    top: 47px;
+    padding-top: 55px;
+  }
+  .product_D5600 .product_Cinr2 {
+    right: -100%;
+    top: 38%;
+    padding-top: 53px;
+  }
+  .product_D5600 .product_Cinr3 {
+    right: -50%;
+    padding-top: 88px;
+  }
+  .product_D5600 .product_Cinr5 {
+    left: -80%;
+    top: 50%;
+    padding-top: 40px;
+  }
+  .product_D5600 .product_Cinr6 {
+    left: -50%;
+    padding-top: 40px;
+    top: 72%;
+  }
+  .product_D5600 .product_Cinr2 small {
+    padding-top: 10px;
+  }
+  /*align product_D5600 items close */
+  /* Product_D5600 CLOSE */
+}
+
+@media only screen and (max-width:1399px) {
+  .product_Coutr {
+    max-width: 370px;
+  }
+  .product_Cinr {
+    max-width: 220px;
+    padding-top: 52px;
+  }
+  .product_Cinr p {
+    font-size: 13px;
+  }
+  .product_Cinr span img {
+    max-width: 300px;
+  }
+  .product_Cinr1 {
+    left: -72%;
+    top: 20px;
+  }
+  .product_Cinr5 {
+    left: -98%;
+  }
+  .product_Cinr6 {
+    left: -72%;
+    padding-top: 72px;
+  }
+  .product_Cinr2 {
+    right: -75%;
+    top: 30%;
+  }
+  .product_Cinr.product_Cinr5 small img {
+    margin-top: 55px;
+}
+
+  .product_Cinr3 {
+    right: -58%;
+    padding-top: 68px;
+  }
+  .product_Cinr3 span img {
+    max-width: 170px;
+  }
+  .product_Cinr4 {
+    right: -40%;
+  }
+.product_Cinr4 small {
+    margin-top: 18px;
+}
+
+  .product_Cinr.product_Cinr2 p {
+    margin-top: -28px;
+}
+.product_Cinr.product_Cinr2 small {
+  margin-top: -98px;
+}
+
+.product_Cinr.product_Cinr3 small{
+  margin-top: -19px;
+}
+  .Nikon_parti_start .section1Vertical_Middle {
+    max-width: 770px;
+  }
+  .how_to_participate .howtoPara {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .how_to_participate h1 {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 20px 0;
+  }
+  .how_to_participate ul {
+    margin: 45px 0;
+  }
+  .how_to_participate ul li p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    padding: 0 25px;
+  }
+  .how_to_participateRight span img {
+    max-width: 140px;
+  }
+  .how_to_participateRight h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .how_to_participateRight p {
+    font-size: 15px;
+  }
+  .how_to_participateRight {
+    width: 350px;
+  }
+  .how_to_participateRight span {
+    margin: 10px 0;
+  }
+  /* Product_D3400 START */
+  /*align product_D3400 items start */
+  .product_D3400 .product_Cinr span {
+    position: absolute;
+    left: 50%;
+    top: -45px;
+  }
+  .product_D3400 .product_Cinr2 span {
+    left: auto;
+    right: 60%;
+    top: -126px;
+  }
+  .product_D3400 .product_Cinr3 span {
+    left: auto;
+    right: 50%;
+    top: -10px;
+  }
+  .product_D3400 .product_Cinr {
+    padding-top: 54px;
+  }
+  .product_D3400 .product_Cinr1 {
+    left: -64%;
+    top: 49px;
+    padding-top: 18px;
+  }
+  .product_D3400 .product_Cinr2 {
+    right: -86%;
+    top: 42%;
+    padding-top: 8px;
+  }
+  .product_D3400 .product_Cinr3 {
+    right: -48%;
+    padding-top: 70px;
+  }
+  .product_D3400 .product_Cinr5 {
+    left: -84%;
+    top: 54%;
+    padding-top: 10px;
+  }
+  .product_D3400 .product_Cinr6 {
+    left: -50%;
+    padding-top: 40px;
+    top: 72%;
+  }
+  .product_D3400 .product_Cinr2 small {
+    padding-top: 10px;
+  }
+  /*align product_D3400 items close */
+
+  .know_more_d3400Div a, .know_more_d3400_btn {
+    padding: 10px 24px;
+    font-size: 11px;
+  }
+
+
+  /* Product_D3400 CLOSE */
+
+  /* Product_D5600 START */
+  /*align product_D5600 items start */
+  .product_D5600 .product_Cinr span {
+    position: absolute;
+    left: 50%;
+    top: -45px;
+  }
+  .product_D5600 .product_Cinr2 span {
+    left: auto;
+    right: 60%;
+    top: -126px;
+  }
+  .product_D5600 .product_Cinr3 span {
+    left: auto;
+    right: 50%;
+    top: -10px;
+  }
+  .product_D5600 .product_Cinr {
+    padding-top: 54px;
+  }
+  .product_D5600 .product_Cinr1 {
+    left: -60%;
+    top: 60px;
+    padding-top: 17px;
+  }
+  .product_D5600 .product_Cinr2 {
+    right: -86%;
+    top: 48%;
+    padding-top: 3px;
+  }
+  .product_D5600 .product_Cinr3 {
+    right: -48%;
+    padding-top: 70px;
+  }
+  .product_D5600 .product_Cinr5 {
+    left: -84%;
+    top: 65%;
+    padding-top: 8px;
+  }
+  .product_D5600 .product_Cinr6 {
+    left: -60%;
+    padding-top: 32px;
+    top: 88%;
+  }
+  .product_D5600 .product_Cinr2 small {
+    padding-top: 10px;
+  }
+  /*align product_D3400 items close */
+  /* Product_D5600 CLOSE */
+}
+
+@media only screen and (max-width:1250px) {
+  /* Product_D3400 START */
+  .product_D3400 .product_Cinr small img {
+    max-width: 40px;
+  }
+  .product_D3400 .product_img1 {
+    /*max-width: 75%; ORG*/
+    max-width: 100%;
+  }
+  .product_D3400 .d850 {
+    width: 80%;
+  }
+  .product_D3400 .product_Coutr {
+    max-width: 320px;
+  }
+  /*align product_D3400 items start */
+  .product_D3400 .product_Cinr1 {
+    left: -78%;
+    top: 52px;
+    padding-top: 18px;
+  }
+  .product_D3400 .product_Cinr2 {
+    right: -102%;
+    top: 40%;
+    padding-top: 10px;
+  }
+  /*align product_D3400 items close */
+  /* Product_D3400 CLOSE */
+  /* Product_D5600 START */
+  /*align product_D5600 items start */
+  .product_D5600 .product_Cinr1 {
+    left: -78%;
+    top: 52px;
+    padding-top: 18px;
+  }
+  .product_D5600 .product_Cinr2 {
+    right: -102%;
+    top: 40%;
+    padding-top: 10px;
+  }
+  /*align product_D5600 items close */
+  /* Product_D5600 CLOSE */
+}
+
+@media only screen and (max-width:1199px) {
+  .product_Cinr {
+    max-width: 160px;
+  }
+  .product_Cinr p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 0;
+  }
+  .product_Cinr1 {
+    left: -63%;
+  }
+  .product_Cinr2 {
+    right: -78%;
+  }
+  .product_Cinr5 {
+    left: -87%;
+    top: 45%;
+  }
+  .product_Cinr4 span img {
+    max-width: 145px;
+  }
+  .product_Cinr4 small {
+    margin-top: 34px;
+}
+
+  .product_Cinr4 {
+    right: -38%;
+    padding-top: 26px;
+  }
+  .product_Cinr3 {
+    top: 50%;
+  }
+  .Nikon_parti_start .section1Vertical_Middle {
+    max-width: 700px;
+  }
+  .how_to_participateRight {
+    width: 250px;
+    padding: 0 10px;
+    right: 5px;
+  }
+  .how_to_participate ul li p {
+    font-size: 13px;
+    padding: 0 22px;
+  }
+  .how_to_participateRight p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  /* Product_D3400 START */
+  /*align product_D3400 items start */
+  .product_D3400 .product_Cinr1 {
+    left: -78%;
+    top: 52px;
+    padding-top: 18px;
+  }
+  .product_D3400 .product_Cinr2 {
+    right: -102%;
+    top: 40%;
+    padding-top: 10px;
+  }
+  /*align product_D3400 items close */
+  /* Product_D3400 CLOSE */
+  /* Product_D5600 START */
+  /*align product_D5600 items start */
+  .product_D5600 .product_Cinr1 {
+    left: -59%;
+    top: 60px;
+    padding-top: 18px;
+  }
+  .product_D5600 .product_Cinr2 {
+    right: -82%;
+    top: 46%;
+    padding-top: 8px;
+  }
+  /*align product_D5600 items close */
+  /* Product_D5600 CLOSE */
+}
+
+@media only screen and (max-width:1067px) {}
+
+@media only screen and (max-width:991px) {
+/*  .product_Coutr {
+    max-width: 280px;
+  }*/
+  .product_Coutr {
+    max-width: 254px;
+  }
+  .product_Cinr span img {
+    max-width: 200px;
+  }
+  .product_Cinr {
+    padding-top: 30px;
+  }
+
+  .product_Cinr6 span img {
+    max-width: 140px;
+  }
+  .product_Cinr small img {
+    max-width: 50px;
+  }
+  /*.product_Cinr5 {
+    top: 41%;
+  }*/
+
+  /* .product_Cinr6 {
+  top: 80%;
+  padding-top: 45px;
+}*/
+
+  .product_Cinr5 {
+    top: 50%;
+  }
+  .product_Cinr6 {
+    top: 72%;
+    padding-top: 45px;
+    left: -72%;
+  }
+
+/* .product_Cinr1 {
+    left: -60%;
+    top: -17px;
+  }*/
+  /* .product_Cinr1 {
+    left: -70%;
+    top: -17px;
+  } */
+  .product_Cinr2 {
+    padding-top: 0;
+    top: 39%;
+  }
+  .product_Cinr4 {
+    padding-top: 0;
+  }
+  .product_Cinr3 {
+    padding-top: 45px;
+  }
+  .product_Cinr3 span img {
+    max-width: 118px;
+  }
+  .product_Cinr4 {
+    right: -45%;
+    top: 100%;
+  }
+  .product_Cinr4 span img {
+    max-width: 125px;
+  }
+  .product_Cinr4 small {
+    margin-top: 35px;
+}
+
+.product_Cinr.product_Cinr2 small {
+  margin-top: -64px;
+}
+.product_Cinr.product_Cinr3 small {
+  margin-top: -15px;
+}
+
+.product_Cinr.product_Cinr2 p {
+  margin-top: -15px;
+}
+
+.product_Cinr.product_Cinr1 small img,
+ .product_Cinr.product_Cinr2 small img,
+  .product_Cinr.product_Cinr3 small img,
+   .product_Cinr.product_Cinr4 small img,
+ .product_Cinr.product_Cinr5 small img{
+   height: 45px;
+ }
+
+  .how_to_participateRight {
+    width: 200px;
+  }
+  .Nikon_parti_start .section1Vertical_Middle {
+    max-width: 500px;
+    left: 36%;
+  }
+  .how_to_participate .howtoPara {
+    padding: 0 10%;
+  }
+  .how_to_participate ul li p {
+    font-size: 12px;
+    padding: 0 4px;
+    line-height: 18px;
+  }
+  .how_to_participate ul li span img {
+    max-width: 100px;
+  }
+  .product_Cinr p {
+    font-size: 10px;
+    line-height: 1.3;
+    margin-top: 0;
+  }
+  /* Product_D3400 START */
+  .know_more_d5600Div a, .know_more_d5600_btn {
+    padding: 10px 24px;
+    font-size: 11px;
+  }
+  .product_D3400 .product_Cinr6 {
+    top: 72%;
+    padding-top: 40px;
+  }
+  .product_D3400 .product_img1 {
+    max-width: 80%;
+  }
+  .product_D3400 .product_Cinr small img {
+    max-width: 36px;
+  }
+  .product_D3400 .product_Coutr {
+    max-width: 260px;
+  }
+  .product_D3400 .product_Cinr2 span {
+    left: auto;
+    right: 60%;
+    top: -100px;
+  }
+  /*align product_D3400 items start */
+  .product_D3400 .product_Cinr1 {
+    left: -62%;
+    top: 48px;
+    padding-top: 0px;
+  }
+  .product_D3400 .product_Cinr5 {
+    left: -78%;
+    top: 60%;
+    padding-top: 0px;
+  }
+  .product_D3400 .product_Cinr2 {
+    right: -82%;
+    top: 52%;
+    padding-top: 0px;
+  }
+  .product_D3400 .product_Cinr p {
+    width: 100%;
+    float: left;
+    font: 400 10px/13px 'Myriad Pro';
+    color: #000000;
+    margin-top: 0px;
+  }
+  .product_D3400 .product_Cinr2 small {
+    padding-top: 0px;
+  }
+  .product_D3400 .product_Cinr3 {
+    right: -40%;
+    padding-top: 46px;
+  }
+  /*align product_D3400 items close */
+  /* Product_D3400 CLOSE */
+  /* Product_D5600 START */
+  /*align product_D5600 items start */
+  .product_D5600 .product_Cinr1 {
+    left: -54%;
+    top: 62px;
+    padding-top: 0px;
+  }
+  .product_D5600 .product_Cinr5 {
+    left: -78%;
+    top: 73%;
+    padding-top: 0px;
+  }
+  .product_D5600 .product_Cinr2 {
+    right: -78%;
+    top: 62%;
+    padding-top: 0px;
+  }
+  .product_D5600 .product_Cinr6 {
+    left: -61%;
+    padding-top: 20px;
+    top: 90%;
+  }
+  .product_D5600 .product_Cinr p {
+    width: 100%;
+    float: left;
+    font: 400 10px/13px 'Myriad Pro';
+    color: #000000;
+    margin-top: 0px;
+  }
+  .product_D5600 .product_Cinr2 small {
+    padding-top: 0px;
+  }
+  .product_D5600 .product_Cinr3 {
+    right: -40%;
+    padding-top: 46px;
+  }
+  /*align product_D5600 items close */
+  /* Product_D5600 CLOSE */
+}
+
+@media only screen and (max-width:767px) {
+
+  /* header .container{
+    background-color: black;
+  } */
+
+  .nik-mob-d750{
+    width: 34%;
+    margin: 40px auto;
+  }
+  .nik-mob-d750 img{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .product_Cinr {
+    /*max-width: 120px;*/
+    max-width: 142px;
+  }
+  .product_Cinr span img {
+    max-width: 200px;
+  }
+  .product_Cinr5 span img {
+    max-width: 115px;
+  }
+
+  .d850_body .bottomLeft {
+    position: relative;
+    bottom: initial;
+    left: initial;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #000000;
+    padding: 30px 0;
+  }
+  .product_imgM1 {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+  }
+  .product_img1 {
+    display: none;
+  }
+  .Nikon_product_start .section1Vertical_Middle {
+    width: 95%;
+    padding: 20px 0;
+  }
+  .Nikon_product_start section.section1 {
+    background: #000;
+  }
+  .Nikon_product_start .bottomDIv_Inner {
+    border-top: 1px solid #fff;
+  }
+  .product_Coutr {
+    max-width: 260px;
+    margin-top: 270px;
+    margin-bottom: 210px;
+  }
+  /* .product_Coutr {
+  max-width: 320px;
+  margin-top: 300px;
+  margin-bottom: 150px;
+  }*/
+
+  /* .d850 {
+  bottom: 30px;
+  }*/
+
+  .know_more850Div {
+    position: relative;
+    bottom: unset;
+    width: 100%;
+    float: left;
+    display: block;
+    margin: 0 0 25px;
+  }
+  .d850 {
+    bottom: 0;
+  }
+  .know_more850Div a, .know_more850_btn {
+    padding: 8px 15px;
+    font-size: 10px;
+  }
+  .product_Cinr2 {
+    top: -18%;
+    right: -24%;
+  }
+/*  .product_Cinr2 span {
+    top: -60px;
+  }*/
+  .product_Cinr2 span {
+    top: -58px;
+  }
+
+  .product_Cinr3 span img {
+    max-width: 118px;
+  }
+  .product_Cinr6 {
+    left: -12%;
+    top: -34%;
+    padding-top: 30px;
+  }
+  .product_Cinr6 span {
+    left: 0;
+    top: -6px;
+  }
+  .product_Cinr1 {
+    left: 13%;
+    top: -72%;
+  }
+/*  .product_Cinr1 {
+    left: 25%;
+    top: -63%;
+  }*/
+  .product_Cinr6 span img {
+    max-width: 55px;
+  }
+  .product_Cinr p {
+    /*width: 98%;*/
+     width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: inherit;
+    float: none;
+  }
+  .product_Cinr1 span {
+    top: 100%;
+  }
+  .product_Cinr3 {
+    right: -21%;
+    top: 89%;
+  }
+  .product_Cinr3 span {
+    top: -146px;
+  }
+  .product_Cinr5 {
+    top: 120%;
+    left: 21%;
+  }
+  .product_Cinr5 span {
+    left: -55px;
+    top: -198px;
+  }
+  .product_Cinr4 {
+    right: 67%;
+    top: 110%;
+    width: 160px;
+  }
+  .product_Cinr4 span {
+    top: -200px;
+  }
+  .Nikon_parti_start .section1Vertical_Middle {
+    max-width: 90%;
+    left: 0;
+    position: static;
+    top: 0;
+    padding: 0;
+    width: 90%;
+    float: left;
+    margin: 120px 5% 0 !important;
+    -o-transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+  }
+  .Nikon_parti_start section.section1,
+  .Nikon_parti_start header {
+    background: #000000;
+  }
+  .how_to_participate ul li {
+    width: 100%;
+  }
+  .how_to_participateRight {
+    width: 100%;
+    position: static;
+    margin: 40px 0 50px;
+    -o-transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    background: url(../images/product/par_img3.png) no-repeat top center;
+    padding-top: 30px;
+  }
+  .how_to_participate .howtoPara {
+    padding: 0;
+  }
+  .how_to_participate ul {
+    margin: 30px 0 0;
+  }
+  .how_to_participate ul li {
+    margin: 0 0 30px;
+  }
+  .how_to_participate .know_moreDiv a {
+    background: #ffde00;
+    line-height: 24px;
+    font-size: 13px;
+  }
+  .how_to_participate .know_moreDiv a:hover {
+    background: none;
+  }
+  .how_to_participate ul li p {
+    font-size: 13px;
+    padding: 0 25%;
+    line-height: 20px;
+  }
+  .how_to_participateRight p {
+    padding: 0 15%;
+  }
+  /* Product_D3400 START */
+
+  .know_more_d3400Div {
+    position: relative;
+    bottom: unset;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+  }
+
+  .product_D3400 .product_img1 {
+    display: none
+  }
+  .product_D3400 .section1Vertical_Middle {
+    position: relative;
+    width: 100%;
+    float: left;
+    z-index: 2;
+    display: inline-block;
+    left: initial;
+    top: initial;
+    transform: initial;
+    padding: 0;
+  }
+  .product_D3400 .product_imgM1 {
+    position: relative;
+    z-index: 4;
+    display: inline-block;
+  }
+  .product_D3400 .product_Coutr {
+    max-width: 240px;
+  }
+  .product_D3400 .product_Cinr2 span {
+    top: -60px;
+  }
+  .product_D3400 .product_Cinr span img {
+    max-width: 200px;
+  }
+  .product_D3400 .product_Cinr small img {
+    max-width: 50px;
+  }
+  .product_D3400 .product_Cinr p {
+    font: 400 11px/15px 'Myriad Pro';
+    margin-top: 4px;
+  }
+  .product_D3400 .submenuDiv ul li a {
+    text-align: right;
+    display: block;
+    color: #000000;
+    font-size: 10px;
+  }
+  .product_D3400 .submenuDiv ul li a:hover,
+  .product_D3400 .submenuDiv ul li a:focus {
+    background-color: rgba(255, 222, 0, 1);
+    color: #ffffff;
+    border-radius: 0px;
+  }
+
+  /*align product_D3400 items start */
+  .product_D3400 .product_Cinr6 span {
+    left: 0;
+  }
+  .product_D3400 .product_Cinr1 span {
+    top: 100%;
+  }
+  .product_D3400 .product_Cinr1 {
+    left: 39%;
+    top: -46%;
+  }
+  .product_D3400 .product_Cinr2 {
+    padding-top: 3px;
+    top: -12%;
+    right: -42%;
+  }
+  .product_D3400 .product_Cinr3 {
+    right: -17%;
+    padding-top: 178px;
+    top: 68%;
+  }
+  .product_D3400 .product_Cinr5 {
+    display: none;
+  }
+  .product_D3400 .product_Cinr6 {
+    left: -15%;
+    top: -35%;
+    padding-top: 0px;
+  }
+  /*align product_D5600 items close */
+  /* Product_D3400 CLOSE */
+
+  /* Product_D5600 START */
+  .know_more_d5600Div {
+    position: relative;
+    bottom: unset;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+  }
+  .product_D5600 .product_img1 {
+    display: none
+  }
+  .product_D5600 .section1Vertical_Middle {
+    position: relative;
+    width: 100%;
+    float: left;
+    z-index: 2;
+    display: inline-block;
+    left: initial;
+    top: initial;
+    transform: initial;
+    padding: 0;
+  }
+  .product_D5600 .product_imgM1 {
+    position: relative;
+    z-index: 4;
+    display: inline-block;
+  }
+  .product_D5600 .product_Coutr {
+    max-width: 240px;
+  }
+  .product_D5600 .product_Cinr6 {
+    left: -47%;
+    top: -42%;
+  }
+  .product_D5600 .product_Cinr2 span {
+    top: -60px;
+  }
+  .product_D5600 .product_Cinr span img {
+    max-width: 200px;
+  }
+  .product_D5600 .product_Cinr small img {
+    max-width: 50px;
+  }
+  .product_D5600 .product_Cinr p {
+    font: 400 11px/15px 'Myriad Pro';
+    margin-top: 4px;
+  }
+  .product_D5600 .submenuDiv ul li a {
+    text-align: right;
+    display: block;
+    color: #000000;
+    font-size: 10px;
+  }
+  .product_D5600 .submenuDiv ul li a:hover,
+  .product_D5600 .submenuDiv ul li a:focus {
+    background-color: rgba(255, 222, 0, 1);
+    color: #ffffff;
+    border-radius: 0px;
+  }
+  /*align product_D5600 items start */
+  .product_D5600 .product_Cinr6 span {
+    left: 0;
+  }
+  .product_D5600 .product_Cinr1 span {
+    top: 100%;
+  }
+  .product_D5600 .product_Cinr1 {
+    left: 39%;
+    top: -46%;
+  }
+  .product_D5600 .product_Cinr2 {
+    padding-top: 3px;
+    top: -12%;
+    right: -42%;
+  }
+  .product_D5600 .product_Cinr3 {
+    right: -17%;
+    padding-top: 178px;
+    top: 68%;
+  }
+  .product_D5600 .product_Cinr5 {
+    display: none;
+  }
+  .product_D5600 .product_Cinr6 {
+    left: -15%;
+    top: -35%;
+    padding-top: 0px;
+  }
+  /*align product_D5600 items close */
+  /* Product_D5600 CLOSE */
+
+img.PRODUCT_D3400,img.PRODUCT_D5600 {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+}
+
+@media only screen and (max-width:479px) {
+  .product_Cinr {
+    max-width: 138px;
+  }
+  .product_Coutr {
+    margin-bottom: 200px;
+    max-width: 170px;
+    /*max-width: 220px;*/
+  }
+  .product_Cinr6 span img {
+    max-width: 67px;
+  }
+  .product_Cinr2 span {
+    right: 44%;
+  }
+/*  .product_Cinr1 {
+    left: 18%;
+    top: -88%;
+  }*/
+
+  .product_Cinr1 {
+    left: 4%;
+    top: -105%;
+  }
+  .product_Cinr6 {
+    left: -25%;
+    top: -89%;
+  }
+  .product_Cinr2 {
+    top: -34%;
+    right: -20%;
+    width: 95px;
+  }
+  .product_Cinr4 {
+    right: 53%;
+    top: 130%;
+  }
+  .product_Cinr5 {
+    top: 153%;
+    left: 30%;
+    padding-top: 5px;
+  }
+  .product_Cinr3 {
+    right: -24%;
+    top: 97%;
+    width: 95px;
+  }
+  .how_to_participate ul li p {
+    padding: 0 16%;
+  }
+  .how_to_participate .howtoPara {
+    font-size: 13px;
+  }
+  .how_to_participateRight p {
+    padding: 0 6%;
+  }
+  .how_to_participateRight {
+    background-size: 80%;
+  }
+  /* Product_D3400 START */
+  .product_D3400 .product_Coutr {
+    max-width: 170px;
+  }
+  .product_D3400 .product_Cinr small img {
+    max-width: 38px;
+  }
+  .product_D3400 .product_Cinr2 span {
+    top: -60px;
+    left: auto;
+    right: 35%;
+  }
+  .product_D3400 .product_Cinr6 span {
+    left: 0;
+  }
+  .product_D3400 .product_Cinr6 span {
+    left: -10%;
+  }
+  /*align product_D3400 items strat */
+  .product_D3400 .product_Cinr1 {
+    left: 32%;
+    top: -65%;
+  }
+  .product_D3400 .product_Cinr6 {
+    left: -18%;
+    top: -66%;
+    z-index: 1;
+  }
+  .product_D3400 .product_Cinr2 {
+    top: -25%;
+    right: -32%;
+    width: 78px;
+  }
+  .product_D3400 .product_Cinr3 {
+    right: -25%;
+    top: 68%;
+    z-index: 1;
+  }
+  /*align product_D3400 items close */
+  /* Product_D3400 CLOSE */
+  /* Product_D5600 START */
+  .product_D5600 .product_Coutr {
+    max-width: 170px;
+  }
+  .product_D5600 .product_Cinr small img {
+    max-width: 38px;
+  }
+  .product_D5600 .product_Cinr2 span {
+    top: -60px;
+    left: auto;
+    right: 35%;
+  }
+  .product_D5600 .product_Cinr6 span {
+    left: 0;
+  }
+  .product_D5600 .product_Cinr6 span {
+    left: -10%;
+  }
+  .product_D5600 .product_Cinr p {
+    font: 400 11px/14px 'Myriad Pro';
+  }
+  /*align product_D5600 items strat */
+  .product_D5600 .product_Cinr1 {
+    left: 32%;
+    top: -65%;
+  }
+  .product_D5600 .product_Cinr6 {
+    left: -18%;
+    top: -66%;
+    z-index: 1;
+  }
+  .product_D5600 .product_Cinr2 {
+    top: -25%;
+    right: -32%;
+    width: 78px;
+  }
+  .product_D5600 .product_Cinr3 {
+    right: -25%;
+    top: 68%;
+    z-index: 1;
+  }
+  /*align product_D5600 items close */
+  /* Product_D5600 CLOSE */
+}
+
+@media only screen and (max-width: 320px) {
+/*  .product_Cinr p {
+    width: 80%;
+  }*/
+  .product_Cinr p {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 350px){
+.d850_body .bottomLeft {
+  padding: 50px 0;
+}
+}

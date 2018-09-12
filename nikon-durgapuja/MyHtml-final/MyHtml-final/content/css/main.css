@@ -1,0 +1,220 @@
+﻿        #myVideo {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-size: 100% 100%;
+            background-color: black; /* in case the video doesn't fit the whole page*/
+            background-image: /* our video */;
+            background-position: center center;
+            background-size: contain;
+            object-fit: cover; /*cover video background */
+            z-index: 3;
+        }        
+#fullpage {
+        background-image: url(../images/gradient-bkg.png);
+        }
+        .left-main-div-inner {
+            padding-left: 30px;
+    padding-top: 30px;
+        }
+        .nikon-logo-div {
+            width: 61%;
+    display: inline-block;
+        }
+            .nikon-logo-div img {
+                width:114px;
+            }
+.create-div img
+{
+animation:myfirst 3s linear infinite;
+-moz-animation:myfirst 3s linear infinite; /* Firefox */
+-webkit-animation:myfirst 3s linear infinite; /* Safari and Chrome */
+-o-animation:myfirst 3s linear infinite; /* Opera */
+}
+
+@keyframes myfirst
+{
+0%,100%   {    box-shadow: none;background-color:none}
+25%  {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+50% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+75% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.05);}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%,100%   {    box-shadow: none;background-color:none}
+25%  {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+50% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+75% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.05);}
+}
+
+@-webkit-keyframes myfirst 
+{
+0%,100%   {    box-shadow: none;background-color:none}
+25%  {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+50% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+75% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.05);}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%,100%   {    box-shadow: none;background-color:none}
+25%  {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+50% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+75% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.05);}
+}
+        #slide-img1 {
+           background-image: url(../images/bckg1.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center;
+        }
+         #slide-img2 {
+           background-image: url(../images/bckg2.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+        }
+          #slide-img3 {
+           background-image: url(../images/bckg3.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 47%;
+        }
+        #fp-nav ul li a span, .fp-slidesNav ul li a span {
+          background: white;
+        }
+.clip-svg {
+    position: absolute;top: 0;z-index: -1;
+}
+.left-main-div {
+position:absolute;left:0;top:0;z-index:9999999;height:100%;width:25%;-webkit-clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);clip-path: url('#swipe__clip-path');background-image:url(../images/gradient-bkg.png)
+}
+.festive-offer-div {
+margin-top: 13%;
+}
+.festive-offer-div img{
+width: 20px;margin-left: 7px
+}
+.festive-offer-text {
+color: white;font-family: 'Titillium Web', sans-serif;line-height: 27px;font-size: 23px;font-weight:300
+}
+.view-offer-text {
+font-family: 'Titillium Web', sans-serif;font-weight: 600;color: white;font-size: 14px;display: inline-block;margin-top: 10px;
+}
+.view-offer-text a img{
+    display: inline-block;padding-top: 2px;width: 12px;padding-left: 2px;
+}
+.favourite-text{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 9%;
+    font-size: 1.6em;
+    width: 75%;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+    .favourite-text span {
+    color:#ffde00
+    }
+.create-div a img {
+width: 155px;margin-top: 20px;
+}
+.social-share-div {
+float: left;margin-top: 30px;
+}
+.share-left-icon {
+float:left
+}
+.share-left-icon img{
+width: 30px;
+}
+.share-icons-div {
+float: left;margin-left: 15px;margin-top: 3px;
+}
+.fb-img {
+    width: 7px;
+}
+.twitter-img {
+width: 14px;margin-left: 8px;
+}
+.instagram-img {
+width: 13px;margin-left: 8px;
+}
+.youtube-img {
+width: 13px;margin-left: 9px;
+}
+.nikon-pvt-text {
+color: #5b5b5b;font-size: 11px;margin-left: 45px;margin-top: 10px;
+}
+.right-main-div {
+    position:absolute;right:0;top:0;z-index:9999999;height:100%;width:25%;-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);clip-path: url('#swipe__clip-path1');background-image:url(../images/gradient-bkg.png)
+}
+.right-main-div-inner {
+padding-right:30px;padding-top:30px
+}
+.helpline-number-div {
+float: right;width:78%;
+}
+.helpline-number-div img{
+    width: 90%;
+    float: right;
+}
+.camera-slider {
+float: right;width: 70%;margin-top: 40px;
+}
+.camera-slider img{
+width: 93%;
+    margin-bottom: 35px !important;
+}
+.nearest-dealer-icon {
+float: right;width: 60%;
+}
+.nearest-dealer-icon img{
+width: 50%;float: right;
+}
+
+.nearest-dealer-icon img
+{
+animation:myfirst 3s linear infinite;
+-moz-animation:myfirst 3s linear infinite; /* Firefox */
+-webkit-animation:myfirst 3s linear infinite; /* Safari and Chrome */
+-o-animation:myfirst 3s linear infinite; /* Opera */
+}
+
+@keyframes myfirst
+{
+0%,100%   {    box-shadow: none;background-color:none}
+25%  {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+50% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+75% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.05);}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%,100%   {    box-shadow: none;background-color:none}
+25%  {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+50% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+75% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.05);}
+}
+
+@-webkit-keyframes myfirst 
+{
+0%,100%   {    box-shadow: none;background-color:none}
+25%  {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+50% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+75% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.05);}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%,100%   {    box-shadow: none;background-color:none}
+25%  {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+50% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.1);}
+75% {    box-shadow: 1px 1px 20px #d9d9d9;background-color: rgba(255,255,255,0.05);}
+}

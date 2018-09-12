@@ -1,0 +1,3831 @@
+﻿html,
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+.Header_brandlogo img{
+  width: 90px;
+}
+.red {
+  border: 1px solid red;
+}
+
+.blue {
+  border: 1px solid blue;
+}
+
+.padzero {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.marzero {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.distable {
+  position: relative;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.discell {
+  position: relative;
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.grow,
+.grow_less {
+  transition: all .25s ease-in-out;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all .25s ease-in-out;
+}
+
+.grow_less:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  transform: scale(1.04);
+  transition: all .25s ease-in-out;
+}
+
+.myCustomPulse {
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0.4);
+  animation: pulse 2s infinite;
+  animation-name: pulse;
+}
+
+body {
+  background-color: #ffffff;
+  font-size: 62.5%;
+}
+
+main,
+.Nikon_homepage_start {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+section.section1,
+section.section2,
+section.section3,
+section.section4,
+section.section5,
+section.section6 {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+#bodyHome,
+.section1Inner,
+.section2Inner,
+.section3Inner,
+.section4Inner,
+.section5Inner,
+.section6Inner {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+h1.sec1_text {
+  font-family: 'Open Sans';
+  text-align: left;
+  color: #ffffff;
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 400;
+  padding: 0px;
+  margin: 20px 0 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  clear: both;
+  float: left;
+  width: 100%;
+  max-width: 90%;
+}
+
+form#loginformhome input[type="text"]::-webkit-input-placeholder {
+  color: #000000;
+}
+
+form#loginformhome input[type="text"]::-moz-placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+form#loginformhome input[type="text"]:-ms-input-placeholder {
+  color: #000000;
+}
+
+form#loginformhome input[type="text"]:-moz-placeholder {
+  color: #000000;
+}
+
+form#loginformhome input[type="password"]::-webkit-input-placeholder {
+  color: #000000;
+}
+
+form#loginformhome input[type="password"]::-moz-placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+form#loginformhome input[type="password"]:-ms-input-placeholder {
+  color: #000000;
+}
+
+form#loginformhome input[type="password"]:-moz-placeholder {
+  color: #000000;
+}
+
+
+/* Nikon_homepage START */
+
+.sliderDiv {
+  position: absolute;
+  width: 100%;
+  float: left;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.sliderDiv_inner {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.slider_images {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+#owl_demo_homepage.owl-carousel {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#owl_demo_homepage.owl-carousel .owl-item,
+#owl_demo_homepage.owl-carousel .owl-item .item {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#owl_demo_homepage.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#owl_demo_homepage.owl-carousel .owl-wrapper-outer .owl-wrapper {
+  height: 100%;
+}
+
+#owl_demo_homepage.owl-carousel .owl-carousel {
+  position: relative;
+}
+
+#owl_demo_homepage.owl-carousel .owl-dots {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  right: 25%;
+}
+
+#owl_demo_homepage.owl-carousel .owl-theme .owl-controls .owl-page span {
+  background: none repeat scroll 0 0 #869791;
+  border-radius: 20px;
+  display: block;
+  height: 12px;
+  margin: 5px 7px;
+  opacity: 0.5;
+  width: 12px;
+  background-color: #ffffff;
+}
+
+#owl_demo_homepage.owl-carousel .owl-pagination {
+  /*  position: absolute;
+  z-index: 98;
+  display: inline-block;
+  left: 50%;
+  bottom: 20px;
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);*/
+}
+
+#owl_demo_homepage.owl-carousel .owl-controls .owl-page,
+#owl_demo_homepage.owl-carousel .owl-controls .owl-buttons div {
+  display: inline-block;
+}
+
+#owl_demo_homepage.owl-carousel .owl-controls .owl-page span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  opacity: 1;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #000000;
+  border: 2px solid #000000;
+}
+
+#owl_demo_homepage.owl-carousel .owl-controls .owl-page.active span,
+#owl_demo_homepage.owl-carousel .owl-controls .owl-page:hover span,
+#owl_demo_homepage.owl-carousel .owl-theme .owl-controls .owl-page.active span,
+#owl_demo_homepage.owl-carousel .owl-theme .owl-controls.clickable .owl-page:hover span {
+  opacity: 1;
+/*  background: #000000;
+  border: 2px solid #000000;*/
+  background: #ffde00;
+  border: 2px solid #000000;
+}
+
+.section1Vertical_Middle {
+  position: absolute;
+  width: 97%;
+  z-index: 2;
+  display: inline-block;
+  left: 50%;
+  top: 50%;
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.section1Vertical_Mid_inner {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.section1 {
+  height: 100%;
+  z-index: 2;
+}
+
+#owl_demo_homepage.owl-carousel .owl-controls {
+  position: absolute;
+  margin-top: 10px;
+  text-align: center;
+  position: absolute;
+  display: block;
+  width: auto;
+  bottom: 20px;
+  z-index: 4;
+  display: inline-block;
+  left: 50%;
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+
+#owl_demo_homepage.owl-carousel .owl-item:first-child .item {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: url(../images/nikon-2019.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 550px;
+}
+
+#owl_demo_homepage.owl-carousel .owl-item:nth-child(2) .item {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: url(../images/nikon-banner2.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 550px;
+}
+
+#owl_demo_homepage.owl-carousel .owl-item:nth-child(3) .item {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: url(../images/nikon-2019.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 550px;
+}
+
+#owl_demo_homepage.owl-carousel .owl-item:last-child .item {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: url(../images/sale-banner.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 550px;
+}
+
+
+/*section1Vertical_Middle START */
+
+section.section1 .container-fluid {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  margin: 0;
+  height: 100%;
+}
+
+section.section1 .row {
+  position: relative;
+  height: 100%;
+}
+
+section.section1 .col-xs-12.col-md-12 {
+  position: relative;
+  display: block;
+  margin: 0;
+  height: 100%;
+}
+
+.section1Inner {
+  height: 100%;
+}
+
+.iam_middleimg {
+  margin: 0 auto;
+  text-align: center;
+  width: 37%;
+  max-width: 460px;
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  top: 50%;
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.iam_expressing_image {
+  position: relative;
+  float: left;
+  max-width: 166px;
+}
+
+.iam_expressDiv {
+  position: relative;
+  float: left;
+  display: inline-block;
+}
+
+.enter_contestDiv {
+  position: relative;
+  float: left;
+  margin: 25px auto 0;
+  width: 100%;
+  clear: both;
+}
+
+.enter_contestDiv button,
+button.enterbtn_contest {
+  position: relative;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  max-width: 276px;
+  display: inline-block;
+  color: #000000;
+  background-color: #ffde00;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.enter_contestDiv button:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.bottomDIv {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  display: inline-block;
+  padding: 0 1.5%;
+  margin: 0 0 15px;
+}
+
+.bottomDIv_Inner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  float: left;
+}
+
+.bottomLeft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+.bottomRight {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  float: right;
+  margin: 0 0 15px;
+}
+
+.bottomRight_inner {
+  position: relative;
+  display: inline-block;
+  width: 52%;
+  max-width: 320px;
+  float: right;
+}
+
+.bottomLeft ul {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  z-index: 5;
+}
+
+.bottomLeft ul li {
+  position: relative;
+  display: inline-block;
+}
+
+.bottomLeft ul li a {
+  position: relative;
+  display: inline-block;
+}
+
+.bottomLeft ul li:first-child a {
+  position: relative;
+  display: inline-block;
+  background: url(../images/spirit.png) no-repeat 1px -320px;
+  background-size: 150px;
+  width: 36px;
+  height: 50px;
+  cursor: default;
+}
+
+.bottomLeft ul li:nth-child(2) a {
+  position: relative;
+  display: inline-block;
+  background: url(../images/spirit.png) no-repeat 3px 3px;
+  background-size: 166px;
+  width: 35px;
+  height: 50px;
+}
+
+.bottomLeft ul li:nth-child(3) a {
+  position: relative;
+  display: inline-block;
+  background: url(../images/spirit.png) no-repeat 3px -83px;
+  background-size: 166px;
+  width: 35px;
+  height: 50px;
+}
+
+.bottomLeft ul li:nth-child(4) a {
+  position: relative;
+  display: inline-block;
+  background: url(../images/spirit.png) no-repeat 3px -166px;
+  background-size: 166px;
+  width: 35px;
+  height: 50px;
+}
+
+.bottomLeft ul li:last-child a {
+  position: relative;
+  display: inline-block;
+  background: url(../images/spirit.png) no-repeat 3px -254px;
+  background-size: 166px;
+  width: 35px;
+  height: 50px;
+}
+
+.ProductDiv {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  margin: 0 auto;
+  z-index: 4;
+  text-align: center;
+  /*max-width: 400px;*/
+  float: right;
+}
+
+.ProductDiv img,
+img.product_image {
+  position: relative;
+  display: inline-block;
+  max-width: 268px;
+  float: right;
+}
+
+.know_moreDiv {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  margin: -25px auto 0;
+}
+
+.know_moreDiv a {
+  position: relative;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  max-width: 220px;
+  display: inline-block;
+  color: #000000;
+  background-color: #ffde00;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  float: right;
+  margin-right: 13%;
+}
+
+.know_moreDiv a:hover,
+.know_moreDiv a:focus {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+
+/* camera slider hompage start */
+
+#owl_demo_camera.owl-carousel {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#owl_demo_camera.owl-carousel .owl-item,
+#owl_demo_camera.owl-carousel .owl-item .item {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#owl_demo_camera.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#owl_demo_camera.owl-carousel .owl-wrapper-outer .owl-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#owl_demo_camera.owl-carousel .owl-carousel {
+  position: relative;
+}
+
+
+/* camera slider hompage CLOSE */
+
+/*section1Vertical_Middle CLOSE */
+
+/* Nikon_homepage CLOSE */
+
+
+
+/* 2 LOGIN START */
+
+#bodyLogin,
+.Nikon_Login_start {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.Nikon_Login_start {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+main.loginpage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Nikon_Login_start section.section1 {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.Nikon_Login_start .section1Inner {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  height: 100%;
+}
+
+.Nikon_Login_start .PageHeader_inner {
+  position: relative;
+  width: 97%;
+  display: block;
+  float: none;
+  margin: 0 auto;
+  display: inline-block;
+  border-top: 0px solid #ffffff;
+  border-bottom: 0px solid #ffffff;
+  padding: 30px 0 0;
+  transition: .7s all ease;
+}
+
+.bg_login {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 1);
+  background: url(../images/login/banner_login.jpg) no-repeat center center;
+  background-attachment: fixed;
+  /*background-size: 100% 100%;*/
+  background-size: cover;
+  height: initial;
+}
+
+.Nikon_Login_start section.section1 .container-fluid {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  margin: 0;
+  height: 100%;
+}
+
+/*.Nikon_Login_start section.section1 .row {
+  position: relative;
+  height: 100%;   ORG
+}*/
+
+.Nikon_Login_start section.section1 .row {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.Nikon_Login_start section.section1 .col-xs-12.col-md-12 {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.section1vertica_midDiv {
+  position: relative;
+  width: 97%;
+  float: none;
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.section1Inner_absolute {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+}
+
+.login_middle_inner {
+  position: relative;
+  width: 22%;
+  float: left;
+  display: inline-block;
+  padding: 18px 25px;
+  margin: 0;
+  max-width: 276px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.login_middle_inner form {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0px;
+}
+
+.login_middle_inner .form-group {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+button#login_next {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  position: relative;
+  float: left;
+  display: block;
+  background-color: rgba(255, 222, 0, 1);
+  padding: 10px;
+  width: 100%;
+  border: 0px;
+  border-radius: 0px;
+  letter-spacing: 0px;
+}
+
+button#login_next:hover,
+button#login_next:focus {
+  background-color: rgba(255, 222, 0, 0.7);
+}
+
+.login_middle_inner .form-group {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 6px;
+}
+
+.login_middle_inner form .form-group:nth-last-child(2) {
+  margin-bottom: 15px;
+}
+
+.login_middle_inner .form-group input {
+  position: relative;
+  width: 100%;
+  float: left;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 10px;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 0px;
+  border: 1px solid rgba(255, 222, 0, 0.5);
+  padding: 2px 12px;
+  margin: 0;
+  line-height: 1;
+  height: 36px;
+  vertical-align: middle;
+  text-transform: unset;
+  box-shadow: none;
+}
+
+.login_middle_inner .form-group select {
+  position: relative;
+  width: 100%;
+  float: left;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 10px;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 0px;
+  border: 1px solid rgba(255, 222, 0, 0.5);
+  padding: 2px 24px 2px 12px;
+  margin: 0;
+  line-height: 1;
+  height: 36px;
+  vertical-align: middle;
+  cursor: pointer;
+  text-transform: capitalize;
+  background: url(../images/login/dropdown_arrow.png) no-repeat 96% center;
+  box-shadow: none;
+}
+
+.login_middle_inner .form-group select option {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 10px;
+  background-color: rgba(255, 222, 0, 1);
+  color: #000000;
+  padding: 10px;
+}
+
+
+/*text*/
+
+form#myformlogin input[type="text"]::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+form#myformlogin input[type="text"]::-moz-placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+form#myformlogin input[type="text"]:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+form#myformlogin input[type="text"]:-moz-placeholder {
+  color: #ffffff;
+}
+
+
+/*email*/
+
+form#myformlogin input[type="email"]::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+form#myformlogin input[type="email"]::-moz-placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+form#myformlogin input[type="email"]:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+form#myformlogin input[type="email"]:-moz-placeholder {
+  color: #ffffff;
+}
+
+a.login_fbbtn {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  text-transform: initial;
+  position: relative;
+  float: left;
+  display: block;
+  background-color: rgba(59, 89, 152, 1);
+  color: #ffffff;
+  padding: 0px 12px;
+  width: 100%;
+  border: 0px;
+  border-radius: 0px;
+  letter-spacing: 0px;
+  height: 36px;
+  line-height: 36px;
+  vertical-align: middle;
+}
+
+a.login_fbbtn:hover,
+a.login_fbbtn:focus {
+  background-color: rgba(59, 89, 152, .7);
+  color: #ffffff;
+}
+
+a.login_fbbtn::before,
+a.login_fbbtn:before {
+  content: '';
+  position: absolute;
+  float: left;
+  width: 30px;
+  height: 36px;
+  background: url(../images/spirit.png) no-repeat 0px -563px;
+  background-size: 160px;
+  top: 50%;
+  left: 8px;
+  display: inline-block;
+  -o-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.login_title {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  position: relative;
+  float: left;
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  text-transform: initial;
+  color: #ffffff;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.OR_div {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 20px 0 10px;
+}
+
+img.og_image {
+  text-align: center;
+  margin: 0 auto;
+  width: 86%;
+  max-width: 190px;
+}
+
+.section1vertica_midDiv {
+  position: relative;
+  width: 97%;
+  float: none;
+  display: inline-block;
+  padding: 0;
+  margin: 200px auto 150px;
+  /*  position: absolute;
+  width: 97%;
+  display: inline-block;
+  padding: 0;
+  margin: 0 auto;
+  left: 50%;
+  top: 50%;
+  -o-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);*/
+}
+
+
+/* 2 LOGIN CLOSE */
+
+
+/* 3 After_LOGIN START */
+
+.bg_afterlogin {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 1);
+  background: url(../images/login/banner_login.jpg) no-repeat center center;
+  background-attachment: fixed;
+  /*background-size: 100% 100%;*/
+  background-size: cover;
+  height: initial;
+}
+
+#bodyafterLogin {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.Nikon_AfterLogin_start {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+main.after_login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Nikon_AfterLogin_start section.section1 {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.Nikon_AfterLogin_start .section1Inner {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  height: 100%;
+}
+
+.Nikon_AfterLogin_start .PageHeader_inner {
+  position: relative;
+  width: 97%;
+  display: block;
+  float: none;
+  margin: 0 auto;
+  display: inline-block;
+  border-top: 0px solid #ffffff;
+  border-bottom: 0px solid #ffffff;
+  padding: 30px 0 0;
+  transition: .7s all ease;
+}
+
+.bg_Afterlogin {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 1);
+  background: url(../images/login/banner_login.jpg) no-repeat center center;
+  background-attachment: fixed;
+  /*background-size: 100% 100%;*/
+  background-size: cover;
+  height: initial;
+}
+
+.Nikon_AfterLogin_start section.section1 .container-fluid {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  margin: 0;
+  height: 100%;
+}
+
+.Nikon_AfterLogin_start section.section1 .row {
+  position: relative;
+  height: 100%;
+}
+
+.Nikon_AfterLogin_start section.section1 .col-xs-12.col-md-12 {
+  position: relative;
+  display: block;
+  margin: 0;
+  height: 100%;
+}
+
+.Nikon_AfterLogin_start .section1vertica_midDiv {
+  position: relative;
+  width: 55%;
+  float: none;
+  display: inline-block;
+  padding: 0;
+  margin: 172px auto 150px;
+}
+
+.afterlogin_middle {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.afterlogin_middle .container {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  margin: 0;
+}
+
+.afterlogin_middle .row {
+  position: relative;
+}
+
+.afterlogin_middle .col-xs-12.col-md-12 {
+  position: relative;
+  display: block;
+  margin: 0;
+}
+
+.ParaDiv,
+.theme_Div {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.theme_Div {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.theme_contentDiv {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.ParaDiv p {
+  font-family: 'FrutigerRoman';
+  font-size: 14px;
+  line-height: 1.4;
+  position: relative;
+  display: block;
+  font-weight: 400;
+  text-transform: initial;
+  color: #ffffff;
+  padding: 0px;
+  margin-bottom: 15px;
+  width: 70%;
+  float: none;
+  text-align: center;
+  margin: 0 auto 15px;
+}
+
+.ParaDiv p span {
+  display: block;
+  color: #ffde00;
+}
+
+.theme_Div span {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 1;
+  position: relative;
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 13px 10px;
+  text-align: center;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.theme_Div:hover span,
+.theme_Div:focus span {
+  background-color: #ffde00;
+}
+
+.theme_Div:hover,
+.theme_Div:focus {
+  -o-box-shadow: 0px 3px 10px 1px rgba(255, 222, 0, .7);
+  -ms-box-shadow: 0px 3px 10px 1px rgba(255, 222, 0, .7);
+  -moz-box-shadow: 0px 3px 10px 1px rgba(255, 222, 0, .7);
+  -webkit-box-shadow: 0px 3px 10px 1px rgba(255, 222, 0, .7);
+  box-shadow: 0px 3px 10px 1px rgba(255, 222, 0, .7);
+}
+
+.theme_contentDiv a,
+a.choose_theme {
+  position: relative;
+  display: block;
+  padding: 110px 0;
+}
+
+.theme_contentDiv a img,
+a.choose_theme img {
+  margin: 0 auto;
+  max-width: 64%;
+  text-align: center;
+}
+
+
+/* 3 After_LOGIN CLOSE */
+
+
+/* 4 uploadpage START */
+
+.Nikon_upload_start {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.Nikon_upload_start section.section1 {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.Nikon_upload_start section.section1 .container-fluid {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+
+.Nikon_upload_start section.section1 .row {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+
+/*.Nikon_upload_start section.section1 .col-xs-12.col-md-12 {
+  position: relative;
+  display: block;
+  margin: 0;
+  height: 100%;
+}*/
+
+.Nikon_upload_start section.section1 .col-xs-12.col-md-12 {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+
+.Nikon_upload_start .section1Inner {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  height: 100%;
+}
+
+.Nikon_upload_start .section1vertica_midDiv {
+  position: relative;
+  width: 55%;
+  float: none;
+  display: inline-block;
+  padding: 0;
+  margin: 158px auto 150px;
+}
+
+.Nikon_upload_start .afterlogin_middle {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.Nikon_upload_start .afterlogin_middle .container {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  margin: 0;
+}
+
+.Nikon_upload_start .ParaDiv,
+.uploadtheme_Div {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.uploadtheme_Div {
+  padding: 32px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.uploadtheme_Div:hover,
+.uploadtheme_Div:focus {
+  box-shadow: none;
+}
+
+.Nikon_upload_start .ParaDiv p {
+  font-family: 'FrutigerRoman';
+  font-size: 14px;
+  line-height: 1.4;
+  position: relative;
+  display: block;
+  font-weight: 400;
+  text-transform: initial;
+  color: #ffffff;
+  padding: 0px;
+  margin-bottom: 15px;
+  width: 70%;
+  float: none;
+  text-align: center;
+  margin: 0 auto 15px;
+}
+
+.Nikon_upload_start .theme_contentDiv {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  height: 300px;
+  border: 1px dotted rgba(255, 222, 0, 0.9);
+  overflow: hidden;
+}
+
+.Nikon_upload_start .theme_contentDiv a,
+.Nikon_upload_start a.choose_theme {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 0px;
+  z-index: 2;
+}
+
+.Nikon_upload_start .theme_contentDiv a img,
+.Nikon_upload_start a.choose_theme img {
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
+  z-index: 2;
+}
+
+
+/*img.uploaded_image { ORG
+  position: absolute;
+  max-width: 84%;
+  top: 50%;
+  left: 50%;
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 0px;
+}*/
+
+img.uploaded_image {
+  position: relative;
+  max-width: 100%;
+  display: inline-block;
+  padding: 0px;
+  max-height: 300px;
+}
+
+.upload_BtnDiv {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.custom_file_upload,
+.upload_BtnDiv input {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+  color: #161616;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1;
+  vertical-align: middle;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 20px;
+  border: none;
+  transition: .6s all ease;
+  float: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 0px;
+  background-color: rgba(255, 222, 0, 1);
+  min-width: 200px;
+  margin: 20px auto;
+}
+
+.custom_file_upload:hover,
+.upload_BtnDiv input:hover,
+.custom_file_upload:focus,
+.upload_BtnDiv input:focus {
+  background-color: rgba(255, 222, 0, 0.6);
+}
+
+.checkbox_Div,
+.submit_BtnDiv {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.checkbox_Div p {
+  font-family: 'FrutigerRoman';
+  font-size: 14px;
+  line-height: 1.4;
+  position: relative;
+  display: block;
+  font-weight: 400;
+  text-transform: initial;
+  color: #ffffff;
+  padding: 0px;
+  margin-bottom: 15px;
+  width: 70%;
+  float: none;
+  text-align: center;
+  margin: 0 auto 15px;
+}
+
+.submit_BtnDiv button,
+.upload_submitbtn {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+  color: #161616;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1;
+  vertical-align: middle;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 20px;
+  border: none;
+  transition: .6s all ease;
+  float: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 0px;
+  background-color: rgba(255, 222, 0, 1);
+  min-width: 200px;
+  margin: 20px auto;
+}
+
+.submit_BtnDiv button:hover,
+.upload_submitbtn:hover,
+.submit_BtnDiv button:focus,
+.upload_submitbtn:focus {
+  background-color: rgba(255, 222, 0, 0.6);
+}
+
+.uploadMain_div {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.checkbox_Div .checkbox {
+  position: relative;
+  padding: 0px;
+  width: 100%;
+  float: left;
+  height: 32px;
+  vertical-align: middle;
+  line-height: 1;
+  margin: 15px auto 0;
+}
+
+.checkbox_Div .checkbox label {
+  font-family: 'FrutigerRoman';
+  font-size: 10px;
+  line-height: 1.3;
+  position: relative;
+  font-weight: 400;
+  text-transform: initial;
+  color: #ffffff;
+  padding: 0px 0px 0 23px;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 32px;
+  height: 32px;
+}
+
+.checkbox_Div input[type=checkbox] {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+  padding: 0px;
+}
+
+.Nikon_upload_start .distable {
+  position: relative;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.Nikon_upload_start .discell {
+  position: relative;
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+
+
+/* 4 uploadpage CLOSE */
+
+
+/* 5 sharepage START */
+
+.Nikon_share_start {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.Nikon_share_start section.section1 {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.Nikon_share_start section.section1 .container-fluid {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  margin: 0;
+  height: 100%;
+}
+
+.Nikon_share_start section.section1 .row {
+  position: relative;
+  height: 100%;
+}
+
+.Nikon_share_start section.section1 .col-xs-12.col-md-12 {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.Nikon_share_start .section1Inner {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  height: 100%;
+}
+
+.Nikon_share_start .section1vertica_midDiv {
+  position: relative;
+  width: 56%;
+  float: none;
+  display: inline-block;
+  padding: 0;
+  margin: 150px auto;
+}
+
+.Nikon_share_start .afterlogin_middle {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/*.Nikon_share_start .afterlogin_middle .container {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  margin: 0;
+}*/
+
+.Nikon_share_start .afterlogin_middle .container {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.Nikon_share_start .ParaDiv,
+.sharetheme_Div {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.sharetheme_Div {
+  padding: 0px;
+  background-color: transparent;
+}
+
+.sharetheme_Div:hover,
+.sharetheme_Div:focus {
+  box-shadow: none;
+}
+
+.Nikon_share_start .ParaDiv p {
+  font-family: 'FrutigerRoman';
+  font-size: 14px;
+  line-height: 1.4;
+  position: relative;
+  display: block;
+  font-weight: 400;
+  text-transform: initial;
+  color: #ffffff;
+  padding: 0px;
+  margin-bottom: 15px;
+  width: 70%;
+  float: none;
+  text-align: center;
+  margin: 0 auto 15px;
+}
+
+.Nikon_share_start .theme_contentDiv {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  /*height: 300px;*/
+  border: 0px dotted rgba(255, 222, 0, 0.9);
+  overflow: hidden;
+}
+
+.Nikon_share_start .theme_contentDiv a,
+.Nikon_share_start a.choose_theme {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 0px;
+  z-index: 2;
+}
+
+.Nikon_share_start .theme_contentDiv a img,
+.Nikon_share_start a.choose_theme img {
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+
+/*img.share_uploaded_image { ORG
+  position: absolute; 
+  max-width: 84%;
+  top: 50%;
+  left: 50%;
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 0px;
+}*/
+
+img.share_uploaded_image {
+  position: relative;
+  max-width: 100%;
+  display: inline-block;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  /*max-height: 300px;*/
+}
+
+.shareMain_div {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Nikon_share_start .distable {
+  position: relative;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.Nikon_share_start .discell {
+  position: relative;
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.selected_imageDiv {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.shareBottom_Div {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.shareBottom_Div_inner {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+
+.upload_againDiv {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.share_botm_left,
+.share_botm_right {
+  position: relative;
+  float: left;
+  width: 35%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.share_botm_right {
+  width: 65%;
+}
+
+.share_botm_left p,
+.share_botm_right p {
+  font-family: 'FrutigerRoman';
+  font-size: 14px;
+  line-height: 1;
+  position: relative;
+  font-weight: 400;
+  text-transform: initial;
+  color: #ffffff;
+  padding: 0px 0px;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 32px;
+  height: 32px;
+}
+
+.share_botm_left p span,
+.share_botm_right p span {
+  font-weight: 600;
+  padding: 0px 5px 0 0px;
+}
+
+.share_botm_right a {
+  font-family: 'FrutigerRoman';
+  position: relative;
+  display: block;
+  float: right;
+  color: #ffde00;
+  font-size: 11px;
+  line-height: 1;
+  position: relative;
+  font-weight: 400;
+  text-transform: initial;
+  padding: 0px;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 32px;
+  height: 32px;
+  width: 100%;
+  text-align: right;
+}
+
+.bottom_sharefb_Div {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.bottom_sharefb_innerDiv {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bottom_sharefb_Div span {
+  font-family: 'Open Sans';
+  position: relative;
+  display: inline-block;
+  padding: 0 0 0;
+  margin: 15px auto;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: initial;
+  text-align: center;
+  width: 84%;
+  /* background: url(../images/login/tick_image.png) no-repeat 98% center;
+  background-size: 13px;*/
+}
+
+.bottom_sharefb_Div span::after,
+.bottom_sharefb_Div span:after {
+  content: '';
+  position: relative;
+  background: url(../images/spirit.png) no-repeat 2px -649px;
+  background-size: 160px;
+  height: 35px;
+  padding-left: 30px;
+}
+
+a.share_fbbtn {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  text-transform: initial;
+  position: relative;
+  float: none;
+  display: inline-block;
+  background-color: rgba(59, 89, 152, 1);
+  color: #ffffff;
+  padding: 0px 8px 0 32px;
+  border: 0px;
+  border-radius: 0px;
+  letter-spacing: 0px;
+  height: 36px;
+  line-height: 36px;
+  vertical-align: middle;
+  min-width: 182px;
+  margin: 0 auto;
+}
+
+a.share_fbbtn::before,
+a.share_fbbtn:before {
+  content: '';
+  position: absolute;
+  float: left;
+  width: 30px;
+  height: 36px;
+  background: url(../images/spirit.png) no-repeat 6px -536px;
+  background-size: 120px;
+  top: 50%;
+  left: 0px;
+  display: inline-block;
+  -o-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+a.share_fbbtn:hover,
+a.share_fbbtn:focus {
+  background-color: rgba(59, 89, 152, .6);
+}
+
+.bottom_sharefb_Div p {
+  position: relative;
+  float: left;
+  width: 100%;
+  font-family: 'FrutigerRoman';
+  font-size: 12px;
+  line-height: 1;
+  position: relative;
+  font-weight: 400;
+  text-transform: initial;
+  color: #ffffff;
+  padding: 0px;
+  margin: 25px 0;
+  text-align: center;
+  line-height: 1;
+}
+
+
+/* 5 sharepage CLOSE */
+
+
+/*6 html_page START */
+body#galleryHome{
+  background-color: #000000;
+}
+
+main.gallery{
+  /*height: initial;*/
+}
+
+.Nikon_gallery_start {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.Nikon_gallery_start section.section1{
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: block;
+  margin: 0;
+  height: initial;
+}
+
+.Nikon_gallery_start section.section1 .container{
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 30px auto 0px;
+}
+
+.Nikon_gallery_start section.section1 .row {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.Nikon_share_start section.section1 .row {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*.Nikon_share_start section.section1 .row{
+  position: relative;
+}*/
+
+.Nikon_gallery_start section.section1 .col-xs-12.col-md-12 {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.Nikon_gallery_start section.section1,
+.Nikon_gallery_start section.section2 {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 180px 0 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.Nikon_gallery_start .section1_alignDiv {
+  position: relative;
+  width: 80%;
+  float: none;
+  padding: 0px 0 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.Nikon_gallery_start .section1Inner,
+.section1_alignDiv .section2Inner{
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.section1_alignDiv .section2Inner{
+  overflow: hidden;
+}
+
+.section1_alignDiv .section2Inner .container {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  margin: 30px auto 50px;
+}
+
+.theme_selectDiv, .search_Div {
+  position: relative;
+  float: left;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  min-width: 160px;
+  width: 12%;
+}
+
+.Nikon_gallery_start .theme_search_Div{
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0 0 0;
+  margin: 0;
+  display: block;
+}
+
+.theme_selectDiv, .search_Div {
+  position: relative;
+  float: left;
+  padding: 0;
+  margin: 0 15px 0 0;
+  display: inline-block;
+  min-width: 200px;
+  width: 19%;
+}
+
+.theme_selectDiv select,span.select2-selection,
+.theme_selectDiv .select2-container .select2-selection--single{
+  position: relative;
+  width: 100%;
+  float: left;
+  font-family: 'FrutigerRoman';
+  font-weight: 400;
+  font-size: 11px;
+  color: #010101;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  padding: 0px 20px 0px 12px;
+  margin: 0;
+  line-height: 1;
+  height: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-align: center;
+/*  background: url(../images/gallery/dropdown_arrow_black.png) no-repeat 96% center;*/
+  background-color: rgba(255, 222, 0, 1);
+  box-shadow: none;
+}
+
+.theme_selectDiv .select2-container .select2-selection--single {
+  height: 30px;
+  background-color: rgba(255, 222, 0, 1);
+}
+
+.theme_selectDiv .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 25px;
+}
+
+.theme_selectDiv  .select2-container .select2-selection--single .select2-selection__rendered {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.theme_selectDiv .select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  height: 0;
+  left: 0;
+  margin-left: 0px;
+  margin-top: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  background: url(../images/gallery/dropdown_arrow_black.png) no-repeat center 48%;
+  height: 100%;
+  bottom: 0;
+}
+
+.theme_selectDiv .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-color: transparent;
+  border-width: 0;
+  background: url(../images/gallery/dropdownUP_arrow_black.png) no-repeat center 48%;
+}
+
+.theme_selectDiv .select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #010101;
+  line-height: 28px;
+  font-size: 12px;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+  font-family: 'FrutigerRoman';
+  font-weight: 400;
+  font-size: 11px;
+  color: #010101;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.select2-container--default .select2-results__option {
+  /*background-color: rgba(255, 222, 0, 1);*/
+  font-family: 'FrutigerRoman';
+  font-weight: 400;
+  font-size: 11px;
+  color: #010101;
+  background-color: rgba(255, 222, 0, 1);
+  width: 100%;
+  text-align: center;
+}
+
+.select2-search--dropdown .select2-search__field {
+  font-family: 'FrutigerRoman';
+  font-weight: 400;
+  font-size: 11px;
+  color: #010101;
+  padding: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 1px solid #010101;
+}
+
+.select2-container--default .select2-results__option[aria-disabled=true] {
+  font-family: 'FrutigerRoman';
+  color: #010101;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: rgba(0, 0, 0, 1);
+  color: #ffffff;
+}
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background-color: rgba(0, 0, 0, 1);
+  color: #ffffff;
+}
+
+.select2-dropdown {
+  border: 0px solid #010101;
+  border-radius: 4px;
+}
+
+.theme_selectDiv .form-control{
+  text-align: center;
+}
+
+
+.theme_selectDiv select option{
+  font-family: 'FrutigerRoman';
+  font-weight: 400;
+  background-color: rgba(255, 222, 0, 1);
+  color: #010101;
+  padding: 10px;
+  widows: 100%;
+  text-align: center;
+}
+
+.search_Div input{
+  position: relative;
+  float: left;
+  padding: 0;
+  margin: 0 ;
+  display: inline-block;
+  width: 100%;
+}
+
+.Nikon_gallery_start section.section1 .container .section2Inner .container{
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 30px auto 10px;
+}
+
+.Grid_UploadedByDiv p{
+  font-family: 'FrutigerRoman';
+  position: relative;
+  width: 100%;
+  float: left;
+  text-align: left;
+  display: inline-block;
+  color: #000000;
+  font-size: 12px;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: 400;
+  padding: 15px 12px;
+  margin: 0px;
+  text-transform: initial;
+  background-color: rgba(255,222,0,1);
+  border: 1px solid transparent;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+
+.Grid_UploadedByDiv p span:first-child{
+  float: left;
+  text-align: left;
+  font-weight: 400;
+  display: inline-block;
+  text-transform: initial;
+}
+
+.Grid_UploadedByDiv p span:first-child em{
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.Grid_UploadedByDiv p span:last-child{
+  float: right;
+  text-align: right;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.GridTheme_Div,.Grid_imageDiv,.Grid_UploadedByDiv{
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+}
+
+.GridTheme_Div {
+  -webkit-transition: color 0.6s;
+  -moz-transition: color 0.6s;
+  transition: color 0.6s;
+  margin-bottom: 20px;
+}
+
+.GridTheme_Div:hover {
+  box-shadow: 0px 0px 7px 2px rgba(255,222,0,1);
+}
+
+.Grid_imageDiv a.gridgallery,
+.gridgallery,.Grid_imageDiv a.gridgallery img,
+.gridgallery img {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  border: 1px solid rgba(255,222,0,1);
+/*  box-shadow: 1px 1px 6px 2px rgba(255,222,0,1);*/
+}
+
+
+span.select_themeimg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  z-index: 2;
+  -o-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+
+span.select_themeimg img {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 60%;
+}
+
+/*1*/
+form#themesearch_div input[type="text"]::-webkit-input-placeholder {
+  color: #010101;
+}
+
+form#themesearch_div input[type="text"]::-moz-placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+form#themesearch_div input[type="text"]:-ms-input-placeholder {
+  color: #010101;
+}
+
+form#themesearch_div input[type="text"]:-moz-placeholder {
+  color: #010101;
+}
+
+/*2*/
+form#themesearch_div select[type="text"]::-webkit-input-placeholder {
+  color: #010101;
+}
+
+form#themesearch_div select[type="text"]::-moz-placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+form#themesearch_div select[type="text"]:-ms-input-placeholder {
+  color: #010101;
+}
+
+form#themesearch_div select[type="text"]:-moz-placeholder {
+  color: #010101;
+}
+
+.LoadmoreDiv_gallery {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 15px auto 0;
+  float: left;
+}
+
+.LoadmoreDiv_gallery a,.loadmore_button {
+  font-family: 'FrutigerRoman';
+  font-weight: 700;
+  position: relative;
+  width: 25%;
+  max-width: 180px;
+  display: inline-block;
+  color: #000000;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: initial;
+  position: relative;
+  float: none;
+  display: block;
+  background-color: rgba(255, 222, 0, 1);
+  padding: 10px;
+  border-radius: 0px;
+  letter-spacing: 0px;
+  padding: 14px 10px;
+  text-align: center;
+  border: 1px solid transparent;
+  margin: 0 auto;
+}
+
+.LoadmoreDiv_gallery a:hover,
+.LoadmoreDiv_gallery a:focus,
+.loadmore_button:hover,
+.loadmore_button:focus {
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+ }
+
+.gallery_botom_socialDiv {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  float: left;
+}
+
+.gallery_botom_socialDiv_inner {
+  position: relative;
+  width: 100%;
+  float: none;
+  margin: 0 auto;
+  display: block;
+  padding: 15px 0 45px 15px;
+}
+
+.gallery_botom_socialDiv ul {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+
+.gallery_botom_socialDiv ul li {
+  position: relative;
+  display: inline-block;
+}
+
+.gallery_botom_socialDiv ul li a {
+  position: relative;
+  display: inline-block;
+}
+
+.gallery_botom_socialDiv ul li:first-child a {
+  position: relative;
+  display: inline-block;
+  background: url(../images/spirit.png) no-repeat 1px -320px;
+  background-size: 150px;
+  width: 36px;
+  height: 50px;
+  cursor: default;
+}
+.gallery_botom_socialDiv ul li:nth-child(2) a {
+  position: relative;
+  display: inline-block;
+  background: url(../images/spirit.png) no-repeat 3px 3px;
+  background-size: 166px;
+  width: 35px;
+  height: 50px;
+}
+
+.gallery_botom_socialDiv ul li:nth-child(3) a {
+  position: relative;
+  display: inline-block;
+  background: url(../images/spirit.png) no-repeat 3px -83px;
+  background-size: 166px;
+  width: 35px;
+  height: 50px;
+}
+
+.gallery_botom_socialDiv ul li:nth-child(4) a {
+  position: relative;
+  display: inline-block;
+  background: url(../images/spirit.png) no-repeat 3px -166px;
+  background-size: 166px;
+  width: 35px;
+  height: 50px;
+}
+
+.gallery_botom_socialDiv ul li:last-child a {
+  position: relative;
+  display: inline-block;
+  background: url(../images/spirit.png) no-repeat 3px -254px;
+  background-size: 166px;
+  width: 35px;
+  height: 50px;
+}
+
+
+/* custom scrollbar start */
+
+.mCustomScrollbar.content {
+  overflow: auto;
+  position: relative;
+  padding: 0;
+  background: transparent;
+  margin: 0;
+  /*width: 740px;*/
+  width: 100%;
+  max-width: 100%;
+  height: 495px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#custom_scrollbar_EX {
+  position: relative;
+  padding: 0px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.content.fluid {
+  width: 100%;
+  max-width: 100%;
+}
+.content.light {
+  background-color: transparent;
+  color: #010101;
+}
+
+#custom_scrollbar_EX .mCS-inset-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+#custom_scrollbar_EX .mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+#custom_scrollbar_EX .mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: transparent;
+  background-color: rgba(255, 222, 0, 1);
+}
+
+#custom_scrollbar_EX .mCS-inset-2.mCSB_scrollTools .mCSB_draggerRail,
+#custom_scrollbar_EX .mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail {
+  background-color: rgba(255, 222, 0, .5);
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  border-color: rgba(255, 222, 0, .3);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#custom_scrollbar_EX .mCS-inset.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+#custom_scrollbar_EX .mCS-inset-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+#custom_scrollbar_EX .mCS-inset-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+#custom_scrollbar_EX .mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+#custom_scrollbar_EX .mCS-inset-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+#custom_scrollbar_EX .mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 6px;
+  margin: 3px 5px;
+  position: absolute;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#custom_scrollbar_EX .mCS-inset.mCSB_scrollTools .mCSB_draggerRail, 
+#custom_scrollbar_EX .mCS-inset-dark.mCSB_scrollTools .mCSB_draggerRail, 
+#custom_scrollbar_EX .mCS-inset-2.mCSB_scrollTools .mCSB_draggerRail, 
+#custom_scrollbar_EX .mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail, 
+#custom_scrollbar_EX .mCS-inset-3.mCSB_scrollTools .mCSB_draggerRail, 
+#custom_scrollbar_EX .mCS-inset-3-dark.mCSB_scrollTools .mCSB_draggerRail {
+  width: 4px;
+  background-color: rgba(255, 222, 0, .3);
+}
+/* custom scrollbar close */
+
+
+.mCSB_inside > .mCSB_container {
+  padding-right: 20px;
+  margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*6 html_page CLOSE */
+
+
+.img_loading {
+  background: transparent url('http://thinkfuture.com/wp-content/uploads/2013/10/loading_spinner.gif') center no-repeat;
+  background-size: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================
+=      Bootstrap 3 Media Queries START      =
+====================================================*/
+
+
+/* #######  1111  Large Devices, .visible-lg- ####### */
+
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1947px) {}
+
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1600px) {}
+
+
+/* Large desktops and laptops */
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1340px) {
+  .iam_expressing_image {
+    max-width: 150px;
+  }
+  /* 2 LOGIN START */
+  .login_middle_inner {
+    width: 25%;
+    padding: 18px 20px;
+    max-width: 270px;
+  }
+  /* 2 LOGIN CLOSE */
+  /* 4 uploadpage START */
+  .Nikon_upload_start .ParaDiv p {
+    width: 84%;
+  }
+  /* 4 uploadpage CLOSE */
+}
+
+
+/*####### 2222 Medium Devices, .visible-md-#######*/
+
+
+/*Medium desktops and laptops*/
+
+@media only screen and (max-width:1199px) {
+  .enter_contestDiv button,
+  button.enterbtn_contest {
+    padding: 10px 16px;
+    font-size: 11px;
+  }
+  .know_moreDiv a {
+    padding: 10px 16px;
+    font-size: 11px;
+    margin-right: 12%;
+  }
+  .iam_middleimg {
+    width: 30%;
+    max-width: 400px;
+  }
+  .ProductDiv img,
+  img.product_image {
+    max-width: 230px;
+  }
+  /* 3 After_LOGIN START */
+  .Nikon_AfterLogin_start .section1vertica_midDiv {
+    width: 65%;
+  }
+  /* 3 After_LOGIN CLOSE */
+  /* 4 uploadpage START */
+  img.uploaded_image {
+    max-width: 100%;
+  }
+  /* 4 uploadpage CLOSE */
+  /* 5 sharepage START */
+  img.share_uploaded_image {
+    max-width: 100%;
+  }
+  /* 5 sharepage CLOSE */
+
+
+  /*6 html_page START */
+
+  .Nikon_gallery_start .section1_alignDiv {
+    width: 84%;
+  }
+
+
+
+
+  /*6 html_page CLOSE */
+
+
+}
+
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* Landscape tablets and medium desktops */
+
+@media only screen and (max-width:1067px) {
+  .bottomRight_inner {
+    width: 60%;
+    max-width: 100%;
+  }
+  .ProductDiv img,
+  img.product_image {
+    max-width: 90%;
+    float: right;
+  }
+  .bottomLeft ul li:nth-child(2) a {
+    background: url(../images/spirit.png) no-repeat 0px 4px;
+    background-size: 150px;
+    width: 30px;
+  }
+  .bottomLeft ul li:nth-child(3) a {
+    background: url(../images/spirit.png) no-repeat 2px -74px;
+    background-size: 150px;
+    width: 30px;
+  }
+  .bottomLeft ul li:nth-child(4) a {
+    background: url(../images/spirit.png) no-repeat 2px -149px;
+    background-size: 150px;
+    width: 30px;
+  }
+  .bottomLeft ul li:last-child a {
+    background: url(../images/spirit.png) no-repeat 2px -228px;
+    background-size: 150px;
+    width: 30px;
+  }
+  .iam_middleimg {
+    width: 36%;
+    max-width: 260px;
+  }
+  #owl_demo_homepage.owl-carousel .owl-item .item {
+    min-height: 380px;
+  }
+  #owl_demo_homepage.owl-carousel .owl-item:first-child .item {
+    min-height: 380px;
+  }
+  #owl_demo_homepage.owl-carousel .owl-item:nth-child(2) .item {
+    min-height: 380px;
+  }
+  #owl_demo_homepage.owl-carousel .owl-item:nth-child(3) .item {
+    min-height: 380px;
+  }
+  #owl_demo_homepage.owl-carousel .owl-item:last-child .item {
+    min-height: 380px;
+  }
+  .enter_contestDiv button,
+  button.enterbtn_contest {
+    padding: 8px 12px;
+    font-size: 10px;
+  }
+  .know_moreDiv a {
+    padding: 8px 12px;
+    font-size: 10px;
+    margin-right: 8%;
+  }
+  /* 2 LOGIN START */
+  .login_middle_inner {
+    width: 28%;
+    padding: 18px 20px;
+    max-width: 276px;
+  }
+  /* 2 LOGIN CLOSE */
+  /* 3 After_LOGIN START */
+  .Nikon_AfterLogin_start .section1vertica_midDiv {
+    width: 80%;
+    margin: 140px auto;
+  }
+  .ParaDiv p {
+    font-size: 12px;
+    width: 80%;
+  }
+  .theme_Div span {
+    font-size: 14px;
+    padding: 11px 10px;
+  }
+  /* 3 After_LOGIN CLOSE */
+  /* 4 uploadpage START */
+  .Nikon_upload_start .section1vertica_midDiv {
+    width: 80%;
+  }
+  .Nikon_upload_start .ParaDiv p {
+    width: 100%;
+    float: left;
+  }
+  /*img.uploaded_image { ORG
+    max-width: 80%;
+  }*/
+  img.uploaded_image {
+    max-width: 100%;
+  }
+  /* 4 uploadpage CLOSE */
+  /* 5 sharepage START */
+  /*img.share_uploaded_image { ORG
+    max-width: 80%;
+  }*/
+  img.share_uploaded_image {
+    max-width: 100%;
+  }
+  .Nikon_share_start .section1vertica_midDiv {
+    width: 58%;
+  }
+  .share_botm_left p,
+  .share_botm_right p {
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+  }
+  .share_botm_right a {
+    font-size: 10px;
+    line-height: 30px;
+    height: 30px;
+  }
+  .bottom_sharefb_Div span {
+    font-size: 16px;
+  }
+  .bottom_sharefb_Div span::after,
+  .bottom_sharefb_Div span:after {
+    content: '';
+    background: url(../images/spirit.png) no-repeat 2px -593px;
+    background-size: 146px;
+    padding-left: 30px;
+  }
+  a.share_fbbtn {
+    font-size: 13px;
+  }
+  .bottom_sharefb_Div p {
+    font-size: 11px;
+  }
+  /* 5 sharepage CLOSE */
+
+
+  /*6 html_page START */
+
+  .Nikon_gallery_start section.section1, .Nikon_gallery_start section.section2 {
+    padding: 136px 0 0;
+  }
+  .Grid_UploadedByDiv p {
+    font-size: 10px;
+    padding: 15px 7px;
+  }
+
+  /*6 html_page CLOSE */
+
+
+}
+
+
+/* ####### 3333 small,Medium Devices, .visible-sm- ####### */
+
+
+/* Portrait tablets and small desktops .visible-sm- ONLY WORK IN BETWEEN QUERY */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .know_moreDiv {
+    margin: -15px auto 0;
+  }
+
+  
+}
+
+
+/* Landscape tablets and medium desktops .visible-sm- */
+
+@media only screen and (max-width:991px) {
+  /* 2 LOGIN START */
+  .section1vertica_midDiv {
+    width: 100%;
+    float: left;
+    margin: 145px auto 60px;
+    text-align: center;
+  }
+  .login_middle_inner {
+    width: 40%;
+    float: none;
+    padding: 20px 25px;
+    max-width: 280px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* 2 LOGIN CLOSE */
+
+  /* 4 uploadpage START */
+  img.uploaded_image {
+    max-width: 100%;
+  }
+  /* 4 uploadpage CLOSE */
+
+  /* 5 sharepage START */
+  img.share_uploaded_image {
+    max-width: 100%;
+  }
+  .Nikon_share_start .section1vertica_midDiv {
+    width: 65%;
+  }
+  /* 5 sharepage CLOSE */
+
+  /*6 html_page START */
+
+  /*6 html_page CLOSE */
+
+
+}
+
+
+/* ####### 4444 small Devices, .visible-xs- #######  */
+
+
+/* Landscape phones and portrait tablets .visible-xs */
+
+@media only screen and (max-width:767px) {
+  /* Nikon_homepage START */
+  main,
+  .Nikon_homepage_start {
+    height: auto;
+  }
+  .sliderDiv {
+    position: relative;
+    width: 100%;
+    float: left;
+    left: initial;
+    top: initial;
+    bottom: initial;
+    right: initial;
+    padding: 0;
+    margin: 60px 0 0px;
+  }
+  #owl_demo_homepage.owl-carousel .owl-item .item {
+    min-height: initial;
+  }
+  #owl_demo_homepage.owl-carousel .owl-item:first-child .item {
+    position: relative;
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    height: initial;
+    /*background: url(../images/home/homebanner1_mob.jpg) no-repeat bottom right;*/
+    background-size: initial;
+    min-height: initial;
+    background: none;
+  }
+  #owl_demo_homepage.owl-carousel .owl-item:nth-child(2) .item {
+    /*background: url(../images/home/homebanner2_mob.jpg) no-repeat bottom right;*/
+    background-size: initial;
+    min-height: initial;
+    background: none;
+  }
+  #owl_demo_homepage.owl-carousel .owl-item:nth-child(3) .item{
+    /*background: url(../images/home/homebanner2_mob.jpg) no-repeat bottom right;*/
+    background-size: initial;
+    min-height: initial;
+    background: none;
+  }
+  #owl_demo_homepage.owl-carousel .owl-item:last-child .item {
+    /*background: url(../images/home/homebanner2_mob.jpg) no-repeat bottom right;*/
+    background-size: initial;
+    min-height: initial;
+    background: none;
+  }
+  #owl_demo_homepage.owl-carousel .owl-controls {
+    display: none;
+  }
+  #owl_demo_homepage.owl-carousel .owl-pagination {
+    display: none;
+  }
+
+  img.mob_slider_banner{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+
+  .iam_middleimg {
+    width: 60%;
+    max-width: 210px;
+  }
+  .section1Vertical_Middle {
+    position: relative;
+    width: 100%;
+    float: left;
+    z-index: 2;
+    display: inline-block;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+  section.section1 {
+    height: 100%;
+    z-index: 2;
+    background-color: #ffde00;
+  }
+  .iam_expressDiv {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    padding: 30px 0 0;
+  }
+  .bottomDIv {
+    position: relative;
+    bottom: initial;
+    left: initial;
+    width: 100%;
+    display: inline-block;
+    padding: 20px 0 0px;
+    margin: 0;
+    border: 0;
+    float: left;
+  }
+  .iam_expressing_image {
+    max-width: 140px;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .enter_contestDiv button,
+  button.enterbtn_contest {
+    padding: 10px 12px;
+    font-size: 10px;
+  }
+  .enter_contestDiv button {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .enter_contestDiv button:hover {
+    color: #000000;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, .6);
+  }
+  .know_moreDiv a,
+  .know_moreDiv a {
+    color: #000000;
+    /*background-color: transparent;*/
+    border: 1px solid rgba(0, 0, 0, .6);
+  }
+  .know_moreDiv a:hover,
+  .know_moreDiv a:focus {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .enter_contestDiv {
+    margin: 15px auto 0;
+  }
+  .bottomRight {
+    width: 100%;
+    margin: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+  }
+  .bottomRight_inner {
+    width: 75%;
+    float: none;
+    /*max-width: 210px;*/
+    max-width: 200px;
+  }
+  .ProductDiv img,
+  img.product_image {
+    max-width: 100%;
+    float: right;
+  }
+  .know_moreDiv {
+    margin: -8px auto 0;
+  }
+  .know_moreDiv a {
+    padding: 7px 12px;
+    font-size: 8px;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+    z-index: 2;
+  }
+  .bottomLeft {
+    position: relative;
+    bottom: initial;
+    left: initial;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #000000;
+    padding: 30px 0;
+  }
+  section.section1 .container-fluid {
+    padding: 0; height: initial;
+  }
+  .bottomLeft ul li:first-child a {
+    display: none;
+  }
+  .bottomLeft ul li:nth-child(2) a {
+    height: 36px;
+  }
+  .bottomLeft ul li:nth-child(3) a {
+    height: 36px;
+  }
+  .bottomLeft ul li:nth-child(4) a {
+    height: 36px;
+  }
+  .bottomLeft ul li:last-child a {
+    height: 36px;
+  }
+  a.footer_tollfree_number,
+  a.footer_tollfree_number img {
+    position: relative;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 128px;
+  }
+  img.vectorL_shape_right {
+    position: absolute;
+    width: 18px;
+    top: 15px;
+    right: 15px;
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  img.vectorL_shape_left {
+    position: absolute;
+    width: 18px;
+    bottom: 15px;
+    left: 15px;
+  }
+  .horizontal_border {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 70%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .4);
+  }
+  .Nikon_homepage_start .section1Inner {
+    height: initial;
+   }
+   .sliderDiv_inner {
+    height: initial;
+   }
+
+   #owl_demo_homepage.owl-carousel .owl-wrapper-outer .owl-wrapper {
+    height: initial;
+    float: left;
+   }
+   .Nikon_homepage_start section.section1 {
+    height: 100%;
+    z-index: 2;
+    background-color: #ffde00;
+   }
+  .Nikon_homepage_start section.section1 .row {
+    position: relative;
+    float: left;
+    height: initial;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .Nikon_homepage_start section.section1 .col-xs-12 {
+    margin: 0;
+    float: left;
+    height: initial;
+    padding: 0;
+  }
+  .Nikon_homepage_start section.section1 .container-fluid {
+    height: initial;
+    padding: 0;
+  }
+  .Nikon_homepage_start {
+    background-color: #ffde00;
+  }
+
+  /* Nikon_homepage CLOSE */
+
+  /* 2 LOGIN START */
+  .bg_login {
+    position: relative;
+    float: left;
+    width: 100%;
+    display: inline-block;
+    background: url(../images/login/banner_login_mob.jpg) no-repeat center center;
+    /*background-attachment: fixed;*/
+    /*background-size: 100% 100%;*/
+    background-size: cover;
+    height: 100%;
+  }
+  #bodyLogin {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    /*overflow: auto;*/
+  }
+  .Nikon_Login_start section.section1 {
+    z-index: 2;
+    background-color: transparent;
+    margin: 0px;
+  }
+  .login_middle_inner {
+    width: 80%;
+    padding: 20px;
+    max-width: 250px;
+  }
+  .Nikon_Login_start section.section1 .container-fluid {
+    padding: 0;
+  }
+  /* 2 LOGIN CLOSE */
+  /* 3 After_LOGIN START */
+  .bg_afterlogin {
+    position: relative;
+    float: left;
+    width: 100%;
+    display: inline-block;
+    background: url(../images/login/banner_login_mob.jpg) no-repeat center center;
+    background-attachment: fixed;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
+    height: 100%;
+  }
+  .Nikon_AfterLogin_start section.section1 {
+    background-color: transparent;
+  }
+  .Nikon_AfterLogin_start header {
+    background-color: transparent;
+  }
+  .Nikon_AfterLogin_start .section1vertica_midDiv {
+    width: 80%;
+    margin: 125px auto 100px;
+  }
+  .theme_Div {
+    margin-bottom: 20px;
+  }
+  .ParaDiv p {
+    font-size: 11px;
+    width: 100%;
+  }
+  .theme_contentDiv a img,
+  a.choose_theme img {
+    max-width: 70%;
+  }
+  .theme_contentDiv a,
+  a.choose_theme {
+    padding: 90px 0;
+  }
+  .afterlogin_middle .container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+   .Nikon_AfterLogin_start section.section1 .container-fluid {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0 auto;
+   }
+    .Nikon_AfterLogin_start section.section1 .row {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0 auto;
+   }
+   .Nikon_AfterLogin_start section.section1 .col-xs-12.col-md-12 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0 auto;
+   }
+  /* 3 After_LOGIN CLOSE */
+
+  /* 4 uploadpage START */
+  .Nikon_upload_start .section1vertica_midDiv {
+    width: 90%;
+  }
+  .Nikon_upload_start section.section1 {
+    background-color: transparent;
+  }
+  .Nikon_upload_start header {
+    background-color: transparent;
+  }
+  .uploadtheme_Div {
+    padding: 16px;
+  }
+  .Nikon_upload_start .theme_contentDiv {
+    height: 280px;
+  }
+  .Nikon_upload_start .ParaDiv p {
+    font-size: 10px;
+    width: 90%;
+    float: none;
+  }
+  .Nikon_upload_start .theme_contentDiv a,
+  .Nikon_upload_start a.choose_theme {
+    width: 65%;
+  }
+  .custom_file_upload,
+  .upload_BtnDiv input {
+    font-size: 12px;
+    padding: 0px 15px;
+    min-width: 130px;
+    height: 36px;
+    line-height: 1;
+  }
+  .submit_BtnDiv button,
+  .upload_submitbtn {
+    font-size: 12px;
+    padding: 0px 15px;
+    min-width: 130px;
+    height: 36px;
+    line-height: 1;
+  }
+  .checkbox_Div .checkbox label {
+    font-size: 9px;
+    width: 80%;
+    /*text-align: center;*/
+    vertical-align: middle;
+    line-height: initial;
+    height: initial;
+  }
+  /* img.uploaded_image {
+    max-width: 84%; ORG
+  } */
+  img.uploaded_image {
+    max-height: 280px;
+  }
+  .checkbox_Div .checkbox {
+    width: 70%;
+    float: none;
+  }
+  /* 4 uploadpage CLOSE */
+
+  /* 5 sharepage START */
+  .Nikon_share_start .section1vertica_midDiv {
+    width: 90%;
+  }
+  .Nikon_share_start section.section1 {
+    background-color: transparent;
+  }
+  .Nikon_share_start header {
+    background-color: transparent;
+  }
+  .uploadtheme_Div {
+    padding: 16px;
+  }
+  .Nikon_share_start .theme_contentDiv {
+    /*height: 280px;*/
+  }
+  .Nikon_share_start .ParaDiv p {
+    font-size: 10px;
+    width: 90%;
+    float: none;
+  }
+  .Nikon_share_start .theme_contentDiv a,
+  .Nikon_share_start a.choose_theme {
+    width: 65%;
+  }
+  /*img.share_uploaded_image {
+    max-width: 84%; ORG
+  }*/
+  img.share_uploaded_image {
+    max-width: 100%;
+    max-height: 280px;
+  }
+  .share_botm_left p span, .share_botm_right p span {
+    padding: 0px 5px 3px 0px;
+    display: block;
+   }
+  .share_botm_left p,
+  .share_botm_right p {
+    font-size: 10px;
+    line-height: 1.2;
+    height: initial;
+  }
+  .share_botm_right a {
+    font-size: 10px;
+    line-height: 1.2;
+    height: initial;
+  }
+  .bottom_sharefb_Div span {
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 400;
+    width: 100%;
+  }
+  .bottom_sharefb_Div p {
+    font-size: 10px;
+    line-height: 1.4;
+  }
+  .bottom_sharefb_Div span::after,
+  .bottom_sharefb_Div span:after {
+    content: '';
+    background: url(../images/spirit.png) no-repeat 2px -538px;
+    background-size: 132px;
+    padding-left: 30px;
+  }
+  a.share_fbbtn {
+    font-size: 11px;
+    min-width: 140px;
+  }
+
+  .share_botm_left,
+  .share_botm_right {
+    width: 30%;
+  }
+  .share_botm_right {
+    width: 70%;
+  }
+
+  /* 5 sharepage CLOSE */
+
+  /*6 html_page START */
+  .Nikon_gallery_start section.section1,
+  .Nikon_gallery_start section.section2 {
+    padding: 110px 0 0;
+    background: transparent;
+  }
+
+.Nikon_gallery_start .section1_alignDiv {
+  width: 100%;
+  float: left;
+}
+
+.Nikon_gallery_start img.vectorL_shape_right {
+  position: absolute;
+  width: 18px;
+  top: -20px;
+  right: 15px;
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.Nikon_gallery_start img.vectorL_shape_left {
+  position: absolute;
+  width: 18px;
+  bottom: 0px;
+  left: 15px;
+}
+
+.Nikon_gallery_start section.section1 .container .section2Inner .container {
+  margin: 20px auto;
+  padding: 0;
+}
+
+.Nikon_gallery_start section.section1 .container .section2Inner .col-xs-12 {
+  margin: 0px auto;
+  padding: 0;
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+}
+
+.gallery_botom_socialDiv ul li:first-child a {
+ display: none;
+}
+
+.gallery_botom_socialDiv_inner {
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+.LoadmoreDiv_gallery a, .loadmore_button {
+  width: 50%;
+  max-width: 134px;
+  padding: 12px 10px;
+  font-size: 10px;
+}
+
+.Grid_UploadedByDiv p {
+  font-size: 10px;
+}
+
+.tollfreeDiv_gallery{
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.LoadmoreDiv_gallery {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(255,255,255,.6);
+}
+.theme_selectDiv, .search_Div {
+  min-width: 180px;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+}
+.theme_selectDiv select, span.select2-selection,
+.theme_selectDiv .select2-container .select2-selection--single {
+  float: none;
+}
+.Nikon_gallery_start .section1Inner {
+  text-align: center;
+}
+.Nikon_gallery_start section.section1 .col-xs-12.galleryGrid {
+  padding: 0 0 0 15px;
+}
+
+.Nikon_gallery_start a.footer_tollfree_number,
+.Nikon_gallery_start a.footer_tollfree_number img {
+  position: relative;
+  float: none;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 120px;
+}
+.gallery_botom_socialDiv {
+  margin: 25px auto;
+}
+
+.mCustomScrollbar.content {
+  height: 432px;
+}
+/*6 html_page CLOSE */
+
+html, body {
+  overflow-y: auto;
+}
+
+}
+
+
+@media only screen and (max-width:567px) {
+  /* Nikon_homepage START */
+
+}
+
+
+/* Portrait phones and smaller .visible-xs- */
+
+@media only screen and (max-width: 480px) {
+
+  /* 4 uploadpage START */
+  .Nikon_upload_start .theme_contentDiv {
+    height: 210px;
+  }
+  img.uploaded_image {
+    max-width: 100%;
+    max-height: 210px;
+  }
+  .checkbox_Div .checkbox {
+    width: 100%;
+    float: none;
+  }
+  /* 4 uploadpage CLOSE */
+  /* 5 sharepage START */
+  .Nikon_share_start .theme_contentDiv {
+    /*height: 210px;*/
+  }
+  img.share_uploaded_image {
+    max-width: 100%;
+    max-height: 210px;
+  }
+  /* 5 sharepage CLOSE */
+
+  /*6 html_page START */
+
+  /*6 html_page CLOSE */
+
+
+}
+
+
+/* Portrait phones and smaller .visible-xs-*/
+
+@media only screen and (max-width:320px) {
+  /* 3 After_LOGIN START */
+  .Nikon_AfterLogin_start .section1vertica_midDiv {
+    width: 90%;
+  }
+  .theme_contentDiv a,
+  a.choose_theme {
+    padding: 80px 0;
+  }
+  /* 3 After_LOGIN CLOSE */
+  /* 4 uploadpage START */
+  .Nikon_upload_start .theme_contentDiv {
+    height: 160px;
+  }
+  img.uploaded_image {
+    max-width: 100%;
+    max-height: 160px;
+  }
+  .uploadtheme_Div {
+    padding: 15px;
+  }
+  .Nikon_upload_start .ParaDiv p {
+    font-size: 9px;
+  }
+  .checkbox_Div .checkbox label {
+    width: 90%;
+  }
+  /* 4 uploadpage CLOSE */
+  /* 5 sharepage START */
+  .Nikon_share_start .theme_contentDiv {
+    /*height: 160px;*/
+  }
+  .Nikon_share_start .ParaDiv p {
+    font-size: 9px;
+  }
+  img.share_uploaded_image {
+    max-width: 100%;
+    max-height: 160px;
+  }
+  /* 5 sharepage CLOSE */
+  
+  /*6 html_page START */
+
+  /*6 html_page CLOSE */
+
+
+
+}
+
+
+/*==================================================
+=      Bootstrap 3 Media Queries END      =
+====================================================*/
